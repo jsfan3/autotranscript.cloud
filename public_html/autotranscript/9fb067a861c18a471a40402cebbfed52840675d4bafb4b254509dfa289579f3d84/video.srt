@@ -1,0 +1,1327 @@
+1
+00:00:00,256 --> 00:00:07,680
+Benvenuti nel mondo della chimica che spero di convincermi se non siete ancora convinti non è un mondo di promesse di
+
+2
+00:00:07,936 --> 00:00:13,056
+Fumi maleodoranti ma può anche portare allo studio di qualche cosa di Hulk
+
+3
+00:00:14,080 --> 00:00:19,968
+In questo corso vedremo alcune caratteristiche
+
+4
+00:00:20,224 --> 00:00:25,600
+Materiali e partendo dalle strutture atomiche e molecolari
+
+5
+00:00:25,856 --> 00:00:30,976
+E passando successivamente allo studio dell'evoluzione di queste strutture
+
+6
+00:00:31,232 --> 00:00:38,144
+E infine al cercare di correlare la struttura con le proprietà dei materiali
+
+7
+00:00:38,912 --> 00:00:44,288
+Vediamo quindi nelle elezioni successive svolgeremo tutti questi
+
+8
+00:00:44,544 --> 00:00:49,920
+Argomenti di chimica probabilmente avrete già sentito parlare
+
+9
+00:00:50,176 --> 00:00:56,320
+In particolare forse avrete sentito parlare di un celebre chimico v
+
+10
+00:00:56,576 --> 00:01:02,464
+Assunta in questo secolo che era Linus Pauling che intorno agli anni 50 dice che la chimica era
+
+11
+00:01:02,976 --> 00:01:09,376
+Una scienza giovane era una scienza giovane che cosa intendeva con questo e intendeva con
+
+12
+00:01:09,632 --> 00:01:14,752
+Questo è il fatto che in quegli anni si era
+
+13
+00:01:15,008 --> 00:01:21,408
+Completate le conoscenze della struttura atomica e molecolare però
+
+14
+00:01:21,664 --> 00:01:28,320
+In quegli anni stessi il celebre il sistema periodico di Mendeleev
+
+15
+00:01:28,832 --> 00:01:34,208
+Aveva intorno agli 80 anni e quindi in fondo la chimica
+
+16
+00:01:34,464 --> 00:01:39,584
+Nonostante che fosse già in qualche modo ho conosciuta dagli antichi
+
+17
+00:01:40,096 --> 00:01:45,216
+Cinesi dagli Egizi e si è sviluppata in tempi recenti
+
+18
+00:01:45,472 --> 00:01:50,592
+Il sistema periodico anche questo ponte lo avrete già visto lo
+
+19
+00:01:50,848 --> 00:01:56,992
+Illustreremo meglio nelle nelle elezioni successive è un po' la base
+
+20
+00:01:57,248 --> 00:02:02,368
+Per lo studio delle proprietà di tutti quanti gli elementi
+
+21
+00:02:03,136 --> 00:02:08,256
+Nel sistema periodico questa è la forma attuale del sistema periodico
+
+22
+00:02:08,512 --> 00:02:14,144
+Sono ordinati gli elementi secondo il numero atomico è
+
+23
+00:02:14,400 --> 00:02:19,520
+Ci sono delle proprietà così le proprietà periodiche che si ripetono con
+
+24
+00:02:19,776 --> 00:02:25,152
+Regolarità indipendente dalla posizione degli elementi in questa Tav
+
+25
+00:02:26,176 --> 00:02:35,392
+Bene cominciamo a dire questo la chimica anche lì probabilmente avrete già seguito dei corsi avete delle
+
+26
+00:02:35,904 --> 00:02:45,120
+Hai visto delle emozioni che riguardano la chimica queste possiamo un poco tralasciare in questo
+
+27
+00:02:45,888 --> 00:02:51,008
+Corso le classificazioni della chimica che sono state date
+
+28
+00:02:51,264 --> 00:02:56,640
+Tempi precedenti e vedere un poco come si possono classificare
+
+29
+00:02:56,896 --> 00:03:02,016
+Defecare gli elementi materiali secondo dei nuovi concetti
+
+30
+00:03:02,528 --> 00:03:09,696
+Che proprio si sono andati sviluppando in questi ultimi anni per proprio perché
+
+31
+00:03:09,952 --> 00:03:16,096
+Si sono notevolmente avanzate le conoscenze sulle strutture atomiche e molecolari
+
+32
+00:03:17,376 --> 00:03:25,568
+Allora quando parliamo di chimica giorno d'oggi diciamo e di che cosa parliamo
+
+33
+00:03:26,080 --> 00:03:31,456
+Ma parliamo anche di lifescience licenza della vita
+
+34
+00:03:31,712 --> 00:03:36,832
+Se vedete sui giornali non sono riportati
+
+35
+00:03:37,344 --> 00:03:42,464
+Gli studi e le diciamo
+
+36
+00:03:43,232 --> 00:03:50,912
+Le repliche che vengono fatte adesso del DNA 15 sono la lifescience ha avuto un notevole sviluppo
+
+37
+00:03:51,168 --> 00:03:57,312
+Quando parliamo di chimica parliamo anche di ecologia con tutti i problemi che ci
+
+38
+00:03:57,568 --> 00:04:05,504
+Ci sono eh nella di tipo ambientale di smaltimento di rifiuti i problemi di inquinamento ambientale
+
+39
+00:04:05,760 --> 00:04:13,440
+Parliamo anche di energia vedremo dopo degli esempi come la chimica acconto
+
+40
+00:04:13,696 --> 00:04:21,631
+Attribuito nello sviluppo di sistemi per lo stoccaggio dell'energia per la produzione dell'energia
+
+41
+00:04:21,887 --> 00:04:28,031
+Parliamo di beni culturali anche questo è un argomento di attualità la prof
+
+42
+00:04:28,287 --> 00:04:33,407
+La protezione del patrimonio culturale ha preso piede in questi
+
+43
+00:04:33,663 --> 00:04:38,783
+Ultimi anni e la chimica contribuisce notevolmente al
+
+44
+00:04:39,295 --> 00:04:48,511
+Tesoro del patrimonio culturale parliamo di produzioni industriali e parliamo di produzione industriale intendendo non solo
+
+45
+00:04:48,767 --> 00:04:57,983
+Dei processi industriali di tipo chimico e ma anche la produzione di materiali per l'elettronica per esempio
+
+46
+00:04:58,239 --> 00:05:05,407
+Per la sensoristica e parliamo ancora e qui ci fermiamo illustreremo in dettaglio di
+
+47
+00:05:05,663 --> 00:05:11,295
+Scienza dei Materiali allora la parola materiali è una
+
+48
+00:05:12,063 --> 00:05:19,231
+Ha acquisito anche qui importante negli ultimi anni e perché
+
+49
+00:05:19,487 --> 00:05:25,119
+Allora perché la conoscenza della struttura dei materiali a livello molecolare
+
+50
+00:05:25,375 --> 00:05:30,495
+Consente di progettare dei materiali con proprietà utili a livello ingegneria
+
+51
+00:05:30,751 --> 00:05:36,895
+Mistico e quindi il lo sviluppo dei materiali lo svil
+
+52
+00:05:37,151 --> 00:05:43,807
+Gruppo dello studio dei materiali ha preso piede recentemente e diciamo invade un poco tu
+
+53
+00:05:44,063 --> 00:05:49,695
+Tutti i campi della produzione allora che cosa
+
+54
+00:05:49,951 --> 00:05:55,583
+Come partiamo così per analizzare le materiali che
+
+55
+00:05:55,839 --> 00:06:01,471
+Si sono sviluppati recentemente negli ultimi
+
+56
+00:06:01,727 --> 00:06:10,943
+Cominciamo ad esaminare le materie plastiche le materie plastiche hanno avuto un sviluppo eccezionale
+
+57
+00:06:11,199 --> 00:06:17,087
+Qui sono riportati dei dati recenti che riguardano la
+
+58
+00:06:17,599 --> 00:06:22,719
+Improduttività di questi materiali che vedete sono indicati
+
+59
+00:06:22,975 --> 00:06:29,887
+Alcuni paesi sono produttore di notevole quantità di materiali plastici
+
+60
+00:06:30,655 --> 00:06:36,287
+Qui sono indicate giusto per avere un'idea è un'esperienza
+
+61
+00:06:37,311 --> 00:06:44,991
+Che abbiamo nella vita di tutti i giorni dell'uso che si fa di questi materiali in materiali plastici anno
+
+62
+00:06:45,247 --> 00:06:50,623
+Ormai invaso non tutta la nostra esistenza è qui sono riportati
+
+63
+00:06:50,879 --> 00:06:56,767
+Ricevo a titolo di esempio alcuni tipi di materiali che vengono utilizzati nelle case
+
+64
+00:06:57,023 --> 00:07:03,167
+Ci sono materiali utilizzati per gli impianti per la produzione degli edifici
+
+65
+00:07:03,423 --> 00:07:08,543
+Per delle rifiniture per l'arredamento è poi
+
+66
+00:07:09,055 --> 00:07:14,175
+Vedremo poi quali materiali possono essere usati per questi vari campi però.
+
+67
+00:07:14,943 --> 00:07:20,063
+Moltissimi degli oggetti con cui abbiamo a che fare solo dei materiali plastici
+
+68
+00:07:20,319 --> 00:07:25,951
+Allora perché qui c'è ancora riportata l'aumento di
+
+69
+00:07:26,207 --> 00:07:33,887
+Lezione di questo tipo di materiali che ha avuto vede dagli anni 20 1:00
+
+70
+00:07:34,143 --> 00:07:39,775
+Impennata notevolissima che continua ad
+
+71
+00:07:40,031 --> 00:07:46,943
+Aumentare mi diceva nonostante i problemi che ci possono essere poi di smaltimento di questi oggetti una volta che sono stati
+
+72
+00:07:47,455 --> 00:07:52,575
+Utilizzati ma la chimica come vi ho accennato prima può intervenire in modo positivo
+
+73
+00:07:52,831 --> 00:08:00,767
+Anche in questo campo ecco perché questi materiali hanno avuto uno sviluppo così grande
+
+74
+00:08:01,279 --> 00:08:07,679
+Rispetto ad altri ecco perché questi materiali sono costi
+
+75
+00:08:07,935 --> 00:08:13,055
+Istituiti da catene di atomi di carbonio e di
+
+76
+00:08:13,311 --> 00:08:20,223
+Idrogeno poi vedremo meglio alcuni esempi di strutture che hanno
+
+77
+00:08:20,479 --> 00:08:26,111
+Numero di proprietà è che si possono progettare i tuoi utili
+
+78
+00:08:26,367 --> 00:08:32,255
+Che apparentemente illimitato perché illimitato proprio perché
+
+79
+00:08:32,511 --> 00:08:38,655
+Rispetto ad altri composti chimici che poi vedremo sono costituiti da poche app
+
+80
+00:08:38,911 --> 00:08:44,287
+E quindi la struttura del composto è quella che se noi abbiamo a
+
+81
+00:08:44,799 --> 00:08:51,199
+Disposizione delle catene di atomi di carbonio che possiamo progettare lunghe quanto vogliamo
+
+82
+00:08:51,455 --> 00:08:56,831
+E gli atomi si possono assemblare in molti modi diversi
+
+83
+00:08:57,343 --> 00:09:02,719
+È proprio per le relazioni che ci sono tra le strutture e le proprietà si possono ottenere
+
+84
+00:09:02,975 --> 00:09:08,351
+Delle proprietà diverse in funzione della struttura e allora
+
+85
+00:09:08,607 --> 00:09:14,239
+Vediamone alcune di queste proprietà i materiali plastici
+
+86
+00:09:14,495 --> 00:09:22,431
+Ci possono essere progettati in modo da avere una resistenza alla trazione d'esempio paragonabile a quella dell'acciaio
+
+87
+00:09:22,943 --> 00:09:28,319
+Il nylon è uno di questi tempi non le corde di nylon vengono usate proprio
+
+88
+00:09:28,575 --> 00:09:34,207
+Perché hanno questa caratteristica e poi questi materiali possono essere
+
+89
+00:09:34,463 --> 00:09:42,399
+Progettato in modo da essere solubili per esempio solubili in acqua solubile in
+
+90
+00:09:42,655 --> 00:09:48,031
+Fluidi fisiologici che ci sono nell'organismo che sono costituiti dalla maggior parte
+
+91
+00:09:48,287 --> 00:09:53,919
+Di acqua allora lì per esempio abbiamo dei fili da sutura dei poliesteri sono dei composti che
+
+92
+00:09:54,175 --> 00:09:59,295
+Che possano essere in qualche modo degradati in
+
+93
+00:09:59,551 --> 00:10:04,671
+Presenza di liquidi che contengono una notevole quantità di acqua
+
+94
+00:10:05,439 --> 00:10:11,327
+Poi si possono progettare dei materiali in modo che possano essere attaccati dai micro
+
+95
+00:10:11,583 --> 00:10:16,703
+Organismi e questo può essere utile per esempio per lo smaltimento su
+
+96
+00:10:17,215 --> 00:10:23,615
+Vivo della materiale spesso questi sempre in materiali plastici
+
+97
+00:10:23,871 --> 00:10:28,991
+Si possono avere la possibilità di condurre elettricità
+
+98
+00:10:29,503 --> 00:10:35,903
+Vedremo in quale modo si possono ottenere questi risultati e allora qui c'è un esem-
+
+99
+00:10:36,159 --> 00:10:41,535
+Tempio di questi gel polimerici che vengono utilizzati
+
+100
+00:10:41,791 --> 00:10:47,679
+Per costruire delle dita di robot e che si piegano. Sotto l'influsso di un campo
+
+101
+00:10:47,935 --> 00:10:56,127
+Elettrico questa è un'altra possibilità caratteristica interessante un'altra caratteristica ancora interessante
+
+102
+00:10:56,383 --> 00:11:01,759
+E la possibilità che hanno alcuni materiali di cambiare colore
+
+103
+00:11:02,271 --> 00:11:08,927
+Allora questo poliacetilene ad esempio cambia colore con la temperatura
+
+104
+00:11:09,695 --> 00:11:16,351
+Che qui vedete che nella parte sottostante di questo contenitore che raffreddata questo poli aC
+
+105
+00:11:16,607 --> 00:11:23,519
+Acetilene a questo colore rosso la parte soprastante invece è riscaldata e questo
+
+106
+00:11:23,775 --> 00:11:30,431
+Polimero assume il colore blu ecco questo poliacetilene
+
+107
+00:11:30,687 --> 00:11:37,087
+Intanto possiamo cominciare a scrivere una formula le scriveremo poi altre no nel
+
+108
+00:11:37,343 --> 00:11:42,975
+Le prossime elezioni ma lo possiamo cominciare a scriverle una questo poli accetti
+
+109
+00:11:43,231 --> 00:11:49,631
+Si ottiene dalla polimerizzazione dell'acetilene che
+
+110
+00:11:49,887 --> 00:11:55,007
+Questo tipo di composto è un composto che ha
+
+111
+00:11:55,263 --> 00:12:00,383
+Due atomi di carbonio è una molecola che è costituita da due atomi di
+
+112
+00:12:00,639 --> 00:12:05,759
+Carbonio che sono legati a due atomi di
+
+113
+00:12:06,271 --> 00:12:12,159
+Idrogeno ecco la polimerizzazione avviene in che maniera
+
+114
+00:12:12,927 --> 00:12:19,327
+Questa è la molecola di acetilene la polimerizzazione avviene per
+
+115
+00:12:19,839 --> 00:12:25,983
+Rottura di questo legame Sequi scriviamo vicino un'altra molecola di
+
+116
+00:12:27,263 --> 00:12:32,639
+Rompiamo questo legame si libera lo delle valenze sugli atomi
+
+117
+00:12:32,895 --> 00:12:38,783
+Carbonio è una su questo atomo è una su questo e si può formare
+
+118
+00:12:39,039 --> 00:12:44,415
+Lalala il polimero diciamo allora scriviamo ancora
+
+119
+00:12:45,183 --> 00:12:50,303
+Il nostro polimero qui c'è una valenza libera sinerga
+
+120
+00:12:53,375 --> 00:12:58,495
+Con questa altra molecola di acetilene sei qui mettiamo diciamo
+
+121
+00:12:59,263 --> 00:13:04,383
+Atomi di idrogeno avremo una catena di questo tipo
+
+122
+00:13:04,639 --> 00:13:10,783
+Allora una catena di questo tipo come dicevo può essere composta da
+
+123
+00:13:11,295 --> 00:13:16,415
+Migliaia di gruppi CHE da come
+
+124
+00:13:16,671 --> 00:13:21,791
+Risultato questo materiale plastico che ha queste caratteristiche
+
+125
+00:13:22,047 --> 00:13:27,167
+Cosa possiamo dire ancora visto che
+
+126
+00:13:27,935 --> 00:13:33,567
+Parlavamo della possibilità di avere dei materiali plastici che conducono elettricità
+
+127
+00:13:33,823 --> 00:13:39,711
+Questo ci fa pensare a uno sviluppo dei
+
+128
+00:13:39,967 --> 00:13:45,343
+Materiali per l'elettronica e verso questi composti
+
+129
+00:13:45,599 --> 00:13:50,975
+Polimerici verso questi composti organici sapete bene
+
+130
+00:13:51,231 --> 00:13:57,119
+Che alla base diciamo dello sviluppo della componentistica elettronica
+
+131
+00:13:57,375 --> 00:14:03,775
+C'è il silicio e poi vedremo nelle elezioni successive come vengono prodotti in modo che
+
+132
+00:14:04,031 --> 00:14:09,407
+Cristalli di silicio come si chiamano i vari componenti elettronici
+
+133
+00:14:09,663 --> 00:14:14,783
+La chimica ha avuto una grossa importanza non nello sviluppo della compo
+
+134
+00:14:15,551 --> 00:14:21,183
+Elettronica allora fino adesso il appunto il silicio altri
+
+135
+00:14:22,463 --> 00:14:27,839
+Materiali semiconduttori sono stati la base della componenti
+
+136
+00:14:28,095 --> 00:14:33,215
+Elettronica si può pensare a un degli sviluppi
+
+137
+00:14:33,471 --> 00:14:39,359
+E ad arrivare addirittura a costruire delle molecole che funzionino
+
+138
+00:14:39,871 --> 00:14:45,503
+La molecola stessa da componente elettronico e legare con dei
+
+139
+00:14:45,759 --> 00:14:51,135
+Fili atomici molecolari i componenti l'uno all'altro
+
+140
+00:14:51,903 --> 00:14:58,559
+E questo è uno sviluppo futuro si la chimica è entrata pesantemente anche nella
+
+141
+00:14:58,815 --> 00:15:04,959
+Produzione dei superconduttori e che sono dei materiali
+
+142
+00:15:05,471 --> 00:15:11,359
+Molto interessanti perché pur operando diciamo in condizioni
+
+143
+00:15:11,615 --> 00:15:17,247
+Estreme qui per esempio ha la temperatura dell'azoto liquido diciamo ma
+
+144
+00:15:17,503 --> 00:15:23,647
+Quindi delle temperature estremamente basse comunque presentano delle caratteristiche
+
+145
+00:15:23,903 --> 00:15:29,023
+Che interessanti perché presentano la conducibilità che è praticamente senza
+
+146
+00:15:29,279 --> 00:15:37,471
+Resistenza altri ecco qui c'è già un esempio di
+
+147
+00:15:37,727 --> 00:15:43,871
+Materiale plastico diciamo che viene usato per la produzione di diodi
+
+148
+00:15:44,127 --> 00:15:49,503
+E questo è il polifenilene vinile ne. Viene
+
+149
+00:15:49,759 --> 00:15:55,903
+Utilizzato per i diodi quindi si sta già diciamo andando in quel
+
+150
+00:15:56,159 --> 00:16:01,535
+Direzione è di cercare di sostituire o comunque di
+
+151
+00:16:01,791 --> 00:16:07,167
+Affiancare al si dice i semiconduttori metallici
+
+152
+00:16:07,423 --> 00:16:14,079
+Dei materiali plastici quando noi cerchiamo di
+
+153
+00:16:14,591 --> 00:16:19,967
+Produrre dei materiali è sempre più
+
+154
+00:16:20,223 --> 00:16:27,135
+Diciamo andando dietro sempre più alla nostra idea di ottenere delle proprietà
+
+155
+00:16:27,391 --> 00:16:34,815
+Specifiche e quindi quando noi cerchiamo in sostanza di assemblare il molecola per molecola di mettere
+
+156
+00:16:35,071 --> 00:16:40,703
+Assieme atomo per atomo per ottenere quello che noi vogliamo
+
+157
+00:16:40,959 --> 00:16:48,383
+E che cosa dobbiamo cercare di fare ma dobbiamo avere dei
+
+158
+00:16:48,639 --> 00:16:55,807
+Sistemi sempre più raffinati e che ci permettono di raggiungere il risultato che vogliamo non ci basta più
+
+159
+00:16:56,063 --> 00:17:01,439
+Mescolare due componenti e cercare di vedere che cosa viene fuori da una certa
+
+160
+00:17:01,695 --> 00:17:06,815
+Reazione allora questo tentativo di costo
+
+161
+00:17:07,071 --> 00:17:14,751
+Fruire è delle cose sempre più vicine a quello che poi la proprietà che poi vogliamo
+
+162
+00:17:15,007 --> 00:17:20,383
+Sfruttare e ci può venire utile e la
+
+163
+00:17:20,639 --> 00:17:26,527
+Tendenza che hanno alcune molecole ad autoassemblati
+
+164
+00:17:26,783 --> 00:17:32,415
+Allora la tendenza che hanno le molecole ad autoassemblaggio
+
+165
+00:17:32,927 --> 00:17:38,047
+È molto diversa è una proprietà che è diversa dalle
+
+166
+00:17:38,303 --> 00:17:47,519
+Caratteristiche delle proprietà che hanno gli oggetti macroscopici che noi possiamo andare a osservare no nella nostra vita
+
+167
+00:17:47,775 --> 00:17:54,175
+Reale che noi vediamo e che riusciamo a toccare ecco perché per esempio
+
+168
+00:17:54,431 --> 00:18:00,063
+La diciamo viene difficile pensare che
+
+169
+00:18:00,319 --> 00:18:06,207
+È una fila di mattoni riesca ad assemblarli da sé e
+
+170
+00:18:06,463 --> 00:18:12,863
+Per dare origine a un edificio per costruire una casa noi i mattoni li dobbiamo
+
+171
+00:18:13,119 --> 00:18:18,751
+Fisicamente proprio spostare mettere uno sopra l'altro per ottenere l'edificio che vogliamo
+
+172
+00:18:20,031 --> 00:18:25,407
+Le molecole invece la materia a livello molecolare
+
+173
+00:18:25,663 --> 00:18:31,039
+Ha invece questa caratteristica e in alcuni casi
+
+174
+00:18:31,551 --> 00:18:36,927
+Di riuscire ad autoassemblanti e allora questo appunto dicevo può essere
+
+175
+00:18:37,439 --> 00:18:43,327
+Utilizzato per costruire qualche cosa con delle caratteristiche particolari
+
+176
+00:18:43,839 --> 00:18:49,215
+Quali sono gli esempi di molecole
+
+177
+00:18:49,471 --> 00:18:54,591
+E che si auto assemblano e sono degli esempi anche che abbiamo sotto gli occhi tutti i giorni
+
+178
+00:18:55,359 --> 00:19:00,479
+Allora per esempio le molecole di tensioattivo che sono
+
+179
+00:19:00,735 --> 00:19:07,647
+Delle molecole organiche che hanno un'estremità che è idrofila
+
+180
+00:19:08,159 --> 00:19:13,535
+È una estremità che è idrofoba hanno la caratteristica
+
+181
+00:19:13,791 --> 00:19:18,911
+Poter formare delle emozioni e che hanno diversi
+
+182
+00:19:19,167 --> 00:19:25,311
+Impieghi l'Impiego più banale è proprio quello di utilizzare questi
+
+183
+00:19:25,567 --> 00:19:31,711
+Materiali per togliere del grasso per esempio da
+
+184
+00:19:31,967 --> 00:19:37,599
+Tutto è o dalle mani o da qualunque altra superficie allora
+
+185
+00:19:37,855 --> 00:19:43,487
+Questa azione di dispersione diciamo delle
+
+186
+00:19:43,743 --> 00:19:50,143
+Del grasso è in acqua che è un solvente polare
+
+187
+00:19:50,399 --> 00:19:56,031
+Quindi il grasso non ha nessuna tendenza a rimanere
+
+188
+00:19:56,543 --> 00:20:03,199
+Disperso di per sè stesso nell'acqua proprio perché è costituito da molecole che non sono polari
+
+189
+00:20:03,455 --> 00:20:08,831
+L'acqua è un solvente polare e quindi non ha tendenza a
+
+190
+00:20:09,087 --> 00:20:16,255
+Disperdere questo grasso se noi introduciamo queste molecole di tensioattivo siccome queste molecole
+
+191
+00:20:16,511 --> 00:20:22,143
+Hanno queste dicevo una parte idrofila e una parte idrofoba
+
+192
+00:20:22,399 --> 00:20:27,519
+E riescono ad orientarsi in modo tale da
+
+193
+00:20:27,775 --> 00:20:32,895
+Per mettere questo effetto che è poi quello che macroscopicamente
+
+194
+00:20:34,687 --> 00:20:40,063
+Lavaggio i detersivi funzionano su questo meccanismo e quindi vedete che anche la
+
+195
+00:20:40,319 --> 00:20:45,695
+Chimica è entrata diciamo prepotentemente in questo campo è a
+
+196
+00:20:45,951 --> 00:20:51,583
+Ha permesso lo sviluppo di un numero grandissimo di detersivi
+
+197
+00:20:52,095 --> 00:20:57,471
+Anche lì poi c'è il problema dello smaltimento no quindi adesso
+
+198
+00:20:57,727 --> 00:21:02,847
+Ci sono stati progettati solo in uso dei tensioattivi che
+
+199
+00:21:04,639 --> 00:21:09,759
+Degradare e quindi limitare gli effetti di inquinamento di questo tipo di
+
+200
+00:21:13,087 --> 00:21:18,976
+È un altro grosso campo di sviluppo
+
+201
+00:21:19,744 --> 00:21:24,864
+Diciamo molecole che ti auto assemblano che si
+
+202
+00:21:25,120 --> 00:21:30,752
+Orientano è quello dei cristalli liquidi allora i cristalli liquidi sono
+
+203
+00:21:31,008 --> 00:21:36,640
+Invitati qui c'è uno schema no che ci da un idea di come possa
+
+204
+00:21:36,896 --> 00:21:42,528
+Sono essere questi cristalli liquidi cristalli liquidi sono costituiti anche qui da molecole organiche
+
+205
+00:21:43,552 --> 00:21:49,952
+Se poi se avremo tempo vedremo qualcosa su questo è
+
+206
+00:21:50,208 --> 00:21:55,328
+Dire cristallo liquido è un poco una contraddizione di termini
+
+207
+00:21:55,840 --> 00:22:02,240
+In quanto dire liquido vuol dire parlare di molecole che sono
+
+208
+00:22:02,496 --> 00:22:11,712
+Assemblate in modo disordinato e non hanno liquido non porta a pensare a qualcosa di cristallino
+
+209
+00:22:11,968 --> 00:22:17,856
+Come porta a pensare invece la materia allo stato solido vedremo poi che non tutti i solidi
+
+210
+00:22:18,112 --> 00:22:24,512
+Sono assemblati reticoli cristallini ci sono anche dei solidi amorfi però comunque
+
+211
+00:22:24,768 --> 00:22:32,960
+È più intuitivo pensare a un solido cristallino è e non invece pensare ad un liquido cristallino
+
+212
+00:22:33,472 --> 00:22:40,384
+E allora proprio perché queste questi materiali diciamo solo qualcosa lì
+
+213
+00:22:40,640 --> 00:22:47,040
+Intermedio hanno delle caratteristiche interessanti che sono 30 in quelle di orientarsi
+
+214
+00:22:47,296 --> 00:22:53,952
+In strutture ordinate a seconda del campo elettrico che viene applicato
+
+215
+00:22:54,208 --> 00:23:03,424
+È per questa ragione hanno un vasto impiego nei display dei cellulari dei computer portatili
+
+216
+00:23:03,680 --> 00:23:12,896
+Ne avete degli esempi sotto gli occhi continuamente vediamo ancora un'altra caratteristica delle
+
+217
+00:23:13,152 --> 00:23:18,784
+Le molecole che è stata sfruttata ampiamente di recente
+
+218
+00:23:19,040 --> 00:23:26,208
+E che è quella della replicabilità la replicabilità è tipica degli organismi viventi
+
+219
+00:23:26,464 --> 00:23:32,608
+Però anche qui l'aumento delle conoscenze e delle strutture delle molecole
+
+220
+00:23:32,864 --> 00:23:42,080
+Dei legami e ha fatto sì che si possa arrivare alla replicazione diciamo anche con mezzi
+
+221
+00:23:42,336 --> 00:23:51,552
+Chimici nel 53 stato scoperto il DNA è stata risolta la struttura
+
+222
+00:23:51,808 --> 00:23:58,464
+Si è aperta così la strada per la replicazione chimica che ha di nuovo è una esperienza che
+
+223
+00:23:58,720 --> 00:24:05,120
+Avete sotto gli occhi tutti i giorni sui giornali ha portato a questa alla possibilità
+
+224
+00:24:05,376 --> 00:24:11,520
+Di replicare delle molecole anche molto con
+
+225
+00:24:13,056 --> 00:24:18,432
+Un altro campo di studio
+
+226
+00:24:18,688 --> 00:24:25,088
+Nel quale la chimica è entrata pesantemente il campo della catalisi
+
+227
+00:24:25,600 --> 00:24:31,488
+E allora per accendiamo rapidamente a questo campo
+
+228
+00:24:31,744 --> 00:24:37,120
+Facendo riferimento a che cosa alla
+
+229
+00:24:37,376 --> 00:24:46,336
+Specificità delle reazioni le reazioni chimiche le vedremo poi qualche esempio scriveremo delle reazioni
+
+230
+00:24:46,592 --> 00:24:54,272
+In genere sono complicate sono complicate perché anche se noi scriviamo
+
+231
+00:24:54,528 --> 00:24:59,904
+Delle reazioni semplici e indichiamo
+
+232
+00:25:00,160 --> 00:25:05,280
+Reagenti che si trasformano in prodotti variando
+
+233
+00:25:05,792 --> 00:25:11,680
+Qualche parametro opportuno e allora anche se scriviamo delle reazioni semplici in realtà
+
+234
+00:25:11,936 --> 00:25:17,312
+Quando mescoliamo due o più reagenti che cosa otteniamo
+
+235
+00:25:17,568 --> 00:25:26,784
+Otteniamo una molteplicità di prodotti che derivano da reazioni collaterali a quella che c'è Inter
+
+236
+00:25:27,040 --> 00:25:34,976
+In particolare è che stiamo cercando di fare a venire e allora poi che cosa si deve cercare di fare si deve cercare di estrarre
+
+237
+00:25:35,232 --> 00:25:43,680
+Con dei sistemi più o meno costosi il prodotto che interessa anche se ci va bene è il prodotto
+
+238
+00:25:43,936 --> 00:25:49,056
+Principale e sennò ci possono essere delle reazioni collaterali che
+
+239
+00:25:49,312 --> 00:25:55,968
+Diciamo producono più prodotto che non ci interessa rispetto a quello che vogliamo ottenere
+
+240
+00:25:56,480 --> 00:26:05,696
+Allora per migliorare l'efficienza delle reazioni per migliorare la resa delle reazioni che cosa si può fare
+
+241
+00:26:06,208 --> 00:26:15,424
+Che può trarre ispirazione dalle reazioni biochimiche le reazioni biochimiche sono quelle che avvengono negli organismi viventi sono delle reazioni
+
+242
+00:26:15,936 --> 00:26:25,152
+Complesse ma estremamente specifiche che diciamo a vengono in modo così specifico per l'azione di enzimi
+
+243
+00:26:25,408 --> 00:26:31,040
+Che indirizzano la reazione verso un determinato prodotto
+
+244
+00:26:31,296 --> 00:26:37,184
+Allora ispirandosi come dicevo a queste reazioni biochimiche ad esempio nell'industria farmaceutica
+
+245
+00:26:37,440 --> 00:26:46,656
+Utilizzo degli enzimi per produrre dei farmaci anche complessi ma per riuscire ad
+
+246
+00:26:46,912 --> 00:26:53,568
+Ottenere proprio la molecola che si vuole non solo l'industria farmaceutica in piega
+
+247
+00:26:53,824 --> 00:27:01,504
+Catalizzatore e ma ad esempio le impiega anche l'industria petrolchimica
+
+248
+00:27:01,760 --> 00:27:09,696
+Per ottenere dei composti specifici dal petrolio qui abbiamo l'esempio che poi approfondiremo un poco parlando
+
+249
+00:27:10,464 --> 00:27:19,168
+Proprio della catalisi dell'impiego di zeolite e per ottenere dei composti chimici da
+
+250
+00:27:19,424 --> 00:27:25,312
+Petrolio il petrolio ci sono tantissime tantissime molecole organiche
+
+251
+00:27:25,568 --> 00:27:34,784
+Di diversa natura si possono partendo dal petrolio si ottengono tantissimi composti che vengono usati dall'industria
+
+252
+00:27:35,040 --> 00:27:40,416
+E per far venire delle reazioni specifiche. Si impiegano dei catalizzatori
+
+253
+00:27:41,696 --> 00:27:47,840
+Un altro grosso campo di intervento della chimica è la
+
+254
+00:27:48,096 --> 00:27:53,216
+Conversione dell'energia che è
+
+255
+00:27:53,984 --> 00:27:59,360
+Allora molte reazioni chimiche producono del calore
+
+256
+00:27:59,616 --> 00:28:05,504
+O producono del calore o diciamo consumano
+
+257
+00:28:05,760 --> 00:28:12,672
+Del calore amaro che avvengono ci sono reazioni esotermiche e reazioni endotermiche
+
+258
+00:28:12,928 --> 00:28:18,560
+E noi utilizziamo in gran parte per
+
+259
+00:28:18,816 --> 00:28:25,216
+Produrre dell'energia delle reazioni di combustione e che però sono
+
+260
+00:28:25,472 --> 00:28:32,128
+Delle reazioni poco efficienti cosa intendiamo per reazione di combustione ma
+
+261
+00:28:32,384 --> 00:28:38,272
+Possiamo fare un esempio semplicissimo di una reazione che avrete
+
+262
+00:28:38,528 --> 00:28:44,928
+Sicuramente visto che la reazione del carbone e ho
+
+263
+00:28:45,184 --> 00:28:50,816
+Carbonio costituito da atomi di carbonio con l'ossigeno se noi bruciamo del
+
+264
+00:28:51,072 --> 00:29:00,288
+Carbone in presenza di ossigeno otteniamo del biossido di carbonio e e poi viene sviluppato anche del calore
+
+265
+00:29:00,544 --> 00:29:06,688
+Se bruciamo del metano in presenza di ossigeno sempre otteniamo diossido di carbonio e acqua
+
+266
+00:29:06,944 --> 00:29:12,576
+E produzione di calore e queste reazioni appunto però sono
+
+267
+00:29:12,832 --> 00:29:18,208
+Non sono molto efficienti e quale sarebbe la forma più
+
+268
+00:29:18,464 --> 00:29:24,864
+Diretta di conversione dalla energia chimica energia elettrica
+
+269
+00:29:25,120 --> 00:29:31,008
+E sono per esempio le batterie delle dei sistemi che ci permettono di
+
+270
+00:29:31,264 --> 00:29:37,408
+Trasformare energia chimica in energia elettrica molla nel campo delle batterie
+
+271
+00:29:37,664 --> 00:29:44,576
+La chimica permesso di fare dei progressi notevolissimi diminuendo il costo
+
+272
+00:29:44,832 --> 00:29:52,768
+Delle batterie e aumentandone la potenza e anche diciamo
+
+273
+00:29:53,024 --> 00:29:58,400
+Diminuendo le il peso qui abbiamo per esempio è una
+
+274
+00:29:58,656 --> 00:30:07,616
+Batteria longlife telephones che degli anni 40-50 che vedete che
+
+275
+00:30:07,872 --> 00:30:15,296
+Dimensioni ha e se avete presente le batterie per esempio che avete lei
+
+276
+00:30:15,552 --> 00:30:23,744
+Cellulari vi rendete conto della differenza di dimensione è di peso
+
+277
+00:30:24,000 --> 00:30:33,216
+Avrete anche notato che c'è una continua diciamo diminuzione del peso proprio delle batterie dei cellulari che è resa possibile
+
+278
+00:30:33,472 --> 00:30:42,688
+È proprio dagli studi nelle reazioni chimiche diciamo elettrochimiche che sono sempre più efficienti e consentono di me
+
+279
+00:30:42,944 --> 00:30:52,160
+Il peso anche li potete pensare per esempio la possibilità di utilizzare delle auto elettriche e queste auto elettriche
+
+280
+00:30:52,416 --> 00:31:01,376
+Una ventina di anni fa era difficile pensare di poter utilizzare delle auto elettriche proprio perché dato
+
+281
+00:31:01,632 --> 00:31:09,824
+Il peso delle batterie piombo acido e praticamente tutta l'energia veniva consumata nel trasporto proprio
+
+282
+00:31:10,080 --> 00:31:17,248
+Delle batterie stesse quindi il fatto di trovare nuovi materiali per mettere delle
+
+283
+00:31:17,504 --> 00:31:26,720
+Applicazioni diciamo inaspettate è un altro grosso campo di applicazione quello per esempio del
+
+284
+00:31:26,976 --> 00:31:36,192
+Delle celle solari megawatt che arrivano dal sole e possono essere in qualche modo
+
+285
+00:31:36,448 --> 00:31:43,616
+Utilizzati possono essere utilizzati proprio con l'impiego delle celle solari e quindi il fatto di trovare dei materiali che
+
+286
+00:31:43,872 --> 00:31:52,320
+Assorbano luce che line magazzini dove trasformano direttamente in elettricità è di nuovo stato un passo notte
+
+287
+00:31:52,576 --> 00:31:59,744
+Possiamo infine vedere ancora una cosa
+
+288
+00:32:00,000 --> 00:32:07,424
+E che il campo della sensoristica il campo della sensoristica anche questo si è
+
+289
+00:32:07,680 --> 00:32:14,336
+Sviluppato abbastanza recentemente i sensori che cosa
+
+290
+00:32:14,592 --> 00:32:19,712
+Ci permettono di fare ma permettono ad esempio di monitorare
+
+291
+00:32:19,968 --> 00:32:25,344
+Dei gas tossici dei contaminanti e quindi
+
+292
+00:32:26,112 --> 00:32:32,000
+Diciamo sono basate su diversi principi e per esempio su
+
+293
+00:32:32,256 --> 00:32:37,632
+Principi elettrochimici su principi di interazione della
+
+294
+00:32:37,888 --> 00:32:43,776
+Composto chimico che si vuole rilevare con la luce e ci sono
+
+295
+00:32:44,032 --> 00:32:53,248
+Vari tipi di sensori questi sono solo due esempi allora anche lì in sensori devono essere dei
+
+296
+00:32:53,504 --> 00:33:02,720
+Materiali che hanno una sensibilità elevatissimo una selettività elevatissima rispetto al
+
+297
+00:33:02,976 --> 00:33:11,168
+Diciamo al composto che si vuole rivelare e quindi ci vuole dietro lo studio notevole per
+
+298
+00:33:11,424 --> 00:33:20,640
+Cercare di trovare questo tipo di materiale nel settore alimentare ad esempio sono stati sviluppati quelli
+
+299
+00:33:21,152 --> 00:33:28,576
+Si chiamano i nasi artificiali e che vengono usati proprio nel controllo di qualità
+
+300
+00:33:29,344 --> 00:33:35,488
+Della produzione di sostanze alimentari
+
+301
+00:33:35,744 --> 00:33:41,120
+Anche questo è un campo abbastanza recente di sviluppo
+
+302
+00:33:41,632 --> 00:33:50,848
+Ecco perché noi dobbiamo sviluppare dei sensori sei in fondo e il naso è un
+
+303
+00:33:51,360 --> 00:33:57,248
+Organo che sensibilissimo perché allora il naso è
+
+304
+00:33:57,504 --> 00:34:04,928
+Sì estremamente sensibile ma lo è solamente ad alcune molecole
+
+305
+00:34:05,184 --> 00:34:11,584
+E ad altre è totalmente insensibile allora vediamo è giusto così per curiosità
+
+306
+00:34:11,840 --> 00:34:19,008
+A quale tipo di molecola una delle molecole alle quali il naso è sensibilissimo
+
+307
+00:34:19,264 --> 00:34:24,896
+Perché questo composto organico che si chiama tricloro
+
+308
+00:34:25,152 --> 00:34:30,272
+Anisolo e che quello che da l'odore di tappo
+
+309
+00:34:30,528 --> 00:34:37,440
+Alvino e il naso è estremamente sensibile a questa molecola
+
+310
+00:34:37,696 --> 00:34:43,072
+Perché ne basta qualche parte per trilione in una
+
+311
+00:34:43,328 --> 00:34:48,448
+Soluzione come è il vino. Una soluzione acquosa
+
+312
+00:34:48,704 --> 00:34:55,872
+Per appunto dare questo odore quindi per far rivelare questa molecola
+
+313
+00:34:56,128 --> 00:35:02,528
+Anche qui poi di molecole le scriveremo molte le vediamo le un vediamo là
+
+314
+00:35:02,784 --> 00:35:07,904
+La formula del tricloroanisolo tanto per scrivere una mole
+
+315
+00:35:08,672 --> 00:35:14,304
+Allora il tricloroanisolo è un composto organico
+
+316
+00:35:15,072 --> 00:35:20,704
+Perché è basato sull'anello benzenico poi vedremo che caratterizza
+
+317
+00:35:20,960 --> 00:35:26,592
+Che ha l'anello benzenico un anello costituito da 6 atomi di carbonio e 6 atomi di
+
+318
+00:35:27,104 --> 00:35:33,504
+Idrogeno e poi se può essere opportunamente sostituito che dicevo le molecole organiche hanno questa
+
+319
+00:35:33,760 --> 00:35:39,392
+Possibilità di sostituzione di avere
+
+320
+00:35:40,416 --> 00:35:48,608
+Formule diverse un grandissimo numero di formule diverse allora se noi ancora ad un idrogeno che c'è su questo anello benzenico
+
+321
+00:35:49,120 --> 00:35:54,496
+Ti amo questo gruppo o CH3 abbiamo questo tricloro
+
+322
+00:35:54,752 --> 00:36:00,128
+Solo che come vi dicevo da questo da questa
+
+323
+00:36:00,384 --> 00:36:08,064
+Questo odore sgradevole questo sapore anche sgradevole ed è rilevata in quantità così bassa
+
+324
+00:36:08,832 --> 00:36:17,792
+Perché mi dicevo che il naso è sensibile a molte molecole ma non a tutte perché ad esempio l'ossido di carbonio
+
+325
+00:36:18,048 --> 00:36:23,936
+E che sapete bene estremamente tossico mortale
+
+326
+00:36:24,960 --> 00:36:30,080
+La assunzione respirare un'atmosfera dove c'è
+
+327
+00:36:30,336 --> 00:36:39,552
+Dell'ossido di carbonio. Può portare a degli effetti letali il nostro è completamente insensibile a questa molecola
+
+328
+00:36:39,808 --> 00:36:45,184
+E quindi occorre è in questo caso tenete per rivelare la presenza di ossido di carbonio occorre
+
+329
+00:36:45,440 --> 00:36:54,144
+Un sensore specifico ecco io spero di avervi dato una panoramica dei campi nei quali
+
+330
+00:36:54,400 --> 00:36:59,520
+La chimica può intervenire è intervenuta e degli sviluppi
+
+331
+00:36:59,776 --> 00:37:07,456
+E allora però per comprendere meglio queste cose nelle prossime elezioni cominceremo ad approfondire
+
+332
+00:37:07,968 --> 00:37:15,136
+I concetti che riguardano la struttura atomica e molecolare. Vedere qualcosa sull'evoluzione della materia perché così

@@ -1,0 +1,1423 @@
+1
+00:00:02,560 --> 00:00:08,192
+Benvenuti in questa nuova lezione che ha come tema i docenti
+
+2
+00:00:08,704 --> 00:00:14,592
+Nell'era digitale gli argomenti di questa lezione sono
+
+3
+00:00:15,104 --> 00:00:23,296
+Innovazione dei sistemi formativi e profilo professionale degli insegnanti
+
+4
+00:00:23,552 --> 00:00:28,672
+Nell'era digitale studio di un caso
+
+5
+00:00:30,976 --> 00:00:36,096
+Cominciamo con il primo argomento innovazione dei sistemi informativi
+
+6
+00:00:38,912 --> 00:00:46,336
+Prima di parlare però dei sistemi informativi voglio ricordare brevemente quello che già avevamo visto in una lezione
+
+7
+00:00:46,592 --> 00:00:53,504
+È precedente e che sono i cambiamenti che sono avvenuti nella società in questi ultimi
+
+8
+00:00:53,760 --> 00:01:02,976
+Decenni il primo di questi li abbiamo analizzati tutti in una precedente lezione e ora mi limito solo
+
+9
+00:01:03,232 --> 00:01:08,864
+Solo a riassumerli quello è cambiato il motore dell'economia
+
+10
+00:01:10,656 --> 00:01:17,824
+Motore dell'economia era negli nel 900 nell'Ottocento
+
+11
+00:01:18,080 --> 00:01:24,224
+Poi nel 900 l'industria prima ancora era l'agricoltura
+
+12
+00:01:24,992 --> 00:01:31,904
+Oggi abbiamo visto i precedenti che questo motore è diventata la conosce
+
+13
+00:01:33,440 --> 00:01:38,560
+E abbiamo visto questo andando a vedere com'è la composizione della forza lavoro che
+
+14
+00:01:39,072 --> 00:01:44,960
+Per esempio negli Stati Uniti vede il 1% impegnato nell'agricoltura
+
+15
+00:01:45,472 --> 00:01:51,616
+Mentre Italia il 4% impegnato nell'agricoltura il 28% in Italia impegnato nell'industria
+
+16
+00:01:51,872 --> 00:01:58,784
+Il 20% negli Stati Uniti impegnata l'indulto e tutto il resto impegnata nel settore terziario
+
+17
+00:02:01,600 --> 00:02:08,256
+Quindi il motore dell'economia è cambiato ed è diventata la conoscenza nelle lezioni passate abbiamo visto anche
+
+18
+00:02:08,768 --> 00:02:13,888
+Come negli ultimi decenni ma anche negli ultimi anni
+
+19
+00:02:14,400 --> 00:02:20,032
+La velocità con cui cresce la conoscenza
+
+20
+00:02:20,288 --> 00:02:26,688
+È aumentata e quindi c'è un'accelerazione fortissima nella crescita delle nuove conoscenze
+
+21
+00:02:27,200 --> 00:02:32,320
+Sistema avevamo detto che la conoscenza globale raddoppi
+
+22
+00:02:32,576 --> 00:02:37,696
+Ogni anno
+
+23
+00:02:40,000 --> 00:02:46,656
+E quindi la crescita della conoscenza l'abbiamo già vista l'altra
+
+24
+00:02:46,912 --> 00:02:52,032
+L'altro dato che caratterizza questa epoca
+
+25
+00:02:52,544 --> 00:02:57,664
+Rispetto alle epoche precedenti per quello che riguarda il trattamento di questa conoscenza
+
+26
+00:02:57,920 --> 00:03:07,136
+È il passaggio dagli iscritti agli oggetti digitali noi siamo in una rivoluzione vere
+
+27
+00:03:07,392 --> 00:03:12,512
+È propria degli strumenti che con cui si tratta
+
+28
+00:03:12,768 --> 00:03:18,656
+La conoscenza una rivoluzione che analoga a quella
+
+29
+00:03:18,912 --> 00:03:25,568
+Che c'è stata quando si è passati dall'oralità alla scrittura ora c'è il passaggio da
+
+30
+00:03:25,824 --> 00:03:32,992
+Gli scritti e gli oggetti digitali e nelle lezioni passate
+
+31
+00:03:33,248 --> 00:03:39,904
+Abbiamo argomentato hai fatto vedere quali sono le caratteristiche di questi oggetti digitali e quali sono le abilità
+
+32
+00:03:40,160 --> 00:03:47,584
+Che sono necessarie per poter trattare questi oggetti digitali ma ci sono stati anche dei cambiamenti
+
+33
+00:03:47,840 --> 00:03:56,288
+Molto importante nella società che hanno posto il problema con forza il problema
+
+34
+00:03:56,544 --> 00:04:05,760
+Dello sviluppo sostenibile le variazioni di clima la coscienza che le risorse cominciano
+
+35
+00:04:06,016 --> 00:04:15,232
+Non diventare scarse a fronte di una crescita della popolazione mondiale e vertiginosa abbiamo visto che siamo passati in 50
+
+36
+00:04:15,488 --> 00:04:20,607
+Danni da 2 miliardi e mezzo di abitanti del mondo a 7 miliardi e mezzo
+
+37
+00:04:21,631 --> 00:04:28,031
+Quindi si pone con forza il problema di uno sviluppo sostenibile questi erano problemi che non erano avvertiti
+
+38
+00:04:28,287 --> 00:04:35,199
+Ad esempio solo 50 anni fa c'è il problema grosso delle migrazioni
+
+39
+00:04:35,455 --> 00:04:41,599
+Cioè a fronte di questa grossa crescita abbiamo dei fenomeni migratori che
+
+40
+00:04:42,367 --> 00:04:47,487
+Inutile spenderci molte parole e sono sotto gli occhi di tutti e con cui
+
+41
+00:04:47,743 --> 00:04:55,167
+I sistemi formativi dove devono già ora fare i conti bene questi sono i cambiamenti
+
+42
+00:04:55,679 --> 00:05:01,311
+Epocali che riguardano la società moderna rispetto a quella
+
+43
+00:05:01,567 --> 00:05:08,991
+Per cui era stata forgiata la scuola che conosciamo la scuola tradizionale
+
+44
+00:05:10,783 --> 00:05:15,903
+A fronte di questi cambiamenti la scuola è diventata
+
+45
+00:05:16,415 --> 00:05:21,791
+È una scuola di massa quando andavo a scuola io
+
+46
+00:05:22,047 --> 00:05:31,263
+Solo poche persone continuavano gli studi ha fatto vedere le lezioni passate una fotografia con me
+
+47
+00:05:31,519 --> 00:05:37,663
+Ei miei compagni di classe che a quell'epoca 50 anni fa
+
+48
+00:05:37,919 --> 00:05:43,551
+Sono andati quasi tutti a lavorare dopo le scuole elementari
+
+49
+00:05:43,807 --> 00:05:53,023
+E solo in pochi siamo andati all'università due tre persone mentre tre quattro persone sono andate alle superiori alle medie e le superiori a lasciare anche l'avviamento
+
+50
+00:05:54,047 --> 00:06:03,263
+E gli altri sono andati tutti a lavorare quindi di fronte a quella situazione qui oggi abbiamo una scuola obbligatoria
+
+51
+00:06:03,519 --> 00:06:09,151
+E tutti vanno a scuola fino a una certa età fino a 15 anni
+
+52
+00:06:09,407 --> 00:06:14,783
+Vanno a scuola obbligatoriamente e si spera limite
+
+53
+00:06:15,039 --> 00:06:20,159
+È la scuola dell'obbligo venga ulteriormente in alzato come in molti
+
+54
+00:06:20,415 --> 00:06:27,583
+Paesi sviluppati dal punto di vista economico cambiamento della scuola le classi
+
+55
+00:06:27,839 --> 00:06:37,055
+Se vuoi ora entrate in una classe di una città ad esempio come Genova vedete che il 10% di alcune
+
+56
+00:06:37,311 --> 00:06:43,199
+Le classi il 10% al 11% e di nazionalità diversa dalla nostra dalla nazionalità
+
+57
+00:06:45,247 --> 00:06:50,367
+Quindi la multietnicità è un'altra caratteristica della scuola
+
+58
+00:06:52,159 --> 00:07:00,351
+Studenti diversi ci sono stati in questi ultimi anni molte proposte
+
+59
+00:07:00,607 --> 00:07:06,751
+Per identificare i ragazzi che vanno a scuola o più in generale i ragazzi che vivono
+
+60
+00:07:07,007 --> 00:07:13,151
+Nel nell'era digitale qualcuno come press kit
+
+61
+00:07:13,407 --> 00:07:21,855
+Parla anzi parlava di nativi digitali questa su questa locuzione è stato scritto molto
+
+62
+00:07:22,111 --> 00:07:31,071
+Forse non è il caso di insistere ma forse è molto riduttivo indicare i ragazzi moderni come ragazzi
+
+63
+00:07:31,327 --> 00:07:38,239
+Che sanno usare il computer perciò sono nativi digitali mentre noi siamo immigrati digitali
+
+64
+00:07:38,751 --> 00:07:44,639
+E io ricordo che 12 13 anni fa avevamo telefonato apreski per poter
+
+65
+00:07:44,895 --> 00:07:53,855
+Ripubblicare il suo articolo seminale sui nativi digitali e lui ci rispose ma siete rimasti ancora i nativi digitali oggi
+
+66
+00:07:54,111 --> 00:08:02,047
+Si deve parlare di sapienza digitale così e lui ci mando un altro articolo che ho pubblicato
+
+67
+00:08:02,303 --> 00:08:07,423
+Sulla nostra rivista TD tecnologie didattiche Istituto per le tecnologie didattiche
+
+68
+00:08:07,935 --> 00:08:13,055
+Di Genova e di Palermo
+
+69
+00:08:13,311 --> 00:08:18,687
+Altri hanno proposto nomi simili tipo homo
+
+70
+00:08:18,943 --> 00:08:25,599
+Sapiens e Homo sapiens sapiens usano fare lo zapping
+
+71
+00:08:25,855 --> 00:08:32,255
+Tra i diversi documenti fra diversi video fra diversi
+
+72
+00:08:33,279 --> 00:08:38,399
+Tivoli che sono disponibili nella rete
+
+73
+00:08:38,655 --> 00:08:47,871
+Alcuni hanno ho sottolineato che questi ragazzi sono multitasking cioè che riescono a fare tante cose
+
+74
+00:08:48,127 --> 00:08:53,503
+E in modo diverso tutte queste definizioni tendono
+
+75
+00:08:53,759 --> 00:09:01,951
+Ridurre l'individuo a una specie di appendice della tecnologia
+
+76
+00:09:02,207 --> 00:09:10,143
+Come se fossero delle persone che vivono in questo mondo tecnologico
+
+77
+00:09:10,655 --> 00:09:18,079
+Questo impedisce spesso di vedere alcune caratteristiche dei ragazzi che stanno emergendo
+
+78
+00:09:18,335 --> 00:09:23,967
+Proprio grazie a quello che sta succedendo nella società esempio
+
+79
+00:09:24,223 --> 00:09:30,623
+Umberto Galimberti parla nel nel suo libro l'ospite inquietante
+
+80
+00:09:31,135 --> 00:09:37,279
+Del fatto che i ragazzi non vedono più il futuro
+
+81
+00:09:37,791 --> 00:09:43,423
+Come una speranza a vedono il futuro come una minaccia
+
+82
+00:09:45,215 --> 00:09:54,431
+Non troverò lavoro chissà che cosa farò sarò inadeguato chissà che tipi di lavoro ci saranno io chissà se potrò
+
+83
+00:09:54,687 --> 00:10:01,855
+Sopravvivere questi ragazzi non hanno più quindi uno stimolo
+
+84
+00:10:02,111 --> 00:10:11,327
+Di migliorarsi andando a scuola per esempio e quindi il vivono o la scuola come
+
+85
+00:10:11,583 --> 00:10:17,983
+Un qualche cosa di diverso dalla loro vita è da loro
+
+86
+00:10:18,239 --> 00:10:24,383
+E dal loro sentire questo è un aspetto importante perché incide molto sulla motivazione
+
+87
+00:10:24,895 --> 00:10:32,319
+Quindi sono ragazzi che sicuramente hanno a che fare devono avere a che fare con le nuove tecnologie
+
+88
+00:10:32,831 --> 00:10:42,047
+Che trattano oggi l'informazione e guai se non lo facesse abbiamo parlato proprio di digital literacy e che cosa vuol dire oggi essere digital L
+
+89
+00:10:42,559 --> 00:10:49,215
+Però non si può ridurre il ragazzo soltanto a una persona che usa che sa usare o che si presume
+
+90
+00:10:49,471 --> 00:10:57,663
+Sappia usare queste tecnologie anche perché poi se uno guarda da vicino che cosa fanno i ragazzi
+
+91
+00:10:57,919 --> 00:11:06,111
+Quando usano queste tecnologie si accorgono che hanno dei fortissimi limiti potresti mi lieviti nella ricerca dell'informazione fortissimi limiti anche nella
+
+92
+00:11:06,367 --> 00:11:11,487
+Funzione della condivisione nella collaborazione e quindi
+
+93
+00:11:11,743 --> 00:11:16,863
+Abbiamo degli studenti diversi e dovremmo approfondire
+
+94
+00:11:17,119 --> 00:11:26,335
+E gli insegnanti dovrebbero approfondire questa diversità perché per te vedremo dopo dovranno costruire
+
+95
+00:11:26,591 --> 00:11:32,223
+Personalizzare degli itinerari di studio in accordo con le diversità esistenti
+
+96
+00:11:32,479 --> 00:11:37,855
+Tra gli studenti e le intelligenze multiple
+
+97
+00:11:38,111 --> 00:11:46,047
+Qui e non voglio spendere molto su questo argomento però comincia a farsi largo il riconoscimento
+
+98
+00:11:46,303 --> 00:11:51,679
+Che non esiste una sola forma di intelligenza che deve essere curata con la logica linguistica
+
+99
+00:11:51,935 --> 00:11:58,847
+Ma che ci possono essere tante intelligenze diverse e musicale artistica eccetera eccetera
+
+100
+00:11:59,103 --> 00:12:06,271
+Che vanno curate nei sistemi formativi formali
+
+101
+00:12:06,783 --> 00:12:14,207
+Al pari delle intelligenze comunemente oggetto di questi sistemi formati che sono oggi
+
+102
+00:12:14,463 --> 00:12:19,583
+Rischio e linguistiche sono le capacità logiche e le capacità linguistiche
+
+103
+00:12:23,679 --> 00:12:32,895
+A questo punto vi propongo uno spunto di riflessione secondo voi la scuola di oggi è molto diversa da quella di 50 anni
+
+104
+00:12:33,151 --> 00:12:38,271
+Anni fa ecco vediamo un po'
+
+105
+00:12:39,295 --> 00:12:44,415
+Io ne ho presa una tanto per esagerare
+
+106
+00:12:44,671 --> 00:12:49,791
+Non di 50 anni fa ma magari di 100 anni fa questa qui è una scuola di 100 anni fa
+
+107
+00:12:51,071 --> 00:12:58,239
+Mi dite qual è la caratteristica di questa di questa scuola vedete che sono tutti dietro un banco
+
+108
+00:12:59,007 --> 00:13:05,151
+Mi dite che sono tutti molto ordinati con le mani dietro la schiena
+
+109
+00:13:08,479 --> 00:13:15,647
+E probabilmente sono attenti a sentire per sentire la lezione del maestro in questo caso
+
+110
+00:13:16,159 --> 00:13:21,791
+Sicuramente starà spiegando e esigerà silenzio completo per la sua spiegazione
+
+111
+00:13:25,375 --> 00:13:32,031
+Ecco qui in questa in questa altra diapositiva vedete gli altri studenti
+
+112
+00:13:32,799 --> 00:13:39,199
+Questa è un po' più recente che studiano e come studiano prendono il libro aprono il libro
+
+113
+00:13:39,455 --> 00:13:45,343
+E lo leggono ognuno per conto suo ognuno si legge il libro non c'è interazione ci vuole silenzio
+
+114
+00:13:46,111 --> 00:13:51,487
+Lo studente davanti mostra schiena allo studente che sta dietro
+
+115
+00:13:52,255 --> 00:14:01,471
+E ognuno vive isolato nel suo mondo con il libro di testo ragionevolmente studiando quello che il maestro ha detto di studiare
+
+116
+00:14:03,007 --> 00:14:11,455
+Qui siamo in una scuola professionale in cui le ragazze imparano a cucire vedete di nuovo disposte tutte quante
+
+117
+00:14:11,711 --> 00:14:20,927
+Di fronte a qualcuno che si presuppone sia l'istruttore le ragazze davanti mostrano la schiena alle ragazze di dietro la struttura è sempre quella del
+
+118
+00:14:22,719 --> 00:14:29,119
+Bene è chiaro qual è l'idea che soggiace a questa
+
+119
+00:14:29,375 --> 00:14:38,079
+Organizzazione degli spazi e che la conoscenza e qualcosa
+
+120
+00:14:38,335 --> 00:14:45,247
+Che viene trasmesso da chi sa e quindi sta sulla cattedra a chi non sa e quindi deve stare di fronte
+
+121
+00:14:45,503 --> 00:14:50,623
+E in silenzio per poter assorbire questo è l'esperto dice
+
+122
+00:14:53,183 --> 00:14:58,303
+Vediamo ora una scuola di oggi vedete di nuovo
+
+123
+00:14:58,815 --> 00:15:04,447
+Tutti quanti sulla disposizione di un'aula è identica a quella
+
+124
+00:15:05,471 --> 00:15:11,871
+Di 100 anni fa quindi uno una persona di 100 anni fa non entrando
+
+125
+00:15:12,127 --> 00:15:21,343
+In questa aula qui moderna dei giorni d'oggi da oggi non si meraviglierebbe c'è rimasto tutto uguale sì c'è un parecchi
+
+126
+00:15:21,599 --> 00:15:29,023
+Titoli c'è un televisore e c'è un proiettore però c'è sempre chissà che sta trasmettendo qualcosa
+
+127
+00:15:29,535 --> 00:15:37,727
+A chi non sa in questa foto vedete che di nuovo anche giorni nostri ragazzi sono tutti quanti belli
+
+128
+00:15:37,983 --> 00:15:46,943
+Ordinati che stanno studiando sui libri di testo proprio come succedeva in quell'altra classe che vi ho mostrato in bianco e nero
+
+129
+00:15:48,479 --> 00:15:53,855
+Ecco ma qui c'è qualcosa di diverso c'è ci sono questi strumenti sono macchine
+
+130
+00:15:54,111 --> 00:16:00,255
+Per cucire computer ma vedete che il layout
+
+131
+00:16:00,511 --> 00:16:07,935
+Disposizione dell'aura è sempre la stessa cioè questa disposizione D aula
+
+132
+00:16:08,191 --> 00:16:15,359
+Riflette l'idea di apprendimento che c'era 100 anni fa era 200 anni fa
+
+133
+00:16:16,127 --> 00:16:25,343
+Che non c'era ai tempi di Socrate in cui l'apprendimento era al risultato di una conversazione qui invece eri
+
+134
+00:16:25,599 --> 00:16:30,719
+Risultato di una comunicazione che va da chi sa
+
+135
+00:16:31,231 --> 00:16:36,607
+A chi non sa bene la scuola
+
+136
+00:16:37,375 --> 00:16:42,495
+100 anni fa serviva per selezionare le classi dirigenti
+
+137
+00:16:43,519 --> 00:16:48,639
+Oggi è una scuola di massa probabilmente il sistema
+
+138
+00:16:48,895 --> 00:16:55,295
+Di trasmissione della conoscenza dal docente da chi sa sa chi non sa era funzionale
+
+139
+00:16:55,551 --> 00:17:00,671
+A questa scuola della selezione ma in una scuola di Massa
+
+140
+00:17:01,183 --> 00:17:10,399
+È ancora possibile immaginare e di usare gli stessi modi le stesse strutture e gli stessi strumenti che venivano USA
+
+141
+00:17:10,655 --> 00:17:17,311
+Passati 100 anni fa magari un po' rimodernati e facendo leggere i libri invece che
+
+142
+00:17:17,567 --> 00:17:22,687
+E sulla carta su un ebook su un lettore di ebook
+
+143
+00:17:23,967 --> 00:17:29,599
+Evidentemente no evidentemente non funziona più così
+
+144
+00:17:29,855 --> 00:17:35,743
+C'è l'esigenza di una scuola non più centrata sull'insegnante
+
+145
+00:17:36,511 --> 00:17:44,447
+Ma una scuola centrata sullo studente quindi non una scuola centrata sull'insegnamento
+
+146
+00:17:45,727 --> 00:17:51,871
+Insegnare a una scuola centrata sulla prendere questa l'avevamo già accennato
+
+147
+00:17:52,127 --> 00:17:57,503
+Questo fatto è importante questo cambiamento importante
+
+148
+00:17:57,759 --> 00:18:04,927
+Anche perché oggi sappiamo che non si apprende qualcosa perché c'è qualcuno che ti racconta qualcosa
+
+149
+00:18:05,439 --> 00:18:11,327
+Passi a prendere perché si interagisce in un ambiente è il risultato di questa interazione
+
+150
+00:18:11,839 --> 00:18:18,751
+E con l'ambiente è l'apprendimento le caratteristiche di questa nuova scuola sono qui un po'
+
+151
+00:18:19,007 --> 00:18:24,895
+Illustrate sulla scuola centrata sul docente
+
+152
+00:18:25,407 --> 00:18:31,551
+La conoscenza è concepita come accumulazione di fatti come quantità
+
+153
+00:18:33,087 --> 00:18:38,207
+È una scuola centrata sul discente e la trasformazione di Patty
+
+154
+00:18:38,463 --> 00:18:47,679
+Quella che importa nella scuola centrata sul docente la dimostrazione di successo e riferite a una norma una norma generica
+
+155
+00:18:49,727 --> 00:18:55,871
+Qui la scuola centrata sul discente è riferita la dimostrazione di successo
+
+156
+00:18:56,127 --> 00:19:02,015
+Alla qualità della comprensione una scuola centrata sul docente la valutazione
+
+157
+00:19:02,271 --> 00:19:11,487
+E realizzata tramite interrogazioni prove scritte testo nella scuola centrata sul discente è una valutazione formativa rivolta proprio a capire
+
+158
+00:19:11,743 --> 00:19:17,887
+Dire che cosa capitolo studente che cosa non ha capito per aiutarlo a capire per superare le sue lacune
+
+159
+00:19:18,911 --> 00:19:28,127
+Nella scuola centrata sul docente l'uso della tecnologia riguarda il miglioramento della comunicazione quindi le presentazioni studio di te
+
+160
+00:19:28,383 --> 00:19:35,551
+Esercizi scelte mentre la scuola si entra sul discente riguarda la partecipazione e la collaborazione
+
+161
+00:19:36,063 --> 00:19:41,183
+Tutti gli elementi che avevamo già discusso
+
+162
+00:19:41,951 --> 00:19:48,607
+Elezioni nelle lezioni precedenti di nuova attività in classe centrata sul insegnante nella scuola
+
+163
+00:19:48,863 --> 00:19:58,079
+Centrata sul docente ed è di tipo didattico mentre a scuola centrata sul discente è centrata su chi
+
+164
+00:19:58,335 --> 00:20:04,735
+Prendete e quindi è interattiva dove l'interazione è all'interno di gruppi
+
+165
+00:20:04,991 --> 00:20:10,111
+Il ruolo dell'insegnante nella scuola centrata sul docente e l'espositore difatti
+
+166
+00:20:10,623 --> 00:20:15,743
+E deve essere sempre esperto quello che sa tutto mentre la scuola centrata sul discente
+
+167
+00:20:16,255 --> 00:20:25,471
+È un collaboratore l'insegnante è talvolta e lui stesso è un discente che impara dai propri
+
+168
+00:20:25,727 --> 00:20:33,919
+Troppi studenti infatti sull'istruzione se la scuola si entra sul docente e la memorizzazione di fa
+
+169
+00:20:34,687 --> 00:20:42,111
+Mentre sulla scuola centrata sul discente sono le relazioni che importano le indagini le invenzioni
+
+170
+00:20:42,367 --> 00:20:48,511
+La che la creatività all'innovazione oltre che
+
+171
+00:20:48,767 --> 00:20:55,167
+La memorizzazione di facce non scompare questo fatto ma viene inserito in un contesto
+
+172
+00:20:55,423 --> 00:21:00,543
+Più generale che riguarda lo studente bene
+
+173
+00:21:03,103 --> 00:21:09,503
+Lo sviluppo di una scuola diversa il passaggio ad una scuola diversa
+
+174
+00:21:10,527 --> 00:21:16,416
+Dall'insegnamento dalla scuola centrata sull' insegnante alla scuola centrata
+
+175
+00:21:16,672 --> 00:21:21,792
+Sugli studenti richiede un'innovazione profonda
+
+176
+00:21:22,304 --> 00:21:27,936
+Perché mi chiedono innovazione profonda e come realizzare questa innovazione profonda
+
+177
+00:21:31,264 --> 00:21:37,664
+Per far questo dobbiamo ragionare su un fatto importante cioè il sistema
+
+178
+00:21:37,920 --> 00:21:43,040
+Scuola è un sistema complesso
+
+179
+00:21:43,296 --> 00:21:48,416
+Cosa vuol dire un sistema complesso che è composto da tanti elementi
+
+180
+00:21:48,672 --> 00:21:57,376
+Che interagiscono fra di loro quando voglio modificare voglio innovare voglio cambiare
+
+181
+00:21:57,632 --> 00:22:02,752
+Un sistema complesso non posso intervenire solo su un elemento
+
+182
+00:22:04,800 --> 00:22:12,480
+Perché perché intervenendo su un elemento necessariamente questa intervento riguardo a tutti gli altri nodi
+
+183
+00:22:12,992 --> 00:22:18,368
+Del sistema tutte le altre parti del sistema a cui questo nodo è correlato
+
+184
+00:22:19,392 --> 00:22:27,328
+E allora devo considerare nell'innovazione tutto quel sistema nella sua interezza
+
+185
+00:22:27,584 --> 00:22:32,704
+Considerando le singole parti e le relazioni fra le singole parti vediamo come
+
+186
+00:22:32,960 --> 00:22:41,152
+Si concretizza questo discorso a proposito della scuola quali sono innanzitutto le parti che compongono
+
+187
+00:22:41,408 --> 00:22:47,040
+Questo sistema complesso la prima di tutte la più importante
+
+188
+00:22:47,808 --> 00:22:52,928
+E naturalmente sono le finalità a che cosa serve la scuola
+
+189
+00:22:54,208 --> 00:23:00,096
+Una riflessione profonda su questo fatto oggi deve essere
+
+190
+00:23:00,352 --> 00:23:05,472
+È sviluppata perché non possiamo pensare che la scuola
+
+191
+00:23:05,728 --> 00:23:12,896
+Di oggi posso avere le stesse finalità che aveva la scuola di 50 anni fa di quando andavo a scuola io
+
+192
+00:23:13,408 --> 00:23:22,624
+Perché perché la scuola era uno strumento per mettere l'individuo in grado di operare una certa
+
+193
+00:23:23,136 --> 00:23:28,256
+Società che abbiamo visto che era la società degli scritti
+
+194
+00:23:28,512 --> 00:23:36,448
+Quindi soprattutto uno doveva saper leggere e scrivere in modo adeguato per poter svolgere tutte quelle funzioni
+
+195
+00:23:36,704 --> 00:23:41,824
+Che riguardavano le interazioni sociali tipiche di quel tipo di
+
+196
+00:23:43,616 --> 00:23:50,784
+Oggi abbiamo visto che non basta più questo bisogna essere digitali tre quindi c'è un problema di
+
+197
+00:23:51,296 --> 00:23:58,720
+Cultura digitale con tutto quello che abbiamo discusso
+
+198
+00:23:58,976 --> 00:24:04,096
+Elezioni precedenti un'altra finalità era quella di
+
+199
+00:24:04,352 --> 00:24:09,472
+Avviare al lavoro i ragazzi oggi
+
+200
+00:24:10,752 --> 00:24:17,408
+Non funziona più così i ragazzi che entrano oggi a scuola probabilmente faranno
+
+201
+00:24:17,664 --> 00:24:23,040
+Dei lavori che oggi non sono neanche mi immaginabili tra 15 anni
+
+202
+00:24:23,296 --> 00:24:28,416
+Probabilmente ci saranno dei lavori che oggi non esistono non ci sono
+
+203
+00:24:28,672 --> 00:24:34,048
+Quindi noi dovremmo preparare dei ragazzi per lavori che chissà come sei
+
+204
+00:24:34,304 --> 00:24:43,264
+Quali saranno e come si saranno trasformati quelli che ci sono un medico tra 15 anni con una velocità di crescita di questa della conoscenza
+
+205
+00:24:43,776 --> 00:24:48,896
+Che raddoppia nel campo medico ogni 18 mesi che cosa dovrà sapere cosa dovrà fare
+
+206
+00:24:49,664 --> 00:24:55,040
+E questo è vero per qualunque tipo o altro tipo di competenza ne andiamo a considerare
+
+207
+00:24:56,832 --> 00:25:01,952
+E quindi non entrare il mondo del lavoro il terzo è la terza fila di Tyra trasmettere
+
+208
+00:25:02,208 --> 00:25:09,888
+La conoscenza oggi sappiamo bene che la conoscenza viene trasmessa
+
+209
+00:25:10,144 --> 00:25:15,264
+Mille modi diversi e abbiamo seri problemi
+
+210
+00:25:15,520 --> 00:25:24,736
+Ad avere dei delle persone oggi che escono dalla scuola e che stanno in realtà gestire la conoscenza
+
+211
+00:25:26,016 --> 00:25:31,136
+De Mauro linguista De Mauro le scriveva qualche mese fa
+
+212
+00:25:31,392 --> 00:25:40,352
+Che 80% dei cittadini italiani non riesce a leggere una frase abbastanza lunga capendo la
+
+213
+00:25:40,608 --> 00:25:47,264
+Questo vuol dire che la scuola ha fallito e continua a fallire questa scuola
+
+214
+00:25:47,520 --> 00:25:53,152
+Lite continua a fallire anche il raggiungimento di traguardi mi
+
+215
+00:25:53,408 --> 00:25:59,552
+Quindi dobbiamo riflettere ea che cosa serve la scuola oggi e come deve essere configurata
+
+216
+00:26:01,344 --> 00:26:06,464
+Ma se noi ragioniamo sulle finalità queste sono correlate
+
+217
+00:26:06,976 --> 00:26:13,376
+Al curriculum ea come insegnare cioè la scuola centrata sugli studenti
+
+218
+00:26:13,632 --> 00:26:19,008
+E non può essere uguale alla scuola centrata sui docenti il curriculum fatto da tante
+
+219
+00:26:19,264 --> 00:26:25,152
+E piccole o grandi accorpamenti di discipline
+
+220
+00:26:26,432 --> 00:26:32,064
+Probabilmente e non ha più senso in una società in cui la conoscenza ha una dinamica
+
+221
+00:26:32,320 --> 00:26:38,976
+Come quella che abbiamo descritto quindi si il curriculum una riflessione sul curriculum e solo i modi dell'apprendere
+
+222
+00:26:39,744 --> 00:26:47,936
+Deve essere fatta ovviamente occorre la queste queste queste cose sono correlate all'organizzazione
+
+223
+00:26:48,704 --> 00:26:56,896
+Alle strutture gli equipaggiamenti le strutture di una scuola basata su chi apprende
+
+224
+00:26:57,152 --> 00:27:02,784
+Non possono essere le stesse di una scuola basata su chi insegna
+
+225
+00:27:04,064 --> 00:27:09,184
+Per una scuola basata su chi insegna e funzionale che ci sia una cattedra e tanti banchi
+
+226
+00:27:09,696 --> 00:27:15,840
+Per una scuola basata su chi apprende la struttura deve prevedere degli spazi di lavoro comuni
+
+227
+00:27:16,352 --> 00:27:25,568
+Deve prevedere degli accessi facili alla rete deve prevedere che i ragazzi possano interagire strettamente fra di loro in classe A
+
+228
+00:27:25,824 --> 00:27:35,040
+Che è fuori dalla classe collegandosi per esempio degli altri ragazzi che sono in giro per il mondo
+
+229
+00:27:35,296 --> 00:27:44,512
+Una lezione di inglese può essere fatta in facendo interagire i ragazzi o da soli o collaborativamente con delle altre classi
+
+230
+00:27:44,768 --> 00:27:49,888
+Quindi non vanno bene le aule così come sono nella scuola no
+
+231
+00:27:50,400 --> 00:27:59,360
+E questo non va bene neanche l'organizzazione perché l'organizzazione è basata sulla scansione oraria prima l'ora di
+
+232
+00:27:59,616 --> 00:28:07,296
+Italiano poi l'ora di geografia poi l'ora di vattelapesca ma su una didattica centrata su
+
+233
+00:28:07,552 --> 00:28:13,696
+Chi apprende quello che rilevante è la soluzione di problemi la produzione
+
+234
+00:28:13,952 --> 00:28:19,840
+E di oggetti la discussione e di
+
+235
+00:28:20,096 --> 00:28:28,288
+Problematiche e che prevedono l'apporto delle discipline ma che non si possono esaurire
+
+236
+00:28:28,800 --> 00:28:34,432
+Nelle nelle discipline quindi didattiche basate su progetti didattiche basate
+
+237
+00:28:34,944 --> 00:28:40,832
+E su soluzioni di problemi e ancora gli equipaggiamenti non possono essere
+
+238
+00:28:41,088 --> 00:28:46,464
+Soltanto la lavagna che sia sia LIM o non LIM oppure
+
+239
+00:28:46,720 --> 00:28:55,936
+E su qualche computer messo a disposizione della scuola devono essere radicalmente diverse devono essere gli strumenti
+
+240
+00:28:56,192 --> 00:29:02,592
+Che i ragazzi usano normalmente anche quando sono al di fuori della sua
+
+241
+00:29:03,616 --> 00:29:10,272
+Quindi devono trovare nazionalità a scuola tutti gli strumenti
+
+242
+00:29:10,528 --> 00:29:16,416
+Che sono usati dai ragazzi per manipolare la conoscenza
+
+243
+00:29:16,672 --> 00:29:22,560
+Per accedere all'informazione per produrre informazioni
+
+244
+00:29:22,816 --> 00:29:27,936
+E così via quindi questo che vedete qui
+
+245
+00:29:28,448 --> 00:29:35,616
+Sono in rappresenta i nodi alcuni nodi principali nodi
+
+246
+00:29:35,872 --> 00:29:43,552
+Il sistema complesso che la scuola ma e ci sono ancora alcuni elementi che vanno aggiunti
+
+247
+00:29:44,320 --> 00:29:50,976
+Che sono insegnanti e le risorse insegnanti sono correlati vedete
+
+248
+00:29:51,232 --> 00:29:59,680
+Tutti gli altri nodi per esempio sono direttamente correlati alla gestione del di quello che si fa nel curriculum della didattica
+
+249
+00:30:00,192 --> 00:30:06,336
+E le risorse cioè quanti soldi ci sono quante possibilità ci sono
+
+250
+00:30:06,592 --> 00:30:15,808
+Per la didattica che non sono soltanto le risorse monetarie ma sono anche le risorse che per esempio una città può offrire alla scuola come
+
+251
+00:30:16,064 --> 00:30:21,440
+Musei i teatri e le aree protette eccetera anche queste fanno parte
+
+252
+00:30:21,696 --> 00:30:30,144
+Del sistema che noi dobbiamo prendere in considerazione quindi vedete questi sono gli elementi principali del nostro sistema complesso
+
+253
+00:30:30,400 --> 00:30:37,056
+Ce ne saranno sicuramente tanti altri però questi sono principali vedete se io intervengo su uno
+
+254
+00:30:37,312 --> 00:30:44,480
+Provoca i cambiamenti su tutti quanti quindi è difficile
+
+255
+00:30:44,992 --> 00:30:53,184
+Senza una visione generale DI che cosa dovrebbe essere la scuola in una società digitale
+
+256
+00:30:53,440 --> 00:30:59,072
+Promuovere delle azioni di innovazione profon
+
+257
+00:30:59,840 --> 00:31:07,776
+Si può prendersi prendo il curriculum ci aggiungo qualcosina qua qualcosina lì si va introduco la LIM
+
+258
+00:31:08,032 --> 00:31:13,408
+Oppure faccio in modo che possano tornare anche il pomeriggio tutte cose
+
+259
+00:31:13,664 --> 00:31:21,600
+Che sono o limitative rispetto all'innovazione del sistema nel suo
+
+260
+00:31:21,856 --> 00:31:31,072
+Insieme detto questo detto questo che per rinnovare la scuola vanno con ci vuole una visione
+
+261
+00:31:31,584 --> 00:31:39,008
+Verso cui si sta andando è una analisi di tutti gli elementi di come interagiscono i diversi elementi
+
+262
+00:31:39,776 --> 00:31:45,152
+Ora esaminiamo uno in particolare gli insegnamenti insegna
+
+263
+00:31:46,432 --> 00:31:52,064
+Che cosa deve saper fare come deve essere fatto qual è il profilo
+
+264
+00:31:52,320 --> 00:31:57,440
+Professionale di un insegnante che opera in una scuola della società della conoscenza
+
+265
+00:31:59,232 --> 00:32:04,352
+Questo è un primo interrogativo un secondo interrogativo eh
+
+266
+00:32:04,608 --> 00:32:13,824
+Chi deve definire può definire questo quadro di competenze questo quadro di abilità e capacità che deve avere
+
+267
+00:32:14,592 --> 00:32:19,968
+Un insegnante di questa scuola che ci
+
+268
+00:32:20,224 --> 00:32:25,344
+Che ci trasporta verso una società basata sulla conosce
+
+269
+00:32:26,368 --> 00:32:32,768
+Ecco per indagare questo fatto il profilo professionale degli insegnanti
+
+270
+00:32:34,560 --> 00:32:40,704
+Studio di un caso si tratta di un progetto
+
+271
+00:32:41,472 --> 00:32:49,152
+Europeo il suo stato responsabile che ha visto coinvolto l'Istituto per le tecnologie didattiche del Cnr
+
+272
+00:32:49,664 --> 00:32:55,040
+Università di Venezia e l'Università di Glasgow il primo
+
+273
+00:32:55,296 --> 00:33:00,416
+Problema è che ci siamo posti. E che di chi è
+
+274
+00:33:00,672 --> 00:33:07,584
+Autorizzato ad avanzare una proposta sul profilo professionale
+
+275
+00:33:09,120 --> 00:33:14,752
+E la conclusione a cui siamo arrivati e che non può che essere questa proposta
+
+276
+00:33:15,264 --> 00:33:21,152
+Il lavoro cooperativo di tante persone che si sono occupate di questi problemi
+
+277
+00:33:21,664 --> 00:33:28,064
+A livello internazionale e non soltanto in una sola nazione ma in più nazioni
+
+278
+00:33:28,320 --> 00:33:34,720
+E quindi abbiamo creato un gruppo di 19
+
+279
+00:33:35,744 --> 00:33:41,888
+È quello che noi chiamiamo National investigators 19 national investigator
+
+280
+00:33:42,400 --> 00:33:47,776
+Che presi ciascuno da un paese europeo diverso
+
+281
+00:33:48,032 --> 00:33:55,712
+Persone indicate dalle istituzioni deputate alla formazione degli insegnanti in quel paese oppure dei ministeri
+
+282
+00:33:56,224 --> 00:34:02,368
+Dell'Istruzione di quei paesi queste persone le abbiamo prese e abbiamo chiesto
+
+283
+00:34:02,624 --> 00:34:08,256
+Le abbiamo prese l'abbiamo coinvolte nel progetto abbiamo chiesto loro
+
+284
+00:34:09,024 --> 00:34:14,912
+Riprodurre 19 report' nazionali
+
+285
+00:34:15,168 --> 00:34:24,384
+Cioè qual è questo profilo professionale degli insegnanti che è alla base dei processi di formazione del vostro
+
+286
+00:34:24,640 --> 00:34:30,272
+Altro paese questi riposo sono stati compilati da questi National
+
+287
+00:34:30,528 --> 00:34:36,160
+Investigator sulla base di linee guida che abbiamo fornito ciò per avere un omogeneità
+
+288
+00:34:36,672 --> 00:34:43,840
+Nelle nei contributi dopodiché quando sono dopo che sono stati prodotti questi report-
+
+289
+00:34:44,352 --> 00:34:51,008
+Abbiamo radunato fatto venire a Venezia per 6 giorni
+
+290
+00:34:51,264 --> 00:35:00,480
+Su un'isola tutti questi National investigators perché si scambiassero le opinioni dopo aver letto ognuno
+
+291
+00:35:00,736 --> 00:35:06,880
+Sono tutti gli altri rapporti e abbiamo prodotto così una panoramica Europea
+
+292
+00:35:09,184 --> 00:35:14,304
+La Panoramica europea l'abbiamo racchiusa in un libro che vedete qui
+
+293
+00:35:15,072 --> 00:35:22,240
+European teachers towards the knowledge society e questo libro voi lo troverete
+
+294
+00:35:22,752 --> 00:35:28,384
+In rete tra i documenti che sono arresi
+
+295
+00:35:28,640 --> 00:35:33,760
+Disponibile il sito dell'Università Nettuno
+
+296
+00:35:34,016 --> 00:35:42,464
+Che contiene diverse sezioni che sono una panoramica sulla formazione degli insegnanti in Europa
+
+297
+00:35:43,232 --> 00:35:48,608
+Le situazioni nazionali e ci sono dei position papers cioè delle
+
+298
+00:35:48,864 --> 00:35:55,008
+EBay PayPal di articoli che illustrano quali sono le proposizioni
+
+299
+00:35:55,520 --> 00:36:00,640
+Queste cose questa situazione del
+
+300
+00:36:00,896 --> 00:36:06,016
+Della formazione degli insegnanti in Europa dopodiché
+
+301
+00:36:06,272 --> 00:36:15,488
+Abbiamo chiesto a questi gruppi di aiutare il progetto a definire un quello che chiamiamo common European
+
+302
+00:36:15,744 --> 00:36:24,704
+Framework sul profilo professionale degli insegnanti che descrive la pratica di un docente che opera efficacemente nella scuola della società DG
+
+303
+00:36:26,496 --> 00:36:32,128
+Bene come risultato di questo lavoro fatto insieme con
+
+304
+00:36:32,640 --> 00:36:37,760
+National investigators abbiamo prodotto un altro libro
+
+305
+00:36:38,016 --> 00:36:43,136
+È questo che troverete disponibile sempre nel sito dell'Università
+
+306
+00:36:45,952 --> 00:36:52,096
+Quali sono gli accenno soltanto a qual è la struttura di questo frigo
+
+307
+00:36:53,120 --> 00:37:02,336
+Come l'abbiamo realizzata questa figura non è da leggere non non state a sforzarvi quello che è rilevante sono per il
+
+308
+00:37:02,592 --> 00:37:11,808
+Momento queste quattro punti cioè noi abbiamo individuato quattro ambienti con cui l'insegnante
+
+309
+00:37:12,064 --> 00:37:21,024
+Interagisce nel suo lavoro e cioè sicuramente con gli allievi più pills
+
+310
+00:37:21,280 --> 00:37:29,984
+L'ambiente quindi l'ambiente di classe interagisce con i colleghi interagisce con l'ambiente esterno e interagisce consiste
+
+311
+00:37:31,520 --> 00:37:37,152
+Come interagisce con questi quattro ambienti in una società digitale
+
+312
+00:37:38,688 --> 00:37:44,064
+E soprattutto a proposito di che cosa interagisce quali sono
+
+313
+00:37:44,320 --> 00:37:50,976
+Le aree di interazione ne abbiamo individuate
+
+314
+00:37:51,232 --> 00:37:58,400
+8:00 e sono queste 8:00 che sono messe qui
+
+315
+00:37:58,912 --> 00:38:05,312
+Intorno sono le leggo perché si legge male
+
+316
+00:38:05,568 --> 00:38:10,688
+Li sulla sulla foto e sulla diapositiva e sono
+
+317
+00:38:10,944 --> 00:38:18,368
+Comincio da qui il curriculum sono la pedagogia la pedagogia cioè gli aspetti
+
+318
+00:38:18,624 --> 00:38:27,584
+Che riguardano come si apprende sono la tecnologia sono l'innovazione sono l'etica la politica l'organizzazione
+
+319
+00:38:27,840 --> 00:38:32,960
+La formazione permanente dei docenti
+
+320
+00:38:33,728 --> 00:38:40,896
+Vedete che i quattro ambienti si intersecano con questi settori dando luogo a 32 aree
+
+321
+00:38:41,152 --> 00:38:47,040
+Bene queste 32 anni e sono le 32 aree di competenza dell'insegnante
+
+322
+00:38:47,808 --> 00:38:52,928
+Per ognuna di queste aree è necessario
+
+323
+00:38:53,184 --> 00:38:59,584
+Specificare quali sono i contenuti di questa interazione per esempio per la pedagogia
+
+324
+00:38:59,840 --> 00:39:07,520
+Interazione con se stesso deve diventare consapevole del costante impatto delle nuove tecnologie
+
+325
+00:39:08,032 --> 00:39:14,944
+E sull'apprendimento e quindi l'insegnante deve riflettere su queste cose formarsi una propria visione
+
+326
+00:39:15,456 --> 00:39:24,672
+Per quello che riguarda l'interazione con gli studenti deve sapere e imparare a sviluppare ambienti di apprendimento
+
+327
+00:39:24,928 --> 00:39:32,608
+Utilizzando tutta la ricchezza che viene dalla società digitale quindi deve creare saper creare ambienti di apprendimento
+
+328
+00:39:32,864 --> 00:39:37,984
+Sì tanto le open educational resources utilizzando il contatto con gli altri insegnanti eccetera
+
+329
+00:39:38,496 --> 00:39:45,664
+Per quello che riguarda l'interazione con i colleghi deve saper condividere le pratiche saper collaborare in attività
+
+330
+00:39:45,920 --> 00:39:51,040
+Collaborative interdisciplinary
+
+331
+00:39:51,552 --> 00:39:57,440
+Per quello che riguarda l'ambiente deve saper usare le tecnologie a disposizione per poter ampliare
+
+332
+00:39:57,696 --> 00:40:06,912
+L'interazione con l'ambiente analogamente possono essere sviluppati tutti e sono stati sviluppati tutti gli altri settori
+
+333
+00:40:07,168 --> 00:40:12,800
+Ora non sto qui ad annoiarvi e facendovi la descrizione di altri settori la troverete
+
+334
+00:40:13,056 --> 00:40:18,176
+Nel libro che vi ho segnalato e che è disponibile potete scaricarlo
+
+335
+00:40:18,432 --> 00:40:25,088
+Completamente in pdf dal sito dell'Università e
+
+336
+00:40:25,344 --> 00:40:32,256
+Per ogni per ognuno di questi ambienti c'è una descrizione di quali sono le abilità che deve avere
+
+337
+00:40:32,512 --> 00:40:37,632
+L'insegnante per poter far fronte alle problematiche poste da
+
+338
+00:40:38,144 --> 00:40:44,032
+Ciascuna di queste caselle sono 32 caselle
+
+339
+00:40:44,288 --> 00:40:49,920
+Intersezione dei quattro ambienti con gli 868 settori di
+
+340
+00:40:50,688 --> 00:40:59,136
+Competenze per concludere dico che questa non è l'unica proposta a livello internazionale
+
+341
+00:40:59,392 --> 00:41:06,048
+Hai visto anche altre proposte ed è questa che dimostro qui è la proposta avanzata dall'Unesco
+
+342
+00:41:06,560 --> 00:41:12,192
+E se voi guardate gli elementi che compongono
+
+343
+00:41:12,704 --> 00:41:18,848
+Questo questa proposta noterete che sono se è un sottoinsieme
+
+344
+00:41:19,104 --> 00:41:24,992
+Delle degli otto settori che componevano il nostro il nostro framework
+
+345
+00:41:25,504 --> 00:41:32,160
+Qui manca per esempio l'etica non l'hanno messa e devo dire che
+
+346
+00:41:32,416 --> 00:41:40,608
+Io ho avuto il compito dall'Unesco di cercare di definire una metodologia per
+
+347
+00:41:40,864 --> 00:41:48,288
+Localizzare cioè e fare in modo che ciascuna nazione possa a partire da questa framework generalissimo
+
+348
+00:41:48,544 --> 00:41:54,175
+Calarlo nella propria realtà e utilizzarlo per definire dei
+
+349
+00:41:54,431 --> 00:42:00,063
+Sillabi e dei curricula per la formazione degli insegnanti questo testo
+
+350
+00:42:00,319 --> 00:42:09,535
+Io lo metterò anche sul sito dell'Università il link a questo testo quindi voi potrete scaricare sia il link a questo testo
+
+351
+00:42:09,791 --> 00:42:15,935
+Sia al lavoro che ho svolto per l'Unesco sulla localizzazione di questo framework
+
+352
+00:42:16,191 --> 00:42:22,335
+Generale con questo io ho terminato solo vi offre uno spunto di riflessione
+
+353
+00:42:22,591 --> 00:42:28,479
+E questo secondo voi come dovrebbe cambiare la prima formazione dei docenti
+
+354
+00:42:28,735 --> 00:42:34,111
+Per essere adeguata alla società digitale bene
+
+355
+00:42:34,623 --> 00:42:39,743
+Pensateci con questo la lezione è terminata vi invito di nuovo
+
+356
+00:42:39,999 --> 00:42:45,119
+Come al solito a consultare i materiali di approfondimento sul sito dell'Università

@@ -1,0 +1,887 @@
+1
+00:00:00,512 --> 00:00:06,656
+Buongiorno a tutti, mi chiamo Francesco Galgani e sono l'amministratore della Students
+
+2
+00:00:06,912 --> 00:00:08,704
+Community di Uninettuno.
+
+3
+00:00:09,728 --> 00:00:14,336
+Realizzo questo video per venire incontro ai nuovi immatricolati.
+
+4
+00:00:15,104 --> 00:00:21,248
+La prima cosa che vorrei precisare è che non tutte le sedi di esame sono gratuite
+
+5
+00:00:21,504 --> 00:00:27,136
+e che, in certi casi, è possibile ottenere degli sconti sulle tasse universitarie.
+
+6
+00:00:27,904 --> 00:00:30,208
+Cliccando su "Iscrizione"
+
+7
+00:00:31,488 --> 00:00:34,304
+e poi su "Accordi e Convenzioni"
+
+8
+00:00:35,072 --> 00:00:36,608
+è  possibile vedere
+
+9
+00:00:36,864 --> 00:00:41,728
+se c'è possibilità di ottenere sconti sulle tasse universitarie.
+
+10
+00:00:41,984 --> 00:00:46,080
+Ovviamente, per ogni dubbio, suggerisco di rivolgersi
+
+11
+00:00:46,336 --> 00:00:48,384
+alla Segreteria Studenti.
+
+12
+00:00:49,408 --> 00:00:55,552
+Vi faccio un esempio: la sede di esame di Viareggio costa €400 all'anno
+
+13
+00:00:56,064 --> 00:01:02,208
+ma, chiedendo l'apposita convenzione, è possibile ottenere uno sconto di pari entità
+
+14
+00:01:02,464 --> 00:01:04,512
+sulle tasse di Uninettuno.
+
+15
+00:01:05,280 --> 00:01:07,072
+Per i nuovi immatricolati
+
+16
+00:01:07,328 --> 00:01:11,168
+sono disponibili le FAQ, che trovate qui in basso,
+
+17
+00:01:11,424 --> 00:01:12,192
+Faq
+
+18
+00:01:13,216 --> 00:01:15,264
+dove ci sono le risposte
+
+19
+00:01:15,520 --> 00:01:16,544
+alle domande
+
+20
+00:01:17,824 --> 00:01:23,968
+iniziali, tipo: quando posso immatricolarmi, come faccio per immatricolarmi, come faccio
+
+21
+00:01:24,224 --> 00:01:27,808
+per richiedere un riconoscimento crediti e così via.
+
+22
+00:01:28,832 --> 00:01:34,464
+C'è anche una precisazione sulle modalità di svolgimento degli esami
+
+23
+00:01:34,720 --> 00:01:40,864
+che di norma sono scritti, però per alcuni corsi di laurea e in alcune sedi
+
+24
+00:01:41,120 --> 00:01:43,936
+è possibile richiedere la modalità orale.
+
+25
+00:01:44,192 --> 00:01:49,312
+Questa cosa è specificata meglio nel Regolamento del Corso di Studi
+
+26
+00:01:49,568 --> 00:01:51,872
+che vi mostro successivamente.
+
+27
+00:01:53,408 --> 00:01:59,552
+Riguardo sempre agli esami, ci sono delle FAQ specifiche che tempo addietro sono
+
+28
+00:01:59,808 --> 00:02:03,904
+state inviate via email a tutti gli studenti e che ho salvato
+
+29
+00:02:04,160 --> 00:02:08,512
+all'interno della Community nel gruppo "Accoglienza Matricole".
+
+30
+00:02:08,768 --> 00:02:10,816
+Vi faccio vedere come arrivarci.
+
+31
+00:02:11,328 --> 00:02:14,144
+Vado ad aprire la Community degli Studenti
+
+32
+00:02:14,656 --> 00:02:18,496
+che fondamentalmente contiene una Piazza Virtuale
+
+33
+00:02:18,752 --> 00:02:20,288
+divisa in gruppi.
+
+34
+00:02:20,544 --> 00:02:23,104
+Alcuni gruppi sono interfacoltà,
+
+35
+00:02:23,360 --> 00:02:26,432
+altri gruppi specifici di una facoltà.
+
+36
+00:02:27,200 --> 00:02:29,248
+Per prima cosa faccio il login.
+
+37
+00:02:30,784 --> 00:02:36,928
+Il login richiede le stesse credenziali che servono per accedere al Cyberspazio,
+
+38
+00:02:37,184 --> 00:02:40,000
+vengono fornite durante l'immatricolazione.
+
+39
+00:02:47,168 --> 00:02:51,264
+Dopo il login vedrò comparire una mascherina
+
+40
+00:02:51,520 --> 00:02:56,128
+nella quale ci sarà la lista dei principali gruppi interfacoltà,
+
+41
+00:02:56,384 --> 00:02:59,712
+eccola qua, gruppi principali interfacoltà
+
+42
+00:03:00,224 --> 00:03:03,296
+e i gruppi relativi alla mia facoltà,
+
+43
+00:03:03,808 --> 00:03:06,880
+che avevo già precedentemente specificato:
+
+44
+00:03:07,648 --> 00:03:12,256
+tramite l'apposita opzione, è possibile specificare la propria facoltà.
+
+45
+00:03:14,304 --> 00:03:17,376
+Tornando alle FAQ relative agli esami
+
+46
+00:03:17,632 --> 00:03:20,448
+vado in "Accoglienza Matricole"
+
+47
+00:03:22,496 --> 00:03:23,008
+Poi
+
+48
+00:03:25,056 --> 00:03:27,360
+clicco su "discussioni"
+
+49
+00:03:28,128 --> 00:03:31,968
+ed eccole qua: "FAQ relative agli esami ad altre questioni".
+
+50
+00:03:33,760 --> 00:03:35,808
+Clicco su "download".
+
+51
+00:03:39,904 --> 00:03:44,000
+Provvedo a salvare il file, in realtà l'avevo già salvato prima.
+
+52
+00:03:45,792 --> 00:03:46,816
+Lo apro
+
+53
+00:03:48,096 --> 00:03:48,864
+ed ecco
+
+54
+00:03:49,120 --> 00:03:55,264
+le risposte alle domande: "A quanti esami posso iscrivermi?", "Posso iscrivermi a più sedi
+
+55
+00:03:55,520 --> 00:03:56,032
+contemporaneamente?",
+
+56
+00:03:56,288 --> 00:04:00,384
+"Che differenza c'è fra sedi Standard e sedi Telecom?", ecc.
+
+57
+00:04:00,640 --> 00:04:04,224
+Vi consiglio caldamente di visionare questo documento.
+
+58
+00:04:05,760 --> 00:04:07,552
+Nella Students Community
+
+59
+00:04:08,576 --> 00:04:11,136
+c'è anche la "Condivisione Files"
+
+60
+00:04:11,648 --> 00:04:17,280
+che è l'area all'interno della quale condividiamo riassunti, trascrizioni,
+
+61
+00:04:17,536 --> 00:04:20,607
+sintesi e altro materiale utile
+
+62
+00:04:20,863 --> 00:04:21,887
+allo studio.
+
+63
+00:04:22,655 --> 00:04:28,543
+È tutto materiale prodotto da noi studenti e condiviso tra di noi, ad esempio
+
+64
+00:04:28,799 --> 00:04:32,895
+posso andare su "Facoltà di Scienze della Comunicazione",
+
+65
+00:04:33,407 --> 00:04:34,431
+cliccare
+
+66
+00:04:34,943 --> 00:04:39,551
+sull'unico corso di laurea presente (altre facoltà hanno più corsi),
+
+67
+00:04:40,319 --> 00:04:42,623
+clicco su un insegnamento,
+
+68
+00:04:42,879 --> 00:04:45,183
+ad esempio "Brand Design",
+
+69
+00:04:45,439 --> 00:04:48,511
+e trovo il materiale da noi condiviso.
+
+70
+00:04:48,767 --> 00:04:54,911
+Seguendo le apposite istruzioni nella pagina "Invia un file" è possibile inviare
+
+71
+00:04:55,167 --> 00:04:55,935
+altro materiale.
+
+72
+00:04:58,495 --> 00:05:02,335
+Adesso vi mostro come accedere alle email.
+
+73
+00:05:02,847 --> 00:05:04,639
+Ci sono varie modalità.
+
+74
+00:05:05,407 --> 00:05:11,551
+L'account email fornito da Uninettuno fondamentalmente è un account Gmail
+
+75
+00:05:11,807 --> 00:05:12,319
+ 
+
+76
+00:05:12,831 --> 00:05:14,367
+Basta scrivere
+
+77
+00:05:14,879 --> 00:05:21,279
+student.uninettunouniversity.net
+
+78
+00:05:21,279 --> 00:05:21,280
+ 
+
+79
+00:05:21,281 --> 00:05:21,282
+ 
+
+80
+00:05:25,119 --> 00:05:29,215
+e inserire il proprio indirizzo email completo,
+
+81
+00:05:35,103 --> 00:05:36,639
+la relativa password,
+
+82
+00:05:43,551 --> 00:05:45,599
+e non c'è nulla da configurare.
+
+83
+00:05:46,623 --> 00:05:50,463
+Chi è più esperto può farsi un sistema avanzato di filtri,
+
+84
+00:05:50,719 --> 00:05:51,999
+come ho io qui,
+
+85
+00:05:52,255 --> 00:05:58,399
+per distinguere tutte le email e separare anche le notifiche che riguardano la Community o che riguardano
+
+86
+00:05:58,655 --> 00:05:59,679
+i forum
+
+87
+00:05:59,935 --> 00:06:01,983
+a cui sono iscritto,
+
+88
+00:06:02,495 --> 00:06:04,799
+rispetto a tutta l'altra posta.
+
+89
+00:06:05,311 --> 00:06:07,103
+Consiglio anche di
+
+90
+00:06:07,359 --> 00:06:13,503
+controllare sempre che email importanti, provenienti dall'Università o dalla Community,
+
+91
+00:06:13,759 --> 00:06:15,039
+non finiscano nello SPAM.
+
+92
+00:06:15,295 --> 00:06:19,135
+Nel caso in cui la "casella SPAM" non fosse visibile
+
+93
+00:06:19,391 --> 00:06:22,975
+è possibile trovarla quaggiù in basso, cliccando su "Altro".
+
+94
+00:06:23,999 --> 00:06:30,143
+Adesso torno sul sito di Uninettuno per farvi vedere come visionare la programmazione
+
+95
+00:06:30,399 --> 00:06:30,911
+didattica.
+
+96
+00:06:32,703 --> 00:06:35,263
+Vado su "Cyberspazio Didattico",
+
+97
+00:06:35,519 --> 00:06:37,311
+ed entro con il mio login.
+
+98
+00:06:48,319 --> 00:06:54,463
+Dovrebbe comparire "la mia pagina dello studente", se al suo posto compare invece una lista di corsi
+
+99
+00:06:54,719 --> 00:07:00,351
+è comunque raggiungibile sulla sinistra, cliccando su "La mia pagina dello studente".
+
+100
+00:07:00,863 --> 00:07:02,655
+Ci sono varie funzioni,
+
+101
+00:07:02,911 --> 00:07:04,703
+che vi consiglio di guardare,
+
+102
+00:07:04,959 --> 00:07:08,799
+e in particolare vi consiglio di tenere sempre d'occhio l'Agenda,
+
+103
+00:07:10,079 --> 00:07:14,431
+tra queste funzioni, dicevo, c'è la "Programmazione didattica",
+
+104
+00:07:15,711 --> 00:07:17,503
+all'interno della quale,
+
+105
+00:07:18,783 --> 00:07:25,695
+relativi al proprio anno di immatricolazione
+
+106
+00:07:25,696 --> 00:07:25,697
+ 
+
+107
+00:07:25,698 --> 00:07:25,699
+ 
+
+108
+00:07:25,951 --> 00:07:30,303
+del proprio corso di laurea, si trovano per ogni insegnamento,
+
+109
+00:07:30,815 --> 00:07:35,423
+le date di inizio e di fine erogazione ed inizio e fine esami.
+
+110
+00:07:35,679 --> 00:07:37,727
+Ogni anno comprende
+
+111
+00:07:38,239 --> 00:07:42,335
+tre periodi di erogazione, durante i quali lo studente
+
+112
+00:07:42,847 --> 00:07:47,199
+è tenuto a seguire le videolezioni almeno due volte,
+
+113
+00:07:47,711 --> 00:07:51,295
+se vuole poi sostenere il relativo appello, 
+
+114
+00:07:52,063 --> 00:07:53,087
+a seguire
+
+115
+00:07:53,599 --> 00:07:54,623
+le chat,
+
+116
+00:07:55,391 --> 00:07:58,463
+a intervenire attivamente nel forum,
+
+117
+00:07:58,975 --> 00:08:03,327
+e a fare le altre attività eventualmente richieste dal tutor.
+
+118
+00:08:04,095 --> 00:08:09,215
+Gli appelli per ogni insegnamento sono sette in ogni anno,
+
+119
+00:08:09,983 --> 00:08:12,031
+qui ci sono i periodi,
+
+120
+00:08:12,287 --> 00:08:15,103
+ma non le date precise per ogni sede,
+
+121
+00:08:15,359 --> 00:08:19,199
+che vengono comunicate un po' prima degli appelli in questione.
+
+122
+00:08:20,479 --> 00:08:26,623
+Tali date si trovano cliccando su "Calendario Corso di Studi, Esami e Prova Finale"
+
+123
+00:08:26,879 --> 00:08:29,183
+e andando poi su "Dettagli appelli".
+
+124
+00:08:29,695 --> 00:08:34,815
+In questo momento è disponibile il dettaglio di aprile-maggio 2017.
+
+125
+00:08:35,327 --> 00:08:38,655
+Ad esempio, vado in "Facoltà di Economia"
+
+126
+00:08:38,911 --> 00:08:39,935
+e troverò,
+
+127
+00:08:40,447 --> 00:08:43,007
+per ogni sede,
+
+128
+00:08:43,008 --> 00:08:43,009
+ 
+
+129
+00:08:43,263 --> 00:08:44,543
+quali sono le date.
+
+130
+00:08:44,799 --> 00:08:45,823
+Inoltre
+
+131
+00:08:46,591 --> 00:08:50,175
+viene anche pubblicato il dettaglio degli orari,
+
+132
+00:08:51,199 --> 00:08:54,015
+quindi conoscendo la propria matricola
+
+133
+00:08:54,271 --> 00:08:57,599
+è possibile vedere l'orario del proprio esame.
+
+134
+00:09:01,439 --> 00:09:02,463
+Adesso
+
+135
+00:09:03,999 --> 00:09:10,143
+vi mostrerò come guardare l'"Offerta Formativa", nella quale si trovano
+
+136
+00:09:10,399 --> 00:09:16,543
+sia tutti gli insegnamenti del proprio piano di studi, sia il "Regolamento del Corso di Studi"
+
+137
+00:09:16,799 --> 00:09:18,847
+che prima vi avevo accennato.
+
+138
+00:09:19,103 --> 00:09:21,919
+Allora vado su "Le facoltà",
+
+139
+00:09:22,687 --> 00:09:26,015
+scelgo una facoltà, ad esempio "Facoltà di Ingegneria",
+
+140
+00:09:26,527 --> 00:09:30,111
+ad esempio il "corso triennale in Ingegneria Informatica",
+
+141
+00:09:30,623 --> 00:09:36,511
+e qua troverò il Regolamento del Corso di Studi, che meriterebbe almeno una lettura.
+
+142
+00:09:38,303 --> 00:09:39,071
+Ci sono
+
+143
+00:09:40,095 --> 00:09:42,911
+specificate informazioni importanti:
+
+144
+00:09:43,423 --> 00:09:49,567
+"Modalità di accesso", "Regole per i CFU", "Organizzazione della didattica", "L'erogazione dei corsi",
+
+145
+00:09:49,823 --> 00:09:51,103
+"Cos'è la prova finale",
+
+146
+00:09:51,359 --> 00:09:52,639
+ecc. ecc.
+
+147
+00:09:54,943 --> 00:09:56,223
+Andando invece
+
+148
+00:09:56,735 --> 00:09:57,247
+ 
+
+149
+00:09:57,759 --> 00:10:01,343
+alla voce relativa al proprio indirizzo,
+
+150
+00:10:01,599 --> 00:10:04,159
+troviamo l'elenco di tutte le materie.
+
+151
+00:10:06,207 --> 00:10:12,095
+Questo elenco può essere utile ad esempio ai nuovi immatricolati per scegliere quali corsi fare per primi.
+
+152
+00:10:13,631 --> 00:10:16,959
+Il mio consiglio, a tal proposito, è di controllare
+
+153
+00:10:17,215 --> 00:10:20,031
+se un insegnamento ha dei prerequisiti.
+
+154
+00:10:21,055 --> 00:10:22,591
+Scorro la lista,
+
+155
+00:10:23,359 --> 00:10:24,383
+e
+
+156
+00:10:25,663 --> 00:10:31,807
+vedo quali insegnamenti ci sono. Preciso che quando c'è scritto "Nuova Versione" vuol dire
+
+157
+00:10:32,063 --> 00:10:34,623
+che è quello l'insegnamento da seguire,
+
+158
+00:10:34,879 --> 00:10:40,767
+quindi se c'è "Informatica Nuova Versione", chi si scrive ora seguirà quell'insegnamento.
+
+159
+00:10:41,279 --> 00:10:46,655
+La vecchia versione riguarda solo gli studenti degli anni precedenti.
+
+160
+00:10:47,679 --> 00:10:53,823
+Supponiamo che io mi chieda: "Posso come neo-immatricolato fare il corso di Fisica
+
+161
+00:10:54,079 --> 00:10:54,591
+nuova versione?"
+
+162
+00:10:55,103 --> 00:10:56,127
+Ci clicco
+
+163
+00:10:56,895 --> 00:10:59,967
+e vado a vedere i prerequisiti:
+
+164
+00:11:00,223 --> 00:11:06,367
+c'è scritto: "Lo studente deve possedere contenuti tipici del corso di Analisi 1 e parte di
+
+165
+00:11:06,623 --> 00:11:07,135
+Analisi 2".
+
+166
+00:11:08,927 --> 00:11:10,719
+Se
+
+167
+00:11:10,975 --> 00:11:17,119
+non conosco Analisi 1 e Analisi 2, se non le ho frequentate, evidentemente non mi conviene
+
+168
+00:11:17,375 --> 00:11:19,167
+iscrivermi al corso di Fisica.
+
+169
+00:11:20,191 --> 00:11:23,775
+Dopo che avrò deciso quali esami voglio fare,
+
+170
+00:11:25,567 --> 00:11:31,711
+per iscrivermi vado in "Cyberspazio didattico", torno alla mia "Pagina dello
+
+171
+00:11:31,967 --> 00:11:35,295
+studente", vado su "I miei corsi",
+
+172
+00:11:35,551 --> 00:11:38,367
+e scelgo quali corsi voglio frequentare.
+
+173
+00:11:39,391 --> 00:11:40,415
+Per inciso,
+
+174
+00:11:40,927 --> 00:11:47,071
+dopo l'iscrizione a un corso, non c'è nessun obbligo di iscriversi poi al relativo appello,
+
+175
+00:11:47,327 --> 00:11:48,351
+quindi,
+
+176
+00:11:49,887 --> 00:11:55,775
+uno, in teoria, si potrebbe iscrivere anche a tutti gli insegnamenti del primo anno
+
+177
+00:11:56,031 --> 00:11:57,567
+(non è necessario,
+
+178
+00:11:58,335 --> 00:11:59,871
+però questo era
+
+179
+00:12:00,127 --> 00:12:01,407
+giusto precisarlo).
+
+180
+00:12:02,431 --> 00:12:06,015
+Qui ci sono già i corsi a cui sono iscritto.
+
+181
+00:12:07,807 --> 00:12:09,087
+La differenza fra
+
+182
+00:12:09,343 --> 00:12:15,487
+"iscrizione" e "collegamento veloce" è che l'iscrizione permette di essere iscritto nella classe del
+
+183
+00:12:15,743 --> 00:12:19,839
+tutor e di seguire poi tutte le attività di tutorato,
+
+184
+00:12:20,351 --> 00:12:23,935
+il collegamento veloce, invece, permette di seguire
+
+185
+00:12:24,191 --> 00:12:30,335
+comunque le videolezioni, anche al di fuori dei periodi di tutorato, ovvero di erogazione.
+
+186
+00:12:31,359 --> 00:12:37,503
+Le videolezioni possono essere eseguite tutto l'anno e la loro visione verrà
+
+187
+00:12:37,759 --> 00:12:40,319
+comunque conteggiata nelle statistiche.
+
+188
+00:12:42,879 --> 00:12:49,023
+Una volta terminata l'erogazione e ottenuto dal tutor, in forma scritta,
+
+189
+00:12:49,791 --> 00:12:53,631
+il consenso all'iscrizione all'appello,
+
+190
+00:12:53,887 --> 00:12:55,167
+è possibile
+
+191
+00:12:56,447 --> 00:12:59,519
+andare nella "Segreteria Amministrativa"
+
+192
+00:12:59,775 --> 00:13:01,567
+per iscriversi a tale esame.
+
+193
+00:13:02,847 --> 00:13:05,919
+Per arrivare nella "Segreteria Amministrativa"
+
+194
+00:13:06,943 --> 00:13:07,711
+clicco
+
+195
+00:13:07,967 --> 00:13:08,991
+su "Studenti",
+
+196
+00:13:14,111 --> 00:13:16,159
+vado su "Guida agli esami",
+
+197
+00:13:18,463 --> 00:13:24,607
+"Modalità di prenotazione all'esame", ed ecco qua il link alla "Segreteria Amministrativa".
+
+198
+00:13:25,887 --> 00:13:31,775
+Nella "Segreteria Amministrativa", dopo aver fatto il login, oltre a prenotare gli appelli
+
+199
+00:13:32,031 --> 00:13:36,383
+e a vedere i voti degli esami sostenuti,
+
+200
+00:13:36,639 --> 00:13:40,223
+è possibile anche consultare il proprio libretto
+
+201
+00:13:40,479 --> 00:13:43,551
+e pagare le tasse universitarie.
+
+202
+00:13:46,879 --> 00:13:47,903
+Una volta
+
+203
+00:13:48,159 --> 00:13:48,671
+che
+
+204
+00:13:50,463 --> 00:13:53,535
+uno studente è iscritto ad un insegnamento,
+
+205
+00:13:53,791 --> 00:13:56,607
+per accedervi, è sufficiente cliccare
+
+206
+00:13:56,863 --> 00:13:58,655
+sul relativo nome,
+
+207
+00:13:59,423 --> 00:14:05,567
+comparirà una pagina nel cui menù di sinistra ci sono tutte le voci principali,
+
+208
+00:14:06,079 --> 00:14:12,223
+quindi: "il Tutor", ovvero "il programma dell'insegnamento", "la mappa concettuale", "la pianificazione didattica",
+
+209
+00:14:12,479 --> 00:14:16,575
+ecc.. (lo studente è invitato a consultare tutte queste voci),
+
+210
+00:14:16,831 --> 00:14:22,975
+"gli ambienti di apprendimento", quindi: "le videolezioni", "le slide", eventuali "libri e articoli
+
+211
+00:14:23,231 --> 00:14:25,535
+allegati", eventuali "esercizi",
+
+212
+00:14:25,791 --> 00:14:26,559
+ecc.
+
+213
+00:14:26,815 --> 00:14:29,119
+Importanti sono anche
+
+214
+00:14:29,375 --> 00:14:35,519
+l'ambiente di "chat" (per le chat programmate), il "forum" (in cui è importante
+
+215
+00:14:35,775 --> 00:14:37,055
+intervenire attivamente),
+
+216
+00:14:37,311 --> 00:14:40,127
+e le "aule virtuali svolte",
+
+217
+00:14:40,639 --> 00:14:41,407
+che sono,
+
+218
+00:14:41,919 --> 00:14:48,063
+a differenza delle videolezioni, svolte dal tutor dell'insegnamento.
+
+219
+00:14:49,599 --> 00:14:54,975
+E questa, come presentazione iniziale, è quanto. Spero di aver risposto
+
+220
+00:14:55,231 --> 00:14:59,327
+alle principali domande che un neo-immatricolato
+
+221
+00:14:59,839 --> 00:15:00,607
+spesso fa.
+
+222
+00:15:02,399 --> 00:15:03,935
+Grazie per l'attenzione.

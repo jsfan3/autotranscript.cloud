@@ -1,0 +1,1371 @@
+1
+00:00:00,768 --> 00:00:09,984
+Sono Carlo Andrea bollino professore di economia politica all'Università di Perugia e questo è la prima lezione introduttiva introduzione all'economia
+
+2
+00:00:10,240 --> 00:00:17,920
+La mia politica di questo corso orale economia politica è una materia teorica
+
+3
+00:00:18,176 --> 00:00:23,552
+Formalizzata basata sull'intuizione molte volte del nostro comportamento
+
+4
+00:00:24,832 --> 00:00:33,792
+Ma che molte volte risulta difficile ecco perché questa lezione di oggi è forse la più complicata e dobbiamo avere pazienza
+
+5
+00:00:34,048 --> 00:00:41,216
+Nello stare insieme per vedere quali sono gli argomenti principali dopo alcune definizioni generali per i prati
+
+6
+00:00:41,472 --> 00:00:48,128
+Tutti insieme sul linguaggio che noi economisti utilizziamo andremo a vedere almeno
+
+7
+00:00:48,384 --> 00:00:53,504
+In grande sintesi qual è l'oggetto di studio dell'economia
+
+8
+00:00:53,760 --> 00:00:59,136
+Adotteremo insieme oggi un ragionamento il ragionamento economico in maniera tale da
+
+9
+00:00:59,392 --> 00:01:04,768
+Ragionare insieme e poi finalmente guarderemo i primi concetti quelli che poi
+
+10
+00:01:05,024 --> 00:01:10,656
+Sentiamo dire in giro leggiamo sui giornali e nella vita sociale e quotidiana
+
+11
+00:01:10,912 --> 00:01:18,336
+E cioè il concetto di mercato la domanda l'offerta è l'equilibrio il punto di equilibrio che poi la sintesi
+
+12
+00:01:18,592 --> 00:01:23,712
+Del ragionamento economico allora cominciamo con le definizioni generali
+
+13
+00:01:24,480 --> 00:01:29,856
+Il l'economia politica studia il comportamento economico degli individui
+
+14
+00:01:30,368 --> 00:01:35,488
+Cosa vuol dire comportamento economico comportamento economico vuol dire sostanzialmente
+
+15
+00:01:35,744 --> 00:01:40,864
+Guardare alle scelte di acquisto alle scelte di produzione
+
+16
+00:01:41,120 --> 00:01:46,240
+Al modo di vendere al modo di funzionare del sistema economico
+
+17
+00:01:46,496 --> 00:01:53,920
+Ed ecco quindi che passiamo al funzionamento del sistema economico parliamo di un sistema quindi vuol dire che ci sono
+
+18
+00:01:54,176 --> 00:02:00,064
+Agenti soggetti oggetti attori c'è un complesso
+
+19
+00:02:00,320 --> 00:02:07,232
+Non stiamo guardando singoli atomi o non stiamo guardando ragionamenti astratti guardiamo un sistema complesso
+
+20
+00:02:07,488 --> 00:02:12,864
+Che è poi la nostra vita sociale economica associata che funziona
+
+21
+00:02:13,376 --> 00:02:18,496
+Secondo le logiche dell'economia e guardiamo all'organizzazione ikonomi
+
+22
+00:02:18,752 --> 00:02:23,872
+Evidentemente non possiamo pensare che spontaneamente
+
+23
+00:02:24,128 --> 00:02:29,760
+Il nostro sistema economico funzioni da solo deve essere organizzata
+
+24
+00:02:30,016 --> 00:02:36,160
+Questi sono i cardini del nostro ragionamento chiaramente è ancora una visione astratta
+
+25
+00:02:36,672 --> 00:02:44,608
+Dobbiamo capire insieme le motivazioni dei nostri soggetti economici e cioè perché
+
+26
+00:02:44,864 --> 00:02:51,264
+Si comportano nel modo che vediamo fuori per strada in un certo se
+
+27
+00:02:51,776 --> 00:02:57,408
+E dobbiamo e qui ecco la prima parola chiave dobbiamo sempre pensare che il ragionamento economico
+
+28
+00:02:57,920 --> 00:03:05,344
+Guarda alle scelte non è interessante descrivere dal punto di vista economico il comportamento di qualcuno o di qualcosa
+
+29
+00:03:05,600 --> 00:03:11,232
+Se non abbiamo di fronte il problema di scelta sempre
+
+30
+00:03:11,488 --> 00:03:17,376
+Sempre sempre lo ripeto il nostro soggetto economico il ragionamento economico
+
+31
+00:03:17,632 --> 00:03:23,008
+Parte dal punto di vista della scelta dobbiamo vedere perché è per quale motivo
+
+32
+00:03:23,264 --> 00:03:28,640
+Si effettuano delle scelte ora le scelte si effettuano
+
+33
+00:03:29,152 --> 00:03:34,784
+Dal punto di vista economico prendendo in considerazione delle grandezze che lui con visti chiamiamo valori
+
+34
+00:03:35,040 --> 00:03:40,416
+Dobbiamo quantificare in termini monetari e fisici quindi in termini
+
+35
+00:03:40,672 --> 00:03:45,792
+Video hot di spesa o in termini di g kg
+
+36
+00:03:46,048 --> 00:03:52,448
+Numero di taglia L in oggetti fisici il comportamento economico degli individui
+
+37
+00:03:52,704 --> 00:03:59,616
+E per fare questo dobbiamo essere consapevoli per costruire questa teoria dunque dobbiamo essere consapevoli che i nostri individui
+
+38
+00:03:59,872 --> 00:04:06,784
+Devono avere delle informazioni individui o istituzioni o soggetti economici non è possibile effettuare una scelta
+
+39
+00:04:07,040 --> 00:04:13,184
+Su dei valori senza avere delle informazioni ma basta questo
+
+40
+00:04:13,440 --> 00:04:20,607
+I caveat quindi la prima vertenza che dobbiamo tenere sempre a mente è che
+
+41
+00:04:20,863 --> 00:04:25,983
+Il funzionamento del sistema economico si basa sull'interazione di individui tra di loro
+
+42
+00:04:26,495 --> 00:04:31,615
+E quindi il risultato dell'azione economica
+
+43
+00:04:31,871 --> 00:04:40,575
+Può cambiare o è interessante studiare come cambia in conseguenza dell'interazione fra diversi individui e questo lo vedremo nel
+
+44
+00:04:41,087 --> 00:04:46,719
+Delle successive elezioni dobbiamo anche tenere conto e questo è molto importante del contesto
+
+45
+00:04:47,231 --> 00:04:52,607
+Istituzionale il contesto istituzionale permette certi tipi di interazione
+
+46
+00:04:53,119 --> 00:04:58,751
+Oppure no è questo quindi crea un nesso un collegamento fra l'interazione
+
+47
+00:04:59,007 --> 00:05:04,895
+E l'istituzione contexto istituzionale facciamo un esempio fuori dalle economia politica ma che è di base per capire
+
+48
+00:05:05,663 --> 00:05:10,783
+Troviamo due macchine che arrivano a un incrocio non c'è il semaforo questo è un tipo di istituzione
+
+49
+00:05:11,039 --> 00:05:18,463
+Cosa succede c'è un rischio di collisione ricordiamo alle due macchine che si incrociano
+
+50
+00:05:18,719 --> 00:05:27,679
+In presenza di un codice della strada e bene il codice della strada stabilisce chi deve avere la precedenza è questa istituzione permette un'interazione diversa
+
+51
+00:05:28,191 --> 00:05:34,079
+Fra i due guidatori uno dalla precedenza l'altro passa terzo esempio di nuovo i due
+
+52
+00:05:34,335 --> 00:05:43,551
+Automobilisti arriva in un incrocio e c'è un semaforo è cambiato il contesto istituzionale non è più il codice della strada che regola il diritto di precedenza ma è il colore della
+
+53
+00:05:44,063 --> 00:05:52,511
+Luce verde passa una luce rossa sta ferma quell'altro e banale ma ci serve per chiarire il punto fondamentale tra interazione
+
+54
+00:05:54,047 --> 00:06:00,959
+Per quello che riguarda l'organizzazione economica vediamo che sempre avremo a mente
+
+55
+00:06:01,215 --> 00:06:08,127
+Cominciamo col di scrivergli oggi tre fondamentali quesiti il sistema economico è organizzato dal suo punto di vista
+
+56
+00:06:08,895 --> 00:06:14,015
+Il complesso generale intorno sostanzialmente a 3 domande che sono sempre le stesse
+
+57
+00:06:14,271 --> 00:06:20,159
+Cosa produrre quindi produrre pane produrre brioche
+
+58
+00:06:20,927 --> 00:06:30,143
+Produrre medicinali o produrre alcolici sono chiaramente domande alle quali dobbiamo dare risposta
+
+59
+00:06:30,399 --> 00:06:36,031
+Con la nostra analisi come produrre li produciamo utilizzando
+
+60
+00:06:36,287 --> 00:06:41,663
+Alcuni fattori produttivi che impareremo poi sono gli ingredienti che entra
+
+61
+00:06:42,175 --> 00:06:47,295
+Processo produttivo di utilizziamo utilizzando più lavoratori o più macchinari
+
+62
+00:06:47,551 --> 00:06:56,767
+L'energia elettrica la produciamo col metano o con il carbone la produciamo con le fonti rinnovabili o come fanno altri paesi che non è l'Italia
+
+63
+00:06:57,023 --> 00:07:05,471
+Con il nucleare queste sono scelte cruciali come produrre qualcosa e l'economia politica ci dà risposta anche
+
+64
+00:07:05,983 --> 00:07:11,103
+Cerca di dare una risposta a questa domanda e infine dobbiamo chiederci per chi produrre
+
+65
+00:07:11,615 --> 00:07:18,527
+Vorrei farvi riflettere sul fatto che la risposta a questa domanda e chiaramente è basata anche sui valori etici
+
+66
+00:07:18,783 --> 00:07:25,183
+Della società allora una Ferrari la produciamo chiaramente per unico una utilitaria la produciamo
+
+67
+00:07:25,439 --> 00:07:30,815
+Per una famiglia di impiegati ma ci sono altri beni per esempio un ospedale lo
+
+68
+00:07:31,071 --> 00:07:37,983
+Facciamo accessibile a tutti o solo chi se lo può permettere medicinali costosi e salvavita
+
+69
+00:07:38,239 --> 00:07:44,127
+Devono essere prodotti soltanto per alcuni o per tutti la ricerca scientifica che va avanti
+
+70
+00:07:44,383 --> 00:07:49,503
+E ci sono problemi nel mondo la ricerca scientifica che va avanti per esempio
+
+71
+00:07:49,759 --> 00:07:55,391
+Proprio nel campo della medicina per la ricerca per combattere la
+
+72
+00:07:55,903 --> 00:08:03,583
+Deve essere messa a disposizione a basso costo per le popolazioni povere dell'Africa oppure deve essere pagata ai prezzi occidentali c'è quelli della notte
+
+73
+00:08:04,095 --> 00:08:11,775
+Da tutto il mondo ecco queste sono le risposte a cui ricordiamoci deve sempre dare
+
+74
+00:08:12,287 --> 00:08:19,455
+Una affermazione la nostra materia adesso vediamo a questo punto riassumendo
+
+75
+00:08:19,711 --> 00:08:24,831
+L'oggetto di studio dell'economia politica della nostra materia
+
+76
+00:08:25,087 --> 00:08:32,255
+Allora fondamentalmente noi dobbiamo studiare l'utilizzo efficiente di risorse scarse
+
+77
+00:08:32,767 --> 00:08:40,447
+Per produrre beni e servizi che generano utilità come ti amo questa frase perché contiene tre o quattro concetti chiave
+
+78
+00:08:40,703 --> 00:08:48,639
+Del nostro ragionamento allora le risorse intanto sono scarse sono abbiamo detto gli ingredienti che entrano nel processo per
+
+79
+00:08:49,407 --> 00:08:55,551
+Sono scarsi perché sono scarsi perché non ce n'è abbastanza rispetto ai desideri che si vorrebbero realizzare
+
+80
+00:08:55,807 --> 00:09:01,183
+E questo è il primo. Non c'è interesse dell'economia politica se non c'è scarsità
+
+81
+00:09:01,951 --> 00:09:09,375
+Poi parliamo di utilizzo efficiente delle risorse cosa vuol dire efficiente vuol dire che in qualche modo lo sforzo
+
+82
+00:09:09,631 --> 00:09:16,543
+Per produrre è fatto in maniera ottimale diciamo al meglio per ottenere beni e servizi
+
+83
+00:09:17,055 --> 00:09:24,735
+Denison le cose fisiche pensiamo un chilo di pane pensiamo a un'automobile pensiamo un paio di scarpe o ha un vestito che compriamo una
+
+84
+00:09:24,991 --> 00:09:31,391
+Negozio servizi sono altrettanto importanti nell'analisi economica ma sono i materiali
+
+85
+00:09:31,903 --> 00:09:37,535
+Andiamo da un medico è un servizio medico andiamo da un avvocato e il servizio dell'avvocato e così via
+
+86
+00:09:38,047 --> 00:09:43,935
+Tutto ciò deve generare utilità per essere interessante nell'analisi economica
+
+87
+00:09:44,447 --> 00:09:49,567
+Non solo però attenzione non solo è importante
+
+88
+00:09:49,823 --> 00:09:58,783
+Come produrre cosa produrre per chi produrre ma anche dal punto di vista funzionale di vedere la distribuzione di questi beni e servizi nella sua
+
+89
+00:09:59,039 --> 00:10:04,927
+Cioè in quali percentuali poco molto abbondante
+
+90
+00:10:05,183 --> 00:10:10,559
+Vanno a classi di oa gruppi sociali o gruppi della popolazione
+
+91
+00:10:11,071 --> 00:10:18,751
+Insomma ai pensionati cosa dobbiamo dare ai giovani quale tipo di istruzione queste sono le domande che ripeto fanno parte della notte
+
+92
+00:10:19,775 --> 00:10:26,431
+Allora approfondiamo cosa ma cosa intendiamo per efficienza una definizione la prima la più semplice
+
+93
+00:10:26,943 --> 00:10:33,599
+Che viene in mente intuitiva e di dire non ci devono essere sprechi se non sprechiamo per così dire
+
+94
+00:10:34,111 --> 00:10:40,255
+Stiamo costruendo anzi stiamo cucinando una torta tutta la farina la consumiamo per fare la torta
+
+95
+00:10:40,511 --> 00:10:46,911
+Non li buttiamo via neanche un grammo questo vuol dire efficienza dal punto di vista economico per approfondire però
+
+96
+00:10:47,167 --> 00:10:54,079
+Con linguaggio scientifico guardiamo ancora più in profondità questa definizione per noi efficienza significa
+
+97
+00:10:54,335 --> 00:11:01,759
+Non si può aumentare la produzione di un bene senza essere costretti a ridurre la produzione di un altro
+
+98
+00:11:02,527 --> 00:11:07,903
+Cioè impieghiamo risorse per fare qualcosa e lo facciamo
+
+99
+00:11:08,159 --> 00:11:14,047
+Fino al punto in cui se vogliamo aumentare la produzione di un bene dobbiamo rinunciare a produrre qualcos'altro
+
+100
+00:11:14,303 --> 00:11:21,471
+È chiaro se impieghiamo il legno disponibile per creare un mobile non possiamo utilizzarlo più per creare un tavolo
+
+101
+00:11:21,727 --> 00:11:26,847
+Se abbiamo sprecato il legno per creare il mobile vuol dire che potevamo utilizzarlo per costruire un tavolo
+
+102
+00:11:27,103 --> 00:11:33,759
+Guardate sono esempi banali sono esempi semplici ma se non ci chiariamo fino in fondo con questa logica adesso
+
+103
+00:11:34,015 --> 00:11:39,903
+Tutto il resto della matematica e delle lezioni dei grafici complicati che seguiranno saranno impossibili da capo
+
+104
+00:11:40,415 --> 00:11:47,583
+Allora proseguiamo cosa intendiamo per scarsità rispetto a tutti i possibili desideri
+
+105
+00:11:48,095 --> 00:11:54,751
+Espressi dalla società c'è dal gruppo di individui che stiamo analizzando la disponibilità non è sufficiente
+
+106
+00:11:55,007 --> 00:12:03,199
+A garantire una soddisfazione completa per tutti attenzione la scarsità qui lo dico come commento
+
+107
+00:12:03,455 --> 00:12:10,111
+Etico diciamo dobbiamo pensarci per un momento la scarsità non ha niente a che vedere con
+
+108
+00:12:10,367 --> 00:12:16,255
+Una elevata utilità e il paradosso più semplice che possiamo commentare e questo l'aria
+
+109
+00:12:16,511 --> 00:12:23,679
+È utilissima anzi è indispensabile perché se non respiriamo non viviamo l'aria però non è scarsa
+
+110
+00:12:24,191 --> 00:12:31,103
+Quindi in questa ottica fisica l'aria che respiriamo non è oggetto di analisi dell'economia
+
+111
+00:12:31,871 --> 00:12:36,991
+I diamanti sono scarsissimi quindi sappiamo anche che hanno un elevato
+
+112
+00:12:37,247 --> 00:12:45,695
+Ti stimo valore scopriremo più avanti perché ma attenzione i diamanti non servono per mangiare e non servono per vivere se vi trovate in un deserto con un sacchetto di diamanti
+
+113
+00:12:45,951 --> 00:12:52,863
+Non sapete che fare per sopravvivere ed ecco il paradosso noi analizziamo in economia politica qualcosa
+
+114
+00:12:53,119 --> 00:12:58,495
+La cui disponibilità non è sufficiente a garantire una soddisfazione completa per tu
+
+115
+00:12:58,751 --> 00:13:05,919
+E allora cominciamo con esercitarci con il ragionamento economico il ragionamento economico deve essere sempre
+
+116
+00:13:06,175 --> 00:13:13,087
+Basato su sostanzialmente due passi analizzare la situazione attuale vedere dove siamo
+
+117
+00:13:13,343 --> 00:13:19,231
+E vedere le implicazioni cioè che cosa succede quando ci spostiamo dalla situazione
+
+118
+00:13:19,999 --> 00:13:26,399
+Se in questo c'è un interazione con altri soggetti economici e dobbiamo tenere conto perché lo spostamento
+
+119
+00:13:26,655 --> 00:13:34,591
+Che facciamo dalla situazione attuale dipende da quello che fanno gli altri siamo in un autostrada e vogliamo spostarci fisicamente da qui a lì
+
+120
+00:13:34,847 --> 00:13:44,063
+L'autostrada è vuota lo possiamo fare se l'autostrada è intasata c'è una congestione perché altri la stanno utilizzando e siamo fermi in coda ecco che lo
+
+121
+00:13:44,319 --> 00:13:50,207
+Lo spostamento dipende da quello che fanno gli altri c'era il fatto che esistono altri in tutto questo
+
+122
+00:13:50,463 --> 00:13:55,839
+Quello che noi in economia politica chiamiamo come base fondante di questo ragionamento economico
+
+123
+00:13:56,095 --> 00:14:01,727
+Si chiama analisi marginale e adesso veniamo a capire allora l'analisi marginale
+
+124
+00:14:02,239 --> 00:14:07,615
+Noi dobbiamo sostanzialmente partire dalla situazione attuale lo abbiamo detto
+
+125
+00:14:08,127 --> 00:14:14,015
+Analizzare le alternative cioè in quale direzione possiamo spostarci da dove siamo adesso
+
+126
+00:14:14,527 --> 00:14:20,671
+Avere tutte le informazioni naturalmente disponibili per poter prendere una decisione
+
+127
+00:14:20,927 --> 00:14:27,327
+E infine capire che cosa succede quindi valutare lo spostamento della situazione a tua
+
+128
+00:14:28,095 --> 00:14:33,215
+Se lo spostamento della situazione attuale in seguito alla nostra valutazione c'è al nostro
+
+129
+00:14:33,471 --> 00:14:41,407
+Prendere diciamo in considerazione gli elementi che abbiamo sott'occhio ci porta a fare una comparazione fra i costi
+
+130
+00:14:41,919 --> 00:14:47,807
+E i benefici della nostra azione questa comparazione fra
+
+131
+00:14:48,063 --> 00:14:53,183
+Ciò che costa fare qualcosa è il beneficio che ci porta a fare qualcosa
+
+132
+00:14:53,439 --> 00:15:01,631
+Ci permette di arrivare a una scelta razionale attenzione questo è un paradigma del tutto teorico
+
+133
+00:15:01,887 --> 00:15:10,591
+Serve a dirci lo ripetiamo ancora una volta valutiamo dove siamo valutiamo i costi ei benefici di spostarci
+
+134
+00:15:10,847 --> 00:15:17,759
+Prendiamo una scelta razionale la scelta razionale può essere stazione di due tipi mi sposto mi conviene spostarmi
+
+135
+00:15:18,015 --> 00:15:25,439
+Per fare qualcosa in più di dove sono oppure no grazie non mi conviene spostarmi attenzione tutto questo tradotto in valori economici
+
+136
+00:15:25,695 --> 00:15:31,583
+Con i valori di soddisfazione e sostanzialmente il percorso logico del nostro ragionamento
+
+137
+00:15:31,839 --> 00:15:37,727
+Allora vediamo quali costi dobbiamo tenere conto quando vogliamo sposarci
+
+138
+00:15:37,983 --> 00:15:43,103
+Dalla situazione attuale esistono dei costi diretti esistono dei costi indiretti
+
+139
+00:15:43,871 --> 00:15:51,551
+Facciamo l'esempio di un viaggio in automobile proprio per capirci il costo diretto e chiaramente dato per esempio del costo del carburante
+
+140
+00:15:52,063 --> 00:15:57,695
+Sei più chilometri facciamo più dobbiamo spendere questa è una decisione economica che va dalla
+
+141
+00:15:59,231 --> 00:16:04,351
+I costi indiretti però attenzione sono che noi produciamo inquinamento
+
+142
+00:16:04,607 --> 00:16:10,239
+Con la nostra automobile questo inquinamento non è un costo che sosteniamo oggi
+
+143
+00:16:10,751 --> 00:16:15,871
+Qui personalmente ma è un costo sociale molta attenzione gli economisti
+
+144
+00:16:16,127 --> 00:16:22,015
+Si fanno sui costi indiretti perché i costi indiretti sono quelli che si aggiungono ai con
+
+145
+00:16:22,271 --> 00:16:27,903
+Costi diretti una nostra azione può creare una conseguenza
+
+146
+00:16:28,159 --> 00:16:34,303
+Su qualcun altro facciamo un altro esempio installo un laboratorio che a un certo grado di rumore perché ha dei macchinari
+
+147
+00:16:35,071 --> 00:16:40,191
+Al pianterreno di un edificio è bene io ho dei costi e dei macchinari
+
+148
+00:16:40,703 --> 00:16:46,079
+Però attenzione il rumore che produco potrebbe lo dico tra virgolette potrebbe
+
+149
+00:16:46,335 --> 00:16:51,455
+Creare un costo indiretto qual è quello del fastidio che creo al condomino del piano di sopra
+
+150
+00:16:51,711 --> 00:16:57,599
+O dell'appartamento accanto ecco la differenza tra costi diretti e costi indiretti che l'economista
+
+151
+00:16:58,111 --> 00:17:03,999
+Tieni sempre in considerazione di e poi è questo è fondamentale il concetto di costo opportunità
+
+152
+00:17:04,511 --> 00:17:10,143
+Da contrapporre ai costi irrecuperabili allora il costo opportunità che cos'è
+
+153
+00:17:10,655 --> 00:17:18,847
+Non è nient'altro che sostanzialmente il costo dell'alternativa a cui io rinuncio intraprendendo questa
+
+154
+00:17:19,615 --> 00:17:24,991
+Se faccio qualcosa qual è il costo opportunità di prendere questa direzione
+
+155
+00:17:25,503 --> 00:17:31,647
+E l'opportunità di rinunciare a prendere un'altra direzione così sembra confuso hai fatti un termine Astra
+
+156
+00:17:31,903 --> 00:17:38,047
+Però poi quando vedremo gli esempi più avanti ci apparirà tutto più chiaro vorrei che però adesso rimanesse
+
+157
+00:17:38,303 --> 00:17:44,191
+Ben chiara la definizione costo opportunità come ho detto e l'opportunità di
+
+158
+00:17:44,447 --> 00:17:52,127
+Fare qualcosa rinunciando sempre però a un'alternativa perché questo è il punto fondamentale sennò non saremo nel campo delle scienze
+
+159
+00:17:52,383 --> 00:17:58,783
+Scegliere vuol dire prendere una direzione perché liberamente ho rinunciato a prenderne una alternativa
+
+160
+00:17:59,807 --> 00:18:07,743
+E questo è il punto fondamentale abbiamo parlato di costi irrecuperabili sono quelli che ci lasciamo alle spalle perché una volta sostenuti non possiamo fare
+
+161
+00:18:08,255 --> 00:18:14,399
+Più niente ci torneremo più avanti e dell'altro dei concetti allora vediamo là a questo punto
+
+162
+00:18:14,655 --> 00:18:20,799
+Sempre considerando lo spostamento della situazione attuale quale razionalità nel nostro comportamento
+
+163
+00:18:21,055 --> 00:18:28,479
+Vediamo la versione più restrittiva dell'analisi di razionalità la versione più restrittiva è quella sostanzialmente dell'egoismo individuale
+
+164
+00:18:28,735 --> 00:18:33,855
+Prendi una decisione razionale quando mi comporta un beneficio
+
+165
+00:18:34,623 --> 00:18:39,743
+Che riguarda me stesso e solo me stesso o l'entità che sto considerando single
+
+166
+00:18:39,999 --> 00:18:45,631
+Vedo la singola azienda singolo negozio qualunque soggetto economico l'imprenditore il prof
+
+167
+00:18:45,887 --> 00:18:55,103
+Professionista la versione restrittiva della razionalità e questa abbiamo invece una visione più ampia quando guardiamo a finalità sociali quindi è
+
+168
+00:18:55,359 --> 00:19:02,527
+Sì che l'altruismo fa parte della versione ampia l'altruismo non può far parte della versione restrittiva
+
+169
+00:19:03,039 --> 00:19:08,671
+Una eredità per esempio il lascito che la generazione precedente fa
+
+170
+00:19:08,927 --> 00:19:16,607
+Alla generazione successiva non può essere spiegata con la versione restrittiva della razionalità perché la pressione distesi la razionalità ci fa pensare
+
+171
+00:19:16,863 --> 00:19:22,239
+Quello che ho me lo godo io e me lo consumo me lo spendo me lo vendo come mi pare
+
+172
+00:19:23,007 --> 00:19:29,663
+Una versione invece più ampia in cui abbiamo finalità anche che vanno oltre l'egoismo individuale ecco che l'economia
+
+173
+00:19:30,175 --> 00:19:36,575
+Politica come scienza può spiegare quello che altrimenti sembrerebbe inspiegabile e cioè perché c'è chi è altruista
+
+174
+00:19:36,831 --> 00:19:42,975
+Chi fa donazioni chi fa lasciti e quindi comportamenti volontari
+
+175
+00:19:43,231 --> 00:19:52,447
+Rientrano nella versione più ampia di razionalità a questo. Consideriamo sempre per capire
+
+176
+00:19:52,703 --> 00:19:59,359
+Interazione fra individui approfondendo il ragionamento che cosa significa un'azione economica da parte di un individuo
+
+177
+00:19:59,615 --> 00:20:05,247
+Comporta sempre un interazione con altri soggetti individui è difficilissimo creare un
+
+178
+00:20:05,759 --> 00:20:10,879
+Comportamento economico da soli noi siamo sempre immersi in un contesto sociale
+
+179
+00:20:11,135 --> 00:20:16,767
+Allora adesso vi faccio un esempio dobbiamo seguirlo un po' elaborato il primo esempio numerico di questo corso
+
+180
+00:20:17,023 --> 00:20:22,911
+Vediamo che ci divertiamo insieme l'esempio della tragedia della proprietà comune allora immaginiamo di avere un lago
+
+181
+00:20:23,679 --> 00:20:31,615
+Questo è l'idea un lago in cui il signor Rossi e il signor Bianchi mi descrivo la situazione qui rappresentato da questa tabella
+
+182
+00:20:31,871 --> 00:20:36,991
+Vanno a pescare e possono pescare in due modi diversi chiamiamo intensità bassa
+
+183
+00:20:37,247 --> 00:20:43,391
+Se utilizzano la lenza intensità alta se utilizzano la rete sono come due tecnologie
+
+184
+00:20:43,647 --> 00:20:52,095
+Se utilizza la lenza pesca un pesce alla volta si utilizzano la rete e pescano parecchi pesce alla volta vediamo che cosa succede in termini di interesse
+
+185
+00:20:52,863 --> 00:20:59,263
+La prima casellina in alto a sinistra in questa slide eccola questa casellina
+
+186
+00:20:59,519 --> 00:21:07,967
+Si dice è un esempio numerico si dice l'intensità bassa e l'intensità bassa di Bianchi all'intensità bassa di Rossi
+
+187
+00:21:08,223 --> 00:21:13,855
+Quindi 7260 lenza mi permette di pescare 20 pesci aperta esempio banale
+
+188
+00:21:14,623 --> 00:21:21,792
+Che cosa succede però se entrambi utilizzano la rete allora attenzione se entrambi utilizzano la rete fanno un uso
+
+189
+00:21:22,304 --> 00:21:28,704
+Intensivo del lago prima o poi la rete che strascica sul Fondo uccide gli avanotti
+
+190
+00:21:28,960 --> 00:21:34,080
+Quindi rallenta il processo riproduttivo va a finire questa è la storiella
+
+191
+00:21:34,592 --> 00:21:41,248
+Che sta dietro a questo raccontino che vi faccio va a finire che loro pescano soltanto quattro pesci
+
+192
+00:21:41,760 --> 00:21:47,648
+Si ritrovano le reti semivuote dopo un po' di tempo perché la intensità sostanzialmente
+
+193
+00:21:47,904 --> 00:21:55,328
+Depaupera il territorio in questo caso il lago intenzione cosa succede se uno dei due
+
+194
+00:21:55,840 --> 00:22:01,984
+Utilizza la rete e l'altro utilizza la lenza è ovvio il depauperamento del Lago
+
+195
+00:22:02,496 --> 00:22:11,200
+Non si attua perché uno solo diciamo non riesce a depauperare tutte le risorse è sempre questa sentirti numerico guardiamo questa casellina
+
+196
+00:22:11,456 --> 00:22:18,112
+Rossi usa la intensità alta 30 bianchi continua a utilizzare
+
+197
+00:22:18,368 --> 00:22:23,744
+La lenza quindi l'intensità abbassa due succede un paradosso guardiamo questi numeri
+
+198
+00:22:24,000 --> 00:22:29,632
+Numeri ci fanno capire il paradosso il paradosso apparente è che chi utilizza la nuova tecnologia
+
+199
+00:22:29,888 --> 00:22:36,288
+Pesca di più che con la vecchia tecnologia ma paradossalmente chi continua a utilizzare
+
+200
+00:22:36,544 --> 00:22:42,432
+La vecchia tecnologia pesca di meno di prima perché perché tutto il pesce viene pescato
+
+201
+00:22:42,688 --> 00:22:48,064
+Dal dalla rete e la lenza non riesce più a tirare
+
+202
+00:22:48,320 --> 00:22:56,512
+I pesci che vengono disturbati e con questa fotografia che vediamo questa sentire dolori passerete a casa
+
+203
+00:22:56,768 --> 00:23:02,144
+Con esercitazioni vi offre l'opportunità di capire un punto fondamentale
+
+204
+00:23:02,912 --> 00:23:09,056
+Io vorrei pescare con la rete oppure vorrei pescare con la lenza ma il pescato cioè il pesce che riesco a
+
+205
+00:23:09,568 --> 00:23:17,760
+Dipende da quello che trovo dall'altra parte a seconda che l'altro pescatore che sta nel lago utilizzi a sua volta o luna
+
+206
+00:23:18,016 --> 00:23:25,184
+Con l'altra tecnologia si ottengono due risultati diversi e questo è un problema di scelta e di interazione contemporaneamente
+
+207
+00:23:25,440 --> 00:23:32,608
+Allora tolto di mezzo l'esempio della pesca andiamo ad approfondire il nostro linguaggio in maniera c
+
+208
+00:23:33,120 --> 00:23:39,264
+L'analisi marginale che abbiamo detto sempre basata su soppesare costi e benefici deve considerare
+
+209
+00:23:39,520 --> 00:23:44,896
+In primo luogo il costo marginale cioè il costo dell'ultima quantità
+
+210
+00:23:45,152 --> 00:23:50,272
+Considerata per costo marginale quindi intendiamo il costo dell'ultimo g
+
+211
+00:23:50,528 --> 00:23:56,928
+È l'ultimo litro dell'ultimo paio di scarpe dell'ultimo cm di stoffa che vogliamo comprare
+
+212
+00:23:57,184 --> 00:24:06,400
+È un ragionamento astratto ma è fondamentale nel nostro ragionamento il beneficio marginale dall'altro lato del piatto della bilancia e invece il bene
+
+213
+00:24:06,656 --> 00:24:15,872
+Ufficio dell'ultima quantità considerata cioè beviamo un intero bottiglia di Coca-Cola ci chiediamo quale
+
+214
+00:24:16,128 --> 00:24:22,016
+Qual è il beneficio del l'ultimo sorso dell'ultimo sorso mangiamo un'intero panino
+
+215
+00:24:22,272 --> 00:24:28,672
+Ci chiediamo qual è il beneficio del l'ultimo boccone di pane questo è il ragionamento
+
+216
+00:24:28,928 --> 00:24:34,304
+Ancorché attratto ma fondamentale per capire fino in fondo il ragionamento dell'analisi
+
+217
+00:24:35,328 --> 00:24:44,544
+Allora una prima ipotesi fondamentale basata sul nostro comportamento è che il beneficio marginale tende a diminuire con il consumo
+
+218
+00:24:44,800 --> 00:24:50,688
+Di dosi successive ma è ovvio sono assetato il primo sorso mi da grande benefi
+
+219
+00:24:51,456 --> 00:25:00,672
+Dopo che ho bevuto un intero L l'ultimo sorso non mi soddisfa più sono affamato il primo boccone che ha dentro di pane guardate dobbiamo considerare le
+
+220
+00:25:00,928 --> 00:25:06,560
+Le cose in maniera semplice semplice ecco perché uso l'esempio del pane e della bevanda
+
+221
+00:25:07,072 --> 00:25:12,960
+Perché sennò non ci capiamo addento un boccone di pane sono affamato il primo boccone mi da grande soddisfazione
+
+222
+00:25:13,472 --> 00:25:19,104
+L'ultimo mi fa soltanto ingrassare ecco perché il beneficio marginale
+
+223
+00:25:19,360 --> 00:25:26,272
+Tende a diminuire con il consumo di dosi successive il costo marginale invece può avere vari andamenti
+
+224
+00:25:26,528 --> 00:25:32,672
+Può essere crescente costante o decrescente lo vedremo più avanti cioè dipende dallo sforzo aggiuntivo che devo
+
+225
+00:25:33,184 --> 00:25:41,632
+Allora ecco la regola dell'analisi marginale se il costo marginale è superiore al beneficio marginale
+
+226
+00:25:42,144 --> 00:25:49,824
+Ho sostanzialmente un eccesso di azione economica sono arrivato in un punto mi sono spostato
+
+227
+00:25:50,080 --> 00:25:56,992
+Fino a un punto in cui questa condizione costo marginale maggiore del beneficio marginale mi segnala
+
+228
+00:25:57,248 --> 00:26:02,880
+Che sono andato al di là di quello che avrei dovuto considerare il meglio possibile in che senso
+
+229
+00:26:03,392 --> 00:26:10,048
+Ho comprato troppo pane perché perché l'ultimo g di pane mi costa di più del beneficio che mia porta
+
+230
+00:26:10,560 --> 00:26:16,448
+Attenzione l'ultimo g costa di più del beneficio che porta se invece
+
+231
+00:26:16,704 --> 00:26:21,824
+Vediamo la situazione contraria il beneficio marginale è superiore al costo marginale
+
+232
+00:26:22,336 --> 00:26:27,712
+Sono in una situazione in cui tra virgolette diciamo ho poca
+
+233
+00:26:28,992 --> 00:26:34,368
+Troppo poca azione ho comprato troppo poco fame cosa vuol dire vuol dire che
+
+234
+00:26:34,880 --> 00:26:40,000
+Ancora sono affamato e quindi l'ultimo g di pane l'ultimo boccone di pane che
+
+235
+00:26:40,512 --> 00:26:46,656
+Mi comporta un beneficio aggiuntivo superiore allo sforzo c'è al costo al
+
+236
+00:26:46,912 --> 00:26:53,312
+Di acquisirlo allora attenzione fintanto che il beneficio aggiuntivo è superiore al costo aggiuntivo
+
+237
+00:26:53,568 --> 00:27:00,992
+Vuol dire che il beneficio più alto del costo vuol dire che ancora c'è spazio per andare avanti cioè per continuare
+
+238
+00:27:01,248 --> 00:27:10,464
+Nell'azione economica vedremo tutto questo più avanti ma adesso vediamo in una parte diciamo ormai conclusiva
+
+239
+00:27:10,720 --> 00:27:18,400
+Sigla di questo nostro primo e di nostra prima lezione di questo nostro ragionamento allora il concetto di mercato che è basato sui due grandi filati
+
+240
+00:27:18,912 --> 00:27:28,128
+Della domanda e dell'offerta allora il mercato dal punto di vista economico è un'istituzione basata
+
+241
+00:27:28,384 --> 00:27:33,504
+Su regole per noi prima di studiare scientificamente la nostra
+
+242
+00:27:33,760 --> 00:27:38,880
+Materiale economia politica il mercato è il complesso di bancarelle dove troviamo la
+
+243
+00:27:39,136 --> 00:27:46,048
+Frutta e la verdura la mattina questa è la visione come dire pittorica eli visione intuitiva del mercato
+
+244
+00:27:46,304 --> 00:27:54,496
+Le bancarelle dove ci sono la frutta e la verdura ma dal punto di vista economico vorrei ricordarvi per noi mercato è un punto di incontro
+
+245
+00:27:54,752 --> 00:28:00,128
+Delle volontà degli acquirenti quello che chiamiamo il lato domanda
+
+246
+00:28:00,384 --> 00:28:06,528
+E la volontà del punto è il punto di incontro della volontà con i venditori quello che
+
+247
+00:28:06,784 --> 00:28:12,160
+Che chiamiamo la tua offerta la domanda è l'offerta si incontrano nel mercato
+
+248
+00:28:12,416 --> 00:28:18,048
+Che per noi vale la pena di essere studiata come un istituzione basata su certe rei
+
+249
+00:28:19,072 --> 00:28:24,192
+Per esempio le regole sono che si scambia la merce contro denaro
+
+250
+00:28:24,448 --> 00:28:30,848
+Questo è quello che succede anche sulla bancarella della frutta e della verdura arriva la massaia che vuole
+
+251
+00:28:31,104 --> 00:28:36,480
+Comprare un chilo di frutta la tua domanda c'è sulla bancarella disponibile un
+
+252
+00:28:37,760 --> 00:28:43,136
+Kg di frutta per poter essere venduta la contrattazione e la compravendita
+
+253
+00:28:43,392 --> 00:28:50,304
+Di questo chilo di frutta per noi vale mercato e cioè in un'istituzione ci sono delle regole che scambiano benefit
+
+254
+00:28:51,584 --> 00:28:56,704
+Ma attenzione entriamo in un supermercato per salire di un gradino la nostra analisi
+
+255
+00:28:56,960 --> 00:29:02,336
+Se andiamo in un supermercato già ci sono delle regole innanzitutto la merce deve essere refrigerata
+
+256
+00:29:02,592 --> 00:29:07,712
+Ci deve essere un etichetta che stabilisce chiaramente qual è il prezzo e il prezzo unitario al kg
+
+257
+00:29:08,224 --> 00:29:15,392
+Oal per la confezione ci deve essere la data di scadenza per il prodotto in maniera tale che il cittadino sia garantito
+
+258
+00:29:15,904 --> 00:29:21,792
+Dal fatto che ci sia garantito diceva dal fatto che non trovi una merce avariata
+
+259
+00:29:22,048 --> 00:29:28,704
+Ecco queste sono le regole alcune le più semplici ma poi andiamo nel mercato finanziario
+
+260
+00:29:28,960 --> 00:29:35,616
+Andiamo a comprare un'azione un'obbligazione bene c'è un'intera istituzione sottostante al mercato
+
+261
+00:29:35,872 --> 00:29:41,760
+In Italia si chiama Consob riprenderemo più avanti ma è bene fare degli esempi concreti sin dal primo giorno di questa lezione
+
+262
+00:29:42,016 --> 00:29:47,136
+La console l'istituzione che vigila sul rispetto delle regole è un po' come il vigile
+
+263
+00:29:47,392 --> 00:29:55,328
+Che regola il traffico al semaforo qual è il risultato a questa è la descrizione generale qual è il risultato fondamentale che noi guardiamo
+
+264
+00:29:55,840 --> 00:30:01,472
+Nell'analisi economica il risultato di prezzo è di quantità quindi quanti kg
+
+265
+00:30:01,984 --> 00:30:07,104
+Massaia vuole comprare a quale prezzo e soprattutto e inoltre
+
+266
+00:30:07,616 --> 00:30:12,736
+Quali kg il nostro venditore vuole vendere quale prezzo e infine
+
+267
+00:30:12,992 --> 00:30:20,416
+Quanti kg ea quale prezzo sono stati effettivamente comprati e venduti cioè scambiati nella compravendita
+
+268
+00:30:21,184 --> 00:30:29,632
+Questo è importantissimo perché se non lo capiamo adesso partiamo col piede sbagliato in economia politica esiste un momento che noi chiamiamo
+
+269
+00:30:29,888 --> 00:30:35,264
+Vediamo più avanti ex-ante cioè prima e un momento che chiamiamo risposte cioè
+
+270
+00:30:35,520 --> 00:30:40,640
+Dopo che si è conclusa la compravendita c'è quella che chiamiamo la transazione di
+
+271
+00:30:41,920 --> 00:30:49,344
+Quello che noi analizziamo I sono i comportamenti potenziali cioè come vorrebbe uso il condizionale a Po
+
+272
+00:30:49,856 --> 00:30:55,232
+Come vorrebbe comportarsi il consumatore dopo aver effettuato la sua analisi di comparazione tra
+
+273
+00:30:55,488 --> 00:31:01,376
+Tra costi e benefici e quindi dopo aver preparato per così dire una propria scelta razionale
+
+274
+00:31:02,912 --> 00:31:09,056
+In definitiva il nostro consumatore dal lato della domanda per noi è un soggetto
+
+275
+00:31:09,312 --> 00:31:14,432
+Che opera o esprime delle combinazioni
+
+276
+00:31:14,688 --> 00:31:20,832
+Di prezzo è di quantità che lo soddisfano quindi quando siamo dal lato della domanda
+
+277
+00:31:21,088 --> 00:31:27,232
+Stiamo analizzando una combinazione di prezzo e quantità che soddisfa il nostro
+
+278
+00:31:27,488 --> 00:31:36,704
+Compratore otteniamo subito un primo punto fondamentale esiste una relazione inversa tra prezzo e quantità e cioè
+
+279
+00:31:36,960 --> 00:31:42,592
+Cioè il nostro consumatore è soddisfatto di comprare una certa quantità a un prezzo
+
+280
+00:31:42,848 --> 00:31:48,992
+Se il prezzo è più basso ripeto se il prezzo più basso e desideroso di comprare una quantità più elevate
+
+281
+00:31:49,760 --> 00:31:55,136
+Se il prezzo è più alto e desideroso di comprare una quantità meno elevata ecco il concetto
+
+282
+00:31:56,416 --> 00:32:02,560
+Di relazione inversa che esprimiamo graficamente con la curva di domanda
+
+283
+00:32:03,072 --> 00:32:09,728
+Disegniamo siete bravissimi sono sicuro a disegnare un piano cartesiano con un asse delle ascisse
+
+284
+00:32:09,984 --> 00:32:17,920
+Ecco qui l'asse orizzontale dove disegniamo la quantità l'asse delle ordinate ecco qui l'asse verticale dove disegniamo
+
+285
+00:32:18,176 --> 00:32:23,552
+Prezzo la curva di domanda la svegliamo con la lettera D come vedete è una retta
+
+286
+00:32:24,064 --> 00:32:29,696
+Una curva ma può essere una retta inclinata negativamente che esprime proprio il concetto
+
+287
+00:32:30,208 --> 00:32:35,584
+Di relazione inversa tra prezzo e quantità capiamoci
+
+288
+00:32:36,608 --> 00:32:41,984
+Se questa è la nostra curva di domanda uno spostamento dal punto A
+
+289
+00:32:42,496 --> 00:32:50,432
+Al punto B ci permette di capire questo è il risultato analisi economica ci permette di capire che a un determinato prezzo
+
+290
+00:32:50,688 --> 00:32:57,088
+Inoltre consumatore avrebbe determinato una certa comprato una certa quantità a un prezzo più basso
+
+291
+00:32:57,344 --> 00:33:03,488
+Punto B e desideroso di comprare una quantità più elevata guardateli guardate questo grafico finché non avete cap
+
+292
+00:33:04,512 --> 00:33:10,656
+Cercherò oltre che lo spostamento dunque lungo la curva da AAB
+
+293
+00:33:10,912 --> 00:33:16,544
+C'è un altro spostamento fondamentale che dobbiamo tenere in considerazione e cioè lo spostamento della
+
+294
+00:33:17,312 --> 00:33:24,992
+Esistono vari motivi che vedremo più avanti in cui l'intera curva di domanda cioè l'intero comportamento del consumatore si sposta
+
+295
+00:33:25,504 --> 00:33:30,880
+Vedete da D0 a D1 abbiamo spostato l'intera curva di domanda verso destra
+
+296
+00:33:31,136 --> 00:33:36,768
+A significare che il consumatore cambia completamente comportamento cioè desidera avere
+
+297
+00:33:37,024 --> 00:33:43,936
+Combinazioni diverse di prezzo e quantità perché ha cambiato comportamento immaginiamo che questa sia la domanda di una bevanda
+
+298
+00:33:44,192 --> 00:33:50,592
+Allora d'inverno questa è la domanda della veranda di zero d'estate c'è più caldo
+
+299
+00:33:50,848 --> 00:33:58,272
+L'intera curva di domanda si sposta verso destra perché il consumatore vuole consumare più bevanda a parità di prezzo oppure disposto
+
+300
+00:33:59,040 --> 00:34:05,696
+Guardate questo grafico è disposto a pagare di più per la stessa quantità questo è un cambiamento di comportamento
+
+301
+00:34:05,952 --> 00:34:11,072
+Dal lato della domanda quindi concludiamo in sintesi
+
+302
+00:34:11,328 --> 00:34:19,008
+Lo spostamento lungo la curva dal punto A al punto B significa che il consumatore desidera acquistare quantità minori se aumenta il prezzo
+
+303
+00:34:19,520 --> 00:34:26,432
+Ceteris paribus che non è nient'altro che un espressione latina che noi comunisti utilizziamo per dire
+
+304
+00:34:26,688 --> 00:34:34,368
+A parità di tutte le altre condizioni quindi se rimane l'inverno il consumatore si sposta da AAB per ragioni sue
+
+305
+00:34:34,880 --> 00:34:40,000
+Ti abbiamo detto che c'è un comportamento che si cambia il consumatore
+
+306
+00:34:40,256 --> 00:34:48,448
+Si sposta invece completamente dalla curva di zero alla curva di uno a parità di prezzo possiamo identificare su grafico
+
+307
+00:34:48,704 --> 00:34:57,408
+Una modifica di una condizione del consumatore abbiamo detto che percepisce diversamente le condizioni economiche industriali a desiderare una diversa quanti
+
+308
+00:34:58,688 --> 00:35:07,136
+Vediamo adesso è qui ripeto il ragionamento molto semplicemente molto rapidamente vediamo adesso al comportamento dell'altro del produttore il nostro produttore
+
+309
+00:35:07,392 --> 00:35:15,072
+Guarda la combinazione di prezzo e quantità o il venditore esiste una relazione diretta tra prezzo e quantità lo leggiamo nel grafico
+
+310
+00:35:15,328 --> 00:35:20,960
+Per una ragione molto semplice l'offerta che il venditore fa chiaramente è più alta
+
+311
+00:35:21,472 --> 00:35:27,872
+Più alta è la remunerazione che può tenere quindi è desideroso sicuramente di vendere più quantità
+
+312
+00:35:28,128 --> 00:35:33,248
+Se riesce a spuntare un prezzo più alto vediamo a questo punto
+
+313
+00:35:33,504 --> 00:35:39,136
+E lo ripetiamo che se nostro produttore si sposta dal punto Z al punto W
+
+314
+00:35:39,392 --> 00:35:47,584
+Questo significa che stiamo concludendo questo significa che si riesce a desiderare di offrire di più
+
+315
+00:35:48,096 --> 00:35:56,800
+Ha un prezzo maggiore se invece il nostro produttore cambia il proprio comportamento dalla curva e 60 alla curva S1
+
+316
+00:35:57,056 --> 00:36:02,176
+Allora abbiamo siamo di fronte a uno spostamento della curva
+
+317
+00:36:03,456 --> 00:36:12,672
+Diciamo sempre ceteris paribus cioè a parità di altre condizioni il produttore desidera vendere in quantità maggiori se aumenta il prezzo al quale riesce a vendere
+
+318
+00:36:12,928 --> 00:36:21,376
+Attenzione il produttore si sposta dalla curva S0 alla curva e se uno se a parità di prezzo
+
+319
+00:36:21,632 --> 00:36:29,568
+Si modifica una delle sue condizioni di produzione questo lo induce a desiderare di vendere una quantità maggiore
+
+320
+00:36:30,080 --> 00:36:35,968
+Per ora siamo arrivati alla fine che cos'è l'equilibrio di mercato in un secondo il nostro equilibrio di Nerf
+
+321
+00:36:36,736 --> 00:36:43,904
+Non è nient'altro che la combinazione di prezzo e quantità che soddisfa simultaneamente
+
+322
+00:36:44,160 --> 00:36:50,048
+Compratori e venditori vediamo un compratore un venditore che si stringono la mano questo significa
+
+323
+00:36:50,304 --> 00:36:56,448
+Che la simultaneamente c'è contemporaneamente il prezzo è la quantità
+
+324
+00:36:56,704 --> 00:37:01,824
+Sono contemporaneamente di soddisfazione mutua reciproca per tutti e due quindi
+
+325
+00:37:02,336 --> 00:37:08,736
+Si realizza questo equilibrio quando la quantità offerta dai venditori de uguale alla quantità richiesta
+
+326
+00:37:09,504 --> 00:37:14,880
+Dai compratori a un determinato prezzo quel chilo di frutta viene venduto a un prezzo
+
+327
+00:37:15,136 --> 00:37:20,768
+Quel chilo di frutta viene acquistato allo stesso prezzo e per ottenere l'equilibrio
+
+328
+00:37:21,280 --> 00:37:26,912
+Graficamente il trucco che io vi offro da oggi in poi come studiosi della materia che vi porterete
+
+329
+00:37:27,168 --> 00:37:35,872
+Avanti per sempre nella vita e questo disegniamo la curva di domanda disegniamo la curva di offerta nello stesso grafico scopriamo
+
+330
+00:37:36,128 --> 00:37:45,344
+Ecco il segreto un punto in cui si incrociano il punto di equilibrio del nostro mercato è il punto in cui sincro
+
+331
+00:37:45,600 --> 00:37:51,488
+Crociano il comportamento dei consumatori con il comportamento dei venditori qualunque altro.
+
+332
+00:37:51,744 --> 00:37:57,120
+In questo grafico non potrebbe essere un equilibrio di mercato perché
+
+333
+00:37:57,376 --> 00:38:04,288
+Farebbe capire che i compratori sono disposti a comprare una quantità diversa da quella che i venditori sono
+
+334
+00:38:04,800 --> 00:38:10,432
+Prendere allora non ci può essere un chilo venduto e 2 kg comprati non c'è equilibrio
+
+335
+00:38:11,200 --> 00:38:16,832
+Al contrario non ci possono essere due chili comprati e un chilo venduto non si può essere l'equilibrio quindi attenzione
+
+336
+00:38:17,088 --> 00:38:22,720
+Questo grafico assaporiamo le guardiamolo bene a conclusione della nostra lezione
+
+337
+00:38:23,232 --> 00:38:31,936
+Questo grafico ci fa vedere il punto di equilibrio e cioè il punto in cui la domanda è l'offerta si incrociano
+
+338
+00:38:32,448 --> 00:38:37,824
+Qualunque altro. La lungo la curva di offerta sarebbe stato in questo modo
+
+339
+00:38:38,336 --> 00:38:44,224
+Una condizione di soddisfazione per il produttore
+
+340
+00:38:44,480 --> 00:38:51,392
+Manus lo sarebbe per il l'aquirente stessa cosa spostiamoci lungo la curva di domanda
+
+341
+00:38:51,648 --> 00:38:59,328
+Tutti questi punti sono punti che potrebbero soddisfare l'aquirente ma ce n'è uno solo che si incrocia con la volontà
+
+342
+00:38:59,584 --> 00:39:08,288
+Il venditore ripeto per l'ennesima volta perché questa è la base fondamentale di analisi di mercato la domanda è l'offerta si devono incrociare in un po'
+
+343
+00:39:09,056 --> 00:39:15,200
+Questo è il punto di equilibrio che ci determinano vedremo poi più avanti ci determina la quantità offerta

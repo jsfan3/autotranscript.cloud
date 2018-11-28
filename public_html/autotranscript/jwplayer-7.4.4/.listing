@@ -1,0 +1,13 @@
+drwxr-xr-x    3 12160740   users            4096 Jul  6  2016 .
+drwxr-xr-x    4 12160740   users           12288 Jan 16 20:05 ..
+-rw-r--r--    1 12160740   users            5100 Jul  6  2016 jw-icons.ttf
+-rw-r--r--    1 12160740   users            5176 Jul  6  2016 jw-icons.woff
+-rw-r--r--    1 12160740   users           95920 Jul  6  2016 jwplayer.flash.swf
+-rw-r--r--    1 12160740   users          223029 Jul  6  2016 jwplayer.js
+-rw-r--r--    1 12160740   users             874 Jul  6  2016 polyfills.base64.js
+-rw-r--r--    1 12160740   users            2393 Jul  6  2016 polyfills.promise.js
+-rw-r--r--    1 12160740   users           12431 Jul  6  2016 provider.cast.js
+-rw-r--r--    1 12160740   users          210706 Jul  6  2016 provider.caterpillar.js
+-rw-r--r--    1 12160740   users          124239 Jul  6  2016 provider.shaka.js
+-rw-r--r--    1 12160740   users            5576 Jul  6  2016 provider.youtube.js
+drwxr-xr-x    2 12160740   users            4096 Jul  6  2016 skins

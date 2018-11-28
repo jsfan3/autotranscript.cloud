@@ -1,0 +1,283 @@
+1
+00:00:09,472 --> 00:00:15,616
+Mark Zuckerberg a journalist was asking him a question about the news feed
+
+2
+00:00:16,896 --> 00:00:22,784
+And the journalist was a scam you know why is this so important and Zuckerberg said
+
+3
+00:00:23,296 --> 00:00:28,672
+A squirrel dying in your front yard may be more relevant to your interest right now
+
+4
+00:00:28,928 --> 00:00:36,352
+10 people dying in Africa and I want to talk about what a web based on that idea of relevance my look like
+
+5
+00:00:37,632 --> 00:00:46,848
+So when I was growing up in a in a really rural area and Main you know the internet met something very different to me it meant a connection to the world it meant
+
+6
+00:00:47,104 --> 00:00:54,016
+Something that would connect us all together and I was sure that it was going to be great for democracy and for our society
+
+7
+00:00:55,040 --> 00:01:00,928
+But there's this kind of shift and how information is Flowing online and it's invisible
+
+8
+00:01:02,208 --> 00:01:07,328
+And if we don't pay attention to it it could be a real problem
+
+9
+00:01:07,584 --> 00:01:16,800
+So I first noticed this in a place I'd spend a lot of time my Facebook page I'm Progressive politically big surprise but I've always in a gun
+
+10
+00:01:17,056 --> 00:01:22,944
+Turn on my way to meet conservatives I like hearing what they're thinking about I like seeing what they linked to I like learning a thing or two
+
+11
+00:01:23,456 --> 00:01:29,088
+I was kind of surprised my notice one day that the conservatives had disappeared from my Facebook feed
+
+12
+00:01:30,368 --> 00:01:35,488
+And what it turned out was going on was that Facebook was looking at which links I clicked on
+
+13
+00:01:36,256 --> 00:01:42,400
+I was noticing that actually I was clicking more on my liberal friends links then on my conservative friends links
+
+14
+00:01:43,168 --> 00:01:49,056
+And without consulting me about it it did edited them out they disappeared
+
+15
+00:01:51,616 --> 00:01:56,992
+So Facebook isn't the only place that's doing this kind of invisible algorithmic editing of the web
+
+16
+00:01:58,016 --> 00:02:05,184
+Google's doing it too if I search for something and you search for something even right now at the very same time
+
+17
+00:02:05,440 --> 00:02:11,072
+We make it very different search results even if you're logged out one engineer told me
+
+18
+00:02:11,840 --> 00:02:18,752
+There are 57 signals the Google looks at everything from what kind of computer you're on
+
+19
+00:02:19,008 --> 00:02:26,688
+To what kind of browser are you using to where you're located that uses to personally Taylor your aquarium results
+
+20
+00:02:27,200 --> 00:02:36,416
+Think about it for a second there is no standard Google anymore and you know the funny thing about this is that it's hard to see you can't see how different your
+
+21
+00:02:36,672 --> 00:02:43,328
+Search results are from anyone else's but a couple of weeks ago I asked a bunch of friends to Google Egypt
+
+22
+00:02:44,096 --> 00:02:50,496
+And to send me screenshots of what they got so here's my friend Scott's screenshot
+
+23
+00:02:51,776 --> 00:02:59,968
+And here's my friend Daniel screenshot when you put them side-by-side you don't even have to read the links to see how different these two pages are
+
+24
+00:03:00,736 --> 00:03:06,624
+So when you do read the lies it's really quite remarkable Daniel
+
+25
+00:03:06,880 --> 00:03:15,072
+Didn't get anything about the protest in Egypt at all in his first page of Google results Scott's results were full of them in this is the big story of the day at that time
+
+26
+00:03:15,328 --> 00:03:20,704
+That's a different these results are becoming so it's not just Google and Facebook either
+
+27
+00:03:21,216 --> 00:03:29,664
+You know this is something that's sweeping the wet their whole host of companies that are doing this kind of personalization Yahoo news the biggest news site on the internet
+
+28
+00:03:29,920 --> 00:03:38,880
+Is not personalized different people get different things Huffington Post Washington Post New York Times flirting with personalization and various ways
+
+29
+00:03:39,904 --> 00:03:47,072
+I wear this this moves as very quickly toward a world in which the internet is showing us what it thinks we want to see
+
+30
+00:03:48,096 --> 00:03:53,216
+But not necessarily what we need to see as Eric Schmidt said
+
+31
+00:03:53,984 --> 00:03:59,104
+It'll be very hard for people to watch her consume something that is not in some sense
+
+32
+00:03:59,360 --> 00:04:04,480
+Been tailored for them so I do think this is a problem
+
+33
+00:04:04,736 --> 00:04:11,648
+And I think if you take all of these filters together if you take all of these algorithms you get what I call a filter bubble
+
+34
+00:04:12,928 --> 00:04:18,303
+And your filter bubble is kind of your own personal unique Universe of information
+
+35
+00:04:18,559 --> 00:04:25,983
+Do you live in online and what's in your filter bubble depends on who you are and it depends on what you do
+
+36
+00:04:26,751 --> 00:04:31,871
+But the thing is that you don't decide what gets in and more importantly
+
+37
+00:04:32,639 --> 00:04:39,807
+You don't actually see what gets edited out so one of the problems with the filter bubble was discovered by some researchers at Netflix
+
+38
+00:04:40,575 --> 00:04:49,791
+And they were looking at the Netflix q's and I notice something kind of funny that a lot of us probably have noticed which is there some movies that just sort of zip right up and out to our
+
+39
+00:04:50,047 --> 00:04:58,495
+Houses they enter the queue they just zip right out so Ironman Zips right out right and Waiting for Superman can wait for a really long time
+
+40
+00:04:59,775 --> 00:05:04,895
+What they discovered was that in our Netflix accuse there's kind of this epic struggle going on
+
+41
+00:05:06,175 --> 00:05:11,807
+Between our future aspirational selves and our more impulsive present selves
+
+42
+00:05:12,319 --> 00:05:18,463
+You know we all want to be someone who has watched rashomon but right now
+
+43
+00:05:18,975 --> 00:05:28,191
+We want to watch Ace Ventura for the 4th time so the best editing gives us a bit of both that gives us a little bit of Justin
+
+44
+00:05:28,447 --> 00:05:34,335
+Bieber and a little bit of Afghanistan it gives us some information vegetables it gives us some information desert
+
+45
+00:05:35,871 --> 00:05:43,295
+In the challenge with these kind of algorithmic filters these personalized filters is that because they're mainly looking at what you click on first
+
+46
+00:05:45,599 --> 00:05:51,743
+You know you don't get it can throw off that balance and it said of a balanced information diet
+
+47
+00:05:51,999 --> 00:06:01,215
+You can end up surrounded by information junk food so what does suggest is actually that we may have the story about the internet wrong
+
+48
+00:06:01,727 --> 00:06:06,847
+In a broadcast Society you know this is how the founding mythology goes right in a broadcast Society
+
+49
+00:06:07,359 --> 00:06:12,479
+There were these Gatekeepers the editors and they control the flow of information
+
+50
+00:06:12,735 --> 00:06:18,879
+Along Came the internet and it's swept them out of the way and it allowed all of us to connect together and it was awesome
+
+51
+00:06:19,135 --> 00:06:25,791
+But that's not actually what's happening right now we're seeing is more of a passing of the torch
+
+52
+00:06:26,815 --> 00:06:35,263
+From Human Gatekeepers to algorithmic wants and the thing is that the algorithms don't yet have
+
+53
+00:06:35,519 --> 00:06:44,735
+The kind of embedded ethics that the editors did so is algorithms are going to curate the world for us if they're going to decide what we get
+
+54
+00:06:44,991 --> 00:06:50,367
+Wait to see and what we don't get to see the we need to make sure that they're not just keyed to relevance
+
+55
+00:06:51,135 --> 00:06:58,047
+We need to make sure that they also show us things that are uncomfortable or challenging or important this is what Ted does right
+
+56
+00:06:58,303 --> 00:07:03,679
+Other points of view and the thing is we've actually kind of been here before as a society
+
+57
+00:07:05,727 --> 00:07:11,359
+In 1915 it's not like newspapers were sweating a lot about their civic responsibilities
+
+58
+00:07:11,615 --> 00:07:19,295
+Then people can a notice that they were doing something really important then in fact you couldn't have a functioning democracy
+
+59
+00:07:20,575 --> 00:07:29,791
+If citizens didn't get a good flow of information that the newspapers were critical because they were acting as the filter and that journalistic ethics develop
+
+60
+00:07:30,559 --> 00:07:36,703
+It wasn't perfect but it got us through the last century and so now
+
+61
+00:07:37,471 --> 00:07:43,359
+What kind of back in 1915 on the web and we need the new Gatekeepers
+
+62
+00:07:44,127 --> 00:07:50,015
+To include that kind of responsibility into the code that they're writing you I know there a lot of people here
+
+63
+00:07:50,271 --> 00:07:56,415
+From Facebook and from Google Larry and Sergey who you know people who have helped build the web as it is and I'm grateful for that
+
+64
+00:07:56,927 --> 00:08:02,815
+But we really need to you to make sure that these algorithms have encoded in them
+
+65
+00:08:03,327 --> 00:08:12,543
+A sense of the public life a sense of civic responsibility we need you to make sure that they're transparent enough that we can see what the rules are they determine what
+
+66
+00:08:12,799 --> 00:08:17,919
+Gets to our filters and we need you to give us some control so that we can decide
+
+67
+00:08:18,431 --> 00:08:24,319
+What gets through and what does it because I think we really need the Internet
+
+68
+00:08:24,575 --> 00:08:29,695
+To be that thing that we all dreamed of it being we need it to connect us all together
+
+69
+00:08:29,951 --> 00:08:35,583
+We need it to introduce us to new ideas and new people and different perspectives
+
+70
+00:08:37,119 --> 00:08:42,239
+And it's not going to do that if it leaves us all isolated in a web of one
+
+71
+00:08:43,007 --> 00:08:52,223
+Thank you

@@ -1,0 +1,1347 @@
+1
+00:00:00,768 --> 00:00:07,680
+Benvenuti a questa lezione del corso di algoritmi e programmazione avanzata nella lezione di oggi parleremo di reclusione e programmi di
+
+2
+00:00:08,704 --> 00:00:14,336
+Studieremo infatti una potente caratteristica del linguaggio di programmazione C che ci permette di
+
+3
+00:00:14,848 --> 00:00:19,968
+Scrivere funzioni che richiamano se stesse gli argomenti della nostra lezione
+
+4
+00:00:20,992 --> 00:00:27,136
+Cominceranno parlare con alcune definizioni la motivazione del perché vogliamo imparare a usare la palla
+
+5
+00:00:28,672 --> 00:00:35,072
+Sono i ricorsi vedremo come analizzare un programma ricorsivo che diversamente da un programma non
+
+6
+00:00:35,584 --> 00:00:40,960
+Corsivo che ti ameremo iterativo tradizionali programmi scritto sino ad ora sono
+
+7
+00:00:41,216 --> 00:00:46,848
+Piuttosto complicati da analizzare cioè vedere che cosa un programma effettivamente esegue
+
+8
+00:00:47,360 --> 00:00:55,808
+Sulla carta dopodiché analizzeremo come già fatto per esempio nello studio della memoria dinamica alcuni problemi tecnici e se vogliamo ingegneristici
+
+9
+00:00:56,064 --> 00:01:01,184
+Legati alla ricorsione in particolare aspetti legati all'uso efficiente di questo
+
+10
+00:01:05,024 --> 00:01:10,144
+Cominciamo a quindi a definire cosa intendiamo per ricorsione e
+
+11
+00:01:10,656 --> 00:01:17,568
+Come possiamo nei limiti di questa lezione ha formalmente definire
+
+12
+00:01:18,080 --> 00:01:23,200
+Che cos'è un programma e di conseguenza talmente una funzione un algoritmo ricorsivo
+
+13
+00:01:24,992 --> 00:01:34,208
+Una definizione semplice potrebbe essere applicata appunto una funzione e ci dice che una funzione ricorsiva è una funzione che all'interno della propria definizione contiene una chiamata di
+
+14
+00:01:34,464 --> 00:01:42,400
+Diretta o indiretta se stessa chiaramente è immediato poi definire quindi un algoritmo ricorsivo che è un algoritmo che basato che usa.
+
+15
+00:01:42,656 --> 00:01:48,544
+Funzioni ricorsive quando parliamo di ricorsione diretta e indiretta intendiamo
+
+16
+00:01:49,056 --> 00:01:55,968
+Che nel caso della ricorsione diretta esplicitamente qua ovviamente l'esempio è schematizzato all'estremo
+
+17
+00:01:56,224 --> 00:02:02,624
+Non ci sono indicati i parametri con cui queste funzioni gli argomenti con cui queste funzioni vengono invocate
+
+18
+00:02:02,880 --> 00:02:08,256
+Ma solo strutturalmente ci mostra come una ricorsi nella ricorsione diretta una funzione all'interno del suo corpo
+
+19
+00:02:08,512 --> 00:02:14,144
+Richiami se stessa ora starà poi noi stabilire qualche regola precisa su
+
+20
+00:02:14,400 --> 00:02:19,776
+Come può essere questa chiamata e quali sono alcuni vincoli importante del sulla struttura di una funzione di questo
+
+21
+00:02:20,544 --> 00:02:27,456
+Ricorsione può anche essere in diretta nel senso che magari la funzione f non chiama direttamente se stessa
+
+22
+00:02:27,712 --> 00:02:34,368
+Ma come una specie di ciclo chiama un'altra funzione che abbiamo la supponiamo per esempio di questi puntini
+
+23
+00:02:34,624 --> 00:02:42,048
+Rappresentano operazioni prima e dopo la chiamata della funzione G così come prima erano operazioni prima e dopo la chiamata di F
+
+24
+00:02:43,072 --> 00:02:52,288
+E all'interno di giri e poi inframezzato insieme in mezzo altro codice una chiamata nuovamente adesso vedete che c'è una specie di ciclo in queste chiamate
+
+25
+00:02:52,800 --> 00:03:02,016
+È questa la chiamo ricorsione in diretta non c'è sostanzialmente nessuna differenza tecnica tra le due ovviamente corrisponderà un diverso sviluppo delle chiamate
+
+26
+00:03:02,272 --> 00:03:10,976
+Di funzione ma non cambia la sostanza se vogliamo esprimere in modo un pochino più matematico il concetto di ricorsione
+
+27
+00:03:11,232 --> 00:03:17,376
+Possiamo pensare di avere di dover trovare una soluzione a un problema S
+
+28
+00:03:17,632 --> 00:03:22,752
+Applicato a un insieme di dati di quindi le speriamo con questa notazione SdD
+
+29
+00:03:23,008 --> 00:03:28,128
+Molto astratta come vedete questa soluzione quindi SDD e
+
+30
+00:03:28,640 --> 00:03:34,016
+Si dice che eri così va se possiamo esprimerla come segue una certa funzione non meglio
+
+31
+00:03:34,272 --> 00:03:41,696
+Specificata che dipenderà evidentemente dal contesto dell'applicazione dsdd I essere di primo e
+
+32
+00:03:41,952 --> 00:03:47,840
+La stessa soluzione quindi lo stesso problema applicato un insieme di dati di
+
+33
+00:03:48,352 --> 00:03:57,056
+I che evidentemente. Leggeremo meglio nella prossima slide è un sottoinsieme ossia è un insieme più piccolo dell'originale
+
+34
+00:03:59,104 --> 00:04:04,224
+Dato che ridefiniamo nella ricorsione la nostra soluzione in termini
+
+35
+00:04:04,480 --> 00:04:10,368
+Questo vuol dire questa funzione di una soluzione non sotto problema più piccolo è importante costruire
+
+36
+00:04:10,624 --> 00:04:16,768
+Una condizione di terminazione che speriamo genericamente in questo modo esisterà un certo valore
+
+37
+00:04:17,024 --> 00:04:24,191
+Certo insieme di dati chiamiamolo di zero felice zero e un po' indicare che è una condizione iniziale
+
+38
+00:04:24,959 --> 00:04:30,335
+Minima la più piccola tipicamente è la soluzione
+
+39
+00:04:30,847 --> 00:04:37,247
+Del mio problema su un insieme di dati di zero è un certo valore predefinito facile da calcolare che creiamo S0
+
+40
+00:04:38,271 --> 00:04:47,487
+Quindi viene chiamo meglio quali sono gli elementi coinvolti in questa Sergio definizione matematica non è normalissima come definizione ma ci dà un'idea
+
+41
+00:04:47,999 --> 00:04:57,215
+Di qual è il concetto della ricorsione assumiamo che in generale la dimensione dei dati di sia diversa da zero quindi sia più grande o sia il problema sia rilevante
+
+42
+00:04:57,471 --> 00:05:02,847
+Tante non sia banale cioè non ci sia soltanto la soluzione S0 al problema
+
+43
+00:05:03,615 --> 00:05:08,735
+Di primo è un insieme di dati più piccolo di liquidi sono su un suo sottoinsieme proprio
+
+44
+00:05:09,247 --> 00:05:16,159
+È vero è l'insieme dei dati minimo rs0 la sua soluzione che viene assunta come elementare questa che abbiamo condizioni di terminati
+
+45
+00:05:22,047 --> 00:05:28,703
+Il motivo poi per cui noi andiamo a scrivere anche programmi ricorsivi
+
+46
+00:05:29,215 --> 00:05:34,335
+È legato anche ovviamente alla potenza dello strumento ricorsione
+
+47
+00:05:34,591 --> 00:05:39,711
+La formazione ricorsiva infatti è molto potente in quanto permette di esprimere un insieme infinito
+
+48
+00:05:39,967 --> 00:05:47,135
+Potenzialmente infinito per mezzo di un'istruzione finita o sia in un modo molto compatto non esprimiamo potenzialmente un numero di esecuzioni
+
+49
+00:05:47,391 --> 00:05:53,279
+Pozione di una funzione molto molto elevato diventa quindi fondamentale
+
+50
+00:05:53,535 --> 00:05:59,167
+Proprio perché potenzialmente è infinito se non è controllato questo meccanismo gestire il problema della terminazione
+
+51
+00:06:00,191 --> 00:06:05,311
+Questo ci porta a come vedremo anche più avanti nel nostro corso
+
+52
+00:06:05,823 --> 00:06:10,943
+Più che a ragionare regolarmente con degli esempi a costruire quelli che noi chiameremo
+
+53
+00:06:11,199 --> 00:06:17,599
+Degli scheletri degli schemi dei template viale di algoritmo o in generale di
+
+54
+00:06:18,111 --> 00:06:26,559
+Programmi per indicare uno schema generale all'interno dei quali poi noi possiamo effettivamente applicare un problema nel suo contesto reale
+
+55
+00:06:27,327 --> 00:06:33,727
+Quello che vedete qui è potrebbe essere considerato uno schema semplificato è astratto al punto giusto
+
+56
+00:06:33,983 --> 00:06:39,871
+Di un generico di una generica funzione vedete abbiamo del codice dello Statuto codice in realtà
+
+57
+00:06:41,663 --> 00:06:50,623
+Di una generica funzione chiamo p applicata su un dato o su un insieme questo sarebbe la contestualizzazione del nostro insieme di dati di
+
+58
+00:06:51,135 --> 00:06:56,255
+Espresso della relazione precedente quindi n è un valore in generale
+
+59
+00:06:56,767 --> 00:07:02,399
+Vedete che la struttura è molto regolare esiste prima una parte che evidenziata qui
+
+60
+00:07:03,679 --> 00:07:12,895
+In cui subito intercettiamo la validità della della validità della ricorsione in un certo senso
+
+61
+00:07:13,151 --> 00:07:18,271
+Detto in altri termini intercettiamo quella che la condizione terminale Chiqui identifica il caso terminale
+
+62
+00:07:19,039 --> 00:07:24,159
+Il generale sarà in qualche modo un valore è una condizione legata al valore di n
+
+63
+00:07:24,415 --> 00:07:30,303
+Quindi se questa condizione terminale si è verificata questa istruzione generica i
+
+64
+00:07:31,071 --> 00:07:36,191
+Rappresenta quello che noi vogliamo eseguire una volta raggiunto il caso terminale
+
+65
+00:07:36,703 --> 00:07:42,847
+Dipenderà chiaramente dal problema potrebbero esempio volerlo stampare oppure fare un conteggio dipende dal contesto
+
+66
+00:07:43,103 --> 00:07:52,319
+E poi ritorniamo questo è fondamentale in assenza se noi dimenticassimo questo questa condizione di intercettare questa condizione questa funzione ricorsiva
+
+67
+00:07:52,831 --> 00:08:02,047
+Non terminerà mai Lele se riferito Alife un po' ridondante in quanto abbiamo un ritorno è uno pseudocodice quindi possiamo permetterci di essere ridondanti
+
+68
+00:08:02,815 --> 00:08:12,031
+Questo è il caso normale o sia il caso ricorsivo quello che avviene quando non è verificata la condizione terminale in questo caso ci sarà un certo numero di operazioni che di nuovo
+
+69
+00:08:12,287 --> 00:08:17,407
+Dipendono dal contesto e l'aspetto fondamentale in questa seconda parte c'è una
+
+70
+00:08:18,687 --> 00:08:26,111
+Chiamata ricorsiva o eventualmente più chiamate ricorsive in questo caso per semplicità se n'è mostrata una con vedete PDN I
+
+71
+00:08:26,367 --> 00:08:31,743
+Dove nel primo e rigorosamente minori di n considerate ovviamente quello che succederebbe
+
+72
+00:08:31,999 --> 00:08:37,631
+Se noi anziché avere un n primo minore di n avessimo un n primo maggiore di n è il problema
+
+73
+00:08:37,887 --> 00:08:47,103
+Ricorsivamente esplode nel senso che richiamano la sua funzione su un insieme di dati sempre più grande e quindi chiaramente la condizione di terminazione che è in un certo se
+
+74
+00:08:47,359 --> 00:08:56,575
+Senso e posta al ribasso cioè come tentazione finale su un valore piccolo di dati non potrebbe chiaramente mai essere mai verificarsi è il vostro programma
+
+75
+00:08:56,831 --> 00:09:02,207
+Eseguire infinito quindi questa è una condizione fondamentale è importante riconoscerlo vedremo poi subito
+
+76
+00:09:02,463 --> 00:09:08,863
+Nella nella discussione sull'analisi delle funzioni ricorsive che le chiamate ricorsive
+
+77
+00:09:09,119 --> 00:09:14,239
+Sono in generale più di una
+
+78
+00:09:14,751 --> 00:09:20,127
+Questa prima parte introduttiva viene conclusa chiedendoci perché siamo interessati alla ricorsione
+
+79
+00:09:20,639 --> 00:09:25,759
+Diciamo che ci sono due motivi uno ha un motivo diciamo pratico
+
+80
+00:09:26,783 --> 00:09:32,927
+E deriva dal fatto che la natura di molti problemi reali del mondo reale si presta naturalmente una formulazione ricorsiva
+
+81
+00:09:33,183 --> 00:09:39,327
+Una formulazione ricorsiva significa che si esprimono naturalmente come l'applicazione dello stesso problema
+
+82
+00:09:39,839 --> 00:09:45,215
+Su sotto problemi su un sottoinsieme di dati progressivamente più piccoli
+
+83
+00:09:45,727 --> 00:09:54,943
+Vi mostrerò un esempio la fine verso la fine della lezione che poi diventerà anche un esempio che vi mostra come non usare volendo lalala ricorso
+
+84
+00:09:55,199 --> 00:10:01,343
+In ogni caso ci sono. Molti problemi reali reali che naturalmente vengono
+
+85
+00:10:01,855 --> 00:10:08,255
+Intuitivamente risolti e nella loro stessa formulazione sono intrinsecamente ricorsivi
+
+86
+00:10:09,023 --> 00:10:15,935
+Cucina naturale supportare con il linguaggio di programmazione con un algoritmo questa natura ricorsiva del problema
+
+87
+00:10:16,959 --> 00:10:22,847
+E poi c'è una motivazione che spesso deriva da un'analisi più formale del problema
+
+88
+00:10:23,103 --> 00:10:28,735
+E che molto spesso una soluzione specialmente se analitica ha un problema
+
+89
+00:10:28,991 --> 00:10:36,927
+Si presta naturalmente essere espressa con una formula matematica che noi chiameremmo equazione alle ricorrenze ma una formula in cui
+
+90
+00:10:37,183 --> 00:10:42,559
+È la soluzione espressa in termini di una soluzione più piccola di conseguenza
+
+91
+00:10:42,815 --> 00:10:48,703
+L'eleganza matematica della soluzione anche in termini di risoluzione del programma di codice C che noi scriviamo
+
+92
+00:10:48,959 --> 00:10:56,895
+È migliore più elevata perché il programma è più compatto che questo poi si traduca in una più facile leggibilità non è sempre detto
+
+93
+00:10:57,151 --> 00:11:06,367
+O meglio più che leggibilità interpretazione in questo senso diventa quindi uno strumento importante anche perché adesso abbiamo visto solo degli schemi
+
+94
+00:11:06,623 --> 00:11:13,279
+E concettuali di implementazione di funzioni ricorsive diventa uno strumento importante
+
+95
+00:11:13,535 --> 00:11:21,215
+Poter effettuare un analisi di una funzione ricorsiva questo ha preso secondo argomento della lezione
+
+96
+00:11:21,727 --> 00:11:29,919
+E penale per analisi di funzione ricorsiva intendo leggendo un programma ricorsivo un algoritmo ricorsivo capire che cosa questo algoritmo
+
+97
+00:11:30,175 --> 00:11:39,391
+Effettivamente svolga facciamo questo e compriamo questo argomento usando come faremo spesso nel nostro corso un esempio di lavoro
+
+98
+00:11:39,647 --> 00:11:46,047
+Su cui vediamo due possibili alternative sono infatti impossibile due approcci base per analizzare
+
+99
+00:11:46,815 --> 00:11:53,215
+L'esecuzione di un algoritmo ricorsivo un'analisi top-down o sia dall'alto verso il basso
+
+100
+00:11:53,983 --> 00:12:03,199
+In due parole svolgendo la sequenza e analizzando la sequenza di chiamate ricorsive come effettivamente avviene nel programma
+
+101
+00:12:03,455 --> 00:12:12,671
+Oppure un'analisi bottom-up ossia dal basso verso l'alto partendo dai casi terminali quindi non certo senso al contrario di come effettivamente viene chiamate combinando
+
+102
+00:12:12,927 --> 00:12:20,351
+Questi casi terminali infatti queste due modalità rappresentano due diverse modalità di sviluppo della sequenza di chiamate
+
+103
+00:12:21,119 --> 00:12:27,263
+Ricorsive nessuna delle due è sempre migliore dell'altra dipende molto dal tipo di
+
+104
+00:12:27,775 --> 00:12:32,895
+Funzione barra algoritmo ricorsivo che state considerando
+
+105
+00:12:33,919 --> 00:12:41,855
+Introduciamo il nostro esempio di lavoro sul quale noi andiamo a vedere come si implementa come si realizzano queste due strategie di analisi
+
+106
+00:12:42,623 --> 00:12:51,839
+E vedete che questo esempio molto semplice adesso andiamo a leggere potrebbe essere abbastanza criptico è già abbastanza difficile capire che cosa succede e che cosa F
+
+107
+00:12:52,095 --> 00:12:58,239
+Effettivamente fa vi anticipo che dal punto di vista pratico dell'utilità pratica questo programma non ne ha
+
+108
+00:12:59,007 --> 00:13:04,639
+Utilità pratica ci serve per capire le nostre modalità di analisi
+
+109
+00:13:05,151 --> 00:13:12,319
+In ogni caso resta difficile capire esattamente che cosa faccia lo leggiamo vedete una funzione di tipo void
+
+110
+00:13:12,575 --> 00:13:18,975
+Questa scritto in puro ci non è uno pseudocodice ricevo un parametro intero n c'è scritto in giallo il caso terminale deve essere
+
+111
+00:13:19,231 --> 00:13:27,423
+Se c'è sempre dovete sempre di accettarlo quindi se n minore uguale a zero ritorna immediatamente quindi la vedete che la condizione di terminazione
+
+112
+00:13:27,679 --> 00:13:33,311
+Espressa in termini della del parametro dell'insieme dei dati su cui la ricorsione opera
+
+113
+00:13:33,823 --> 00:13:38,943
+E poi vedete che ci sono due chiamate ricorsive una che opera su F
+
+114
+00:13:39,199 --> 00:13:44,575
+Con argomento n meno 2 inframezzate e l'altra che opera con
+
+115
+00:13:44,831 --> 00:13:51,743
+Su un argomento n meno 1 quindi richiama la stessa funzione con argomento e nemmeno uno inframezzata dalla stampa del valore n
+
+116
+00:13:53,023 --> 00:13:58,911
+Superiamo adesso di scrivere un mail come vedete qui in cui Ostra tutte le variabili tutte le dichiarazioni eccetera
+
+117
+00:13:59,423 --> 00:14:08,639
+Super Amo di aggiungerci un mail aggiungere le prede di appropriati dichiarazioni e di invocare la funzione con parametro 3 quindi io chiamo eh
+
+118
+00:14:08,895 --> 00:14:14,527
+F con parametro tre risposta che vogliamo avere qual è la opus prodotto da questo programma
+
+119
+00:14:14,783 --> 00:14:22,207
+Ovviamente proviamo tre perché un numero piccolo in generale ci potremmo chiedere cosa succede se scrivo 100 FD 100 qual è
+
+120
+00:14:22,463 --> 00:14:29,375
+Effettivamente la sequenza di operazioni e quindi che cosa viene prodotto sullo schermo vedete che c'è una print f qua quindi ci sarà un output
+
+121
+00:14:30,655 --> 00:14:36,543
+Già risponde a questa domanda richiede una strategia forse per tentativi potremmo riuscire a ricostruirla
+
+122
+00:14:36,799 --> 00:14:43,455
+L'obiettivo proprio riuscire a formalizzare definire bene questi tentativi vediamo quindi la prima strategia
+
+123
+00:14:43,967 --> 00:14:52,159
+Che è quella basata sull'analisi dall'alto verso il basso top-down questa viene costruendo quello siamo a un albero di ricorsione si chiama albero perché
+
+124
+00:14:52,671 --> 00:15:01,119
+Una forma di un albero rovesciato è la prima volta che lo vediamo ma al termine di questo corso sarà un termine che vi sarà molto familiare
+
+125
+00:15:02,655 --> 00:15:08,031
+Che ha come primo elemento che si chiamano si chiama radice come primo elemento di questo
+
+126
+00:15:08,543 --> 00:15:13,663
+Di questo sviluppo il valore corrispondente alla chiamata che per noi è FD3
+
+127
+00:15:14,431 --> 00:15:20,575
+Vediamo come evolve lo disegniamo adesso capiremo anche se bene ripeto è più avanti avremo
+
+128
+00:15:20,831 --> 00:15:26,719
+Luogo e modo di vedere ripetutamente alberi in diverse forme con diverse applicazioni
+
+129
+00:15:27,231 --> 00:15:32,351
+Determarket illustra alcune caratteristiche base di un albero questa nostra chiamata
+
+130
+00:15:33,119 --> 00:15:38,751
+FD3 ora io seguo e scrivo per livelli quello che avverrebbe
+
+131
+00:15:39,007 --> 00:15:46,175
+Corrispondente ad ogni livello di ricorsione quindi se io metto n = 3 ovviamente eseguo la mia funzione
+
+132
+00:15:46,943 --> 00:15:53,343
+Ricordandoci nostro pseudocodice il nostro codice ovviamente 3 maggiore uguale a zero quindi noi
+
+133
+00:15:53,599 --> 00:15:59,743
+Procediamo cioè non entriamo nel caso terminale viene effettuata subito una chiamata a FDN meno 2
+
+134
+00:16:00,511 --> 00:16:05,631
+Poi viene stampato il valore n che entra in questo caso e poi viene effettuato una chiamata
+
+135
+00:16:06,143 --> 00:16:15,359
+FDN meno 1 questo sarebbe il nostro sviluppo questo primo livello è quello che avevi le operazioni che vengono immaginiamo nessuna specie di asse temporale orizzontale
+
+136
+00:16:15,615 --> 00:16:21,247
+Sale da sinistra verso destra e questo primo livello e l'espansione di quello che avviene con la chiamata a tre
+
+137
+00:16:23,295 --> 00:16:29,439
+Qua artificialmente per distinguerli ho distinto con i colori le chiamate che sono ulteriormente ricorsive
+
+138
+00:16:29,695 --> 00:16:36,607
+E questi pallini più piccoli nodi dell'albero si chiamano con uno sfondo azzurro che rappresentano la output
+
+139
+00:16:36,863 --> 00:16:42,751
+Messo tra virgolette vorrebbe rappresentare un output che succede ora se rispondiamo alla chiamata fd1
+
+140
+00:16:43,263 --> 00:16:49,663
+Beh ha chiamato FT1 avrà lo stesso effetto solo che adesso è ne vale uno non tre quindi verrà chiamata prima FDN meno 2
+
+141
+00:16:51,199 --> 00:17:00,415
+Poi viene stampato uno e poi viene stampato FDN meno uno che fa zero per te che qui evidenziato questi due nuovi nodi f11f
+
+142
+00:17:00,671 --> 00:17:09,375
+Apri 0 con un altro colore perché questi una volta che invochiamo la funzione con questi due parametri con questi valori meno 1 e 0
+
+143
+00:17:09,631 --> 00:17:15,775
+La funzione ritornerà immediatamente perché siamo nel caso terminale n e minore uguale a zero
+
+144
+00:17:18,847 --> 00:17:25,759
+Esplodiamo adesso la vista a destra FD2 corrisponderà una chiamata a FDN meno 2
+
+145
+00:17:26,271 --> 00:17:33,951
+La Stampa di n = 2 e la chiamata FDN meno uno cioè fd1 che quindi si espande ancora diversamente da fd0
+
+146
+00:17:34,463 --> 00:17:40,863
+Che non ha ulteriori sviluppi perché l'argomento è minore uguale a zero fd1 l'abbiamo già espanso prima
+
+147
+00:17:41,119 --> 00:17:47,519
+E questo servazione che ho appena fatto sarà importante successivamente fd1 lo abbiamo già qui
+
+148
+00:17:48,031 --> 00:17:54,431
+E quindi risulterà nello stesso sviluppo qual è il risultato dell'operazione complessiva della nostra invocazione
+
+149
+00:17:54,687 --> 00:18:03,903
+Abbiamo capito che verranno stampati in un qualche ordine questi pallini azzurri l'ordine è da sinistra verso destra perché perché abbiamo scritto come vi ho detto con
+
+150
+00:18:04,159 --> 00:18:09,279
+Attualmente con un'enfasi temporale da sinistra verso destra questi vertici
+
+151
+00:18:09,535 --> 00:18:15,423
+Nella chiamata infatti nella funzione ricorsiva cioè I FDN nella chiamata ricorsiva FDN c'è
+
+152
+00:18:15,679 --> 00:18:21,055
+FDN - 2 La Stampa FDN meno 1 quindi la o put
+
+153
+00:18:21,311 --> 00:18:30,527
+Di questa esecuzione è da sinistra verso destra l'ordine ignorando il livello dei pallini di colore azzurro quindi
+
+154
+00:18:30,783 --> 00:18:39,999
+1321 possiamo ripetere per esercizio e la chiamata ricorsiva per f = 4 f = 5 insomma vedremo che verrà una certa sequenza di valori come
+
+155
+00:18:40,255 --> 00:18:48,959
+Come vedete non è particolarmente rappresentativa di un problema realistico la cosa che salta subito all'occhio è tuttavia e l'ho già fatto osservare
+
+156
+00:18:49,727 --> 00:18:56,383
+Questo tipo di analisi effettua un sacco di lavoro inutile dovessimo disegnare immaginate l'albero f = 20
+
+157
+00:18:56,895 --> 00:19:02,015
+Verrebbero fuori un certo numero di nodi in questo albero
+
+158
+00:19:02,783 --> 00:19:11,743
+Si chiamano appunto proprio ora ami dell'albero è proprio perché ignoriamo o in un certo senso non ci preoccupiamo di questo fatto
+
+159
+00:19:11,999 --> 00:19:17,119
+Possiamo però osservare che ci sono diversi sotto problemi identici che vengono ripetuti più volte
+
+160
+00:19:18,911 --> 00:19:25,055
+Riprendo velocemente qui il nostro albero per esempio vedete che la chiamata di fd1
+
+161
+00:19:26,079 --> 00:19:33,503
+L'avevo già fatto osservare mentre disegnavo già per una chiamata così semplice era noioso riscrivere e ridisegnare due volte la stessa cosa
+
+162
+00:19:33,759 --> 00:19:39,647
+Questo che stiamo sotto albero che ha per radice fd1 si ripete due volte
+
+163
+00:19:39,903 --> 00:19:45,023
+Immaginate adesso la chiamata a FT4 evidentemente nella chiamata FT4
+
+164
+00:19:45,279 --> 00:19:51,935
+A sinistra avrete FD2 stampe Rete 4 ea sinistra ea destra avrete FT3 che esattamente quello che vedete qui
+
+165
+00:19:52,703 --> 00:19:57,823
+Quindi anche lilla FD2 si ripeterà un certo numero di volte qual è la
+
+166
+00:19:59,359 --> 00:20:05,247
+La morale di questa di questa analisi è la prima osservazione è che questo metodo apparentemente
+
+167
+00:20:05,759 --> 00:20:10,879
+Ci permette di capire come funziona come eseguo un programma ricorsivo ma è particolarmente
+
+168
+00:20:11,903 --> 00:20:17,791
+Se non tedioso è almeno è abbastanza complicato e lungo
+
+169
+00:20:18,047 --> 00:20:23,167
+Da verificare sulla base peraltro dell'osservazione
+
+170
+00:20:23,679 --> 00:20:29,823
+Che con il metodo top down ci sono un certo numero di di di sotto problemi chiamami pure così
+
+171
+00:20:30,591 --> 00:20:36,223
+Che si ripetono e quindi devono essere espansi e disegnati più volte ci porta
+
+172
+00:20:36,479 --> 00:20:41,599
+A pensare a una strategia inversa che possiamo chiamare analisi bottom up
+
+173
+00:20:41,855 --> 00:20:47,487
+E che deriva quindi dalla precedente osservazione e della precedente osservazione che ci porta quest'analisi bottom
+
+174
+00:20:49,023 --> 00:20:57,983
+Anziché partire dal problema che mi viene richiesto quindi dalla mia invocazione FDN ed espanderla come effettivamente sarebbe eseguita
+
+175
+00:20:58,495 --> 00:21:04,895
+Considerato che ci sono diversi problemi ripetuti ci conviene partire dei problemi semplici
+
+176
+00:21:05,407 --> 00:21:12,063
+Quindi dai casi terminali e visto che il caso generale e ottenuto combinando dei casi di dimensione più piccola
+
+177
+00:21:12,319 --> 00:21:20,000
+Facciamo il lavoro al contrario appunto bottom-up quindi partiamo dai sotto problemi elementari dei casi terminali
+
+178
+00:21:21,024 --> 00:21:28,960
+Li risolviamo una sola volta e li usiamo per calcolare le soluzioni di dimensione più grande
+
+179
+00:21:29,216 --> 00:21:35,616
+Progressivamente più grande proviamo proviamo a vedere come funzionerebbe la chiamata FT3
+
+180
+00:21:36,128 --> 00:21:43,296
+Con questo metodo allora qua vedete già tutte spasso qual è il risultato risultato
+
+181
+00:21:43,552 --> 00:21:52,768
+E deve essere ovviamente lo stesso identico allora qui vediamo una specie di tabellina su tre colonne qua vedete le tre chiamate e vedete che partiamo dal
+
+182
+00:21:53,024 --> 00:22:01,472
+Primo caso significativo quello con n maggiore uguale maggiore di zero perché perenne minore uguale a zero non c'è output
+
+183
+00:22:02,496 --> 00:22:11,712
+L'operazione corrispondente quindi cosa succede nella parte di codice che non è il caso terminale quindi nella parte ricorsiva è il corrispondente auto
+
+184
+00:22:11,968 --> 00:22:17,344
+Che viene generato e col metodo bottom-up facciamo una specie di collage di quello che viene prodotto
+
+185
+00:22:17,856 --> 00:22:23,232
+Per ogni valore a partire dal basso vedete dei valori più piccoli a quelli più alti
+
+186
+00:22:24,000 --> 00:22:29,120
+Quindi la prima chiamata utile cioè che produce delle chiamate ricorsive fd1
+
+187
+00:22:29,632 --> 00:22:37,312
+FT1 risulterebbe in questo chiamiamolo con un nome tecnico questo pattern FD meno 11 FD 0
+
+188
+00:22:37,824 --> 00:22:43,712
+Noi sappiamo che questi due ritornano immediatamente per cui qua se mi sono trascritto quello che effettivamente la o con il trattino
+
+189
+00:22:44,224 --> 00:22:49,344
+Sta a significare serve anche un po' da separatore sta a significare che non stampo nulla
+
+190
+00:22:49,600 --> 00:22:54,976
+Quindi la putrefattivo è questa stringa questo insieme di caratteri
+
+191
+00:22:55,232 --> 00:23:02,400
+Sebbene questi due non ci siano l'unica o polvere proprio l'uno quindi questo è il pattern che viene prodotto per SD1
+
+192
+00:23:03,680 --> 00:23:10,336
+Poi abbiamo FD2 risolviamo il caso successivo FD2 corrisponde nella parte
+
+193
+00:23:10,592 --> 00:23:15,712
+Ricorsiva a tre operazioni FDN meno 2 o si fd0
+
+194
+00:23:15,968 --> 00:23:21,344
+Stampo il valore n cioè due e invocazione ricorsiva a fd1
+
+195
+00:23:21,600 --> 00:23:26,720
+Cioè ad FDN meno uno bene e fede 0
+
+196
+00:23:27,232 --> 00:23:32,352
+E questo trattino poi stampo il 2 vedete che ho colorato le parti nuove o meglio
+
+197
+00:23:32,864 --> 00:23:38,240
+Ho preso poi ho tagliato incollato la chiamata FT1 e l'ho messa qui
+
+198
+00:23:39,520 --> 00:23:45,664
+Quindi l'auto DFD 221 FT3 FT3
+
+199
+00:23:45,920 --> 00:23:51,808
+Stessa cosa le tre operazioni sono FDN meno 1 CF di uno stampo di 3
+
+200
+00:23:52,064 --> 00:23:58,720
+FDN meno 1 cioè vedi 2 e anche qui vedete tagliamo incolliamo che cosa fd1 lo prendo qui
+
+201
+00:23:58,976 --> 00:24:04,608
+E lo attacco 3ela opus e lo copio FD2 l'ho calcolato prima
+
+202
+00:24:04,864 --> 00:24:11,776
+Eccolo qui adesso tralasciando questi trattini che servono più che altro a separare ma identificano altri casi terminali
+
+203
+00:24:13,568 --> 00:24:18,944
+Questo miao potete che diventerebbe adesso immediato molto più veloce che nel caso precedente
+
+204
+00:24:19,456 --> 00:24:25,344
+Costruisci FD4 ci verrebbe la tentazione di farlo al volo FT4 corrisponderebbe AFD
+
+205
+00:24:26,112 --> 00:24:34,048
+Due La Stampa d4fd tre FD2 questo poi stamperemo quattro e poi stamperemo questo pattern
+
+206
+00:24:34,560 --> 00:24:39,936
+Quindi la Opus sarebbe 214 1321 allora
+
+207
+00:24:40,192 --> 00:24:46,848
+Su questo specifico esempio capiamo subito immediatamente che il metodo bottom up
+
+208
+00:24:48,640 --> 00:24:53,760
+È decisamente più vantaggioso facciamo il lavoro una volta sola no quindi
+
+209
+00:24:54,784 --> 00:25:00,416
+Ci chiediamo se questo sia vero sempre come già anticipato non è detto in generale dipende
+
+210
+00:25:00,672 --> 00:25:06,816
+Dal problema vi mostro una variante se vogliamo marginale dell'esempio precedente
+
+211
+00:25:07,328 --> 00:25:13,472
+In cui cambiando i numeri quindi anziché avere nemmeno 2 n meno 1 nelle chiamate ricorsive abbiamo dei valori
+
+212
+00:25:13,984 --> 00:25:19,104
+Diversi e questo ribalto subito e i vantaggi corrispondenti
+
+213
+00:25:20,896 --> 00:25:26,016
+Questa è la funzione molto simile ho messo il caso terminale
+
+214
+00:25:26,784 --> 00:25:34,720
+In modo semplificato quindi se n maggiore uguale a zero il ritorno implicito non ho evidenziato quindi scritto in modo un po' diverso ma concettualmente la stessa cosa
+
+215
+00:25:35,488 --> 00:25:43,680
+Stavolta anziché FDN meno 2 FDN meno 1 abbiamo chiamato con FDN meno 60 FDN meno 30
+
+216
+00:25:44,960 --> 00:25:51,616
+Apparentemente non c'è nessun motivo per cui debba funzionare meglio non debba funzionare in particolare il metodo bottom up
+
+217
+00:25:52,384 --> 00:26:00,832
+Ma ce ne accorgiamo subito che il metodo bottom up non può rinunciare nessun valore non posso saltare dei valori per poterle risolvere tu
+
+218
+00:26:02,624 --> 00:26:11,840
+Detto in altri termini il metodo bottom up e chiede di calcolare tutti i casi terminali a partire da fd0 quindi premesso che fd0 o per valori minori di zero non produce nessuna app
+
+219
+00:26:12,608 --> 00:26:17,728
+Io mi dovrò calcolare per calcolare FT1 FT2 pur sapendo
+
+220
+00:26:18,240 --> 00:26:23,360
+Che il primo valore che produce un altro significativo Sara
+
+221
+00:26:24,640 --> 00:26:29,760
+Ci sarà un auto diversa da quella banale sarà n = 60 se riguardiamo il codice
+
+222
+00:26:30,016 --> 00:26:39,232
+È uguale a 30 negli altri queste termineranno immediatamente e stamperanno corrisponderanno la stampa soltanto del valore di n
+
+223
+00:26:39,744 --> 00:26:48,704
+Abbiamo poi successivamente nella vai successivo lo sviluppo di questo esempio però tanto per capirci se io chiamassi questa funzione con fd68
+
+224
+00:26:49,472 --> 00:26:58,688
+Ricordiamoci sarà se c'è la chiamata f meno 60 e poi F meno 30 io farei la chiamata f di 60 meno 68 meno 8 cioè fd8
+
+225
+00:26:59,712 --> 00:27:04,832
+Scriverei 68 e poi 68 meno 30 fa 38 quindi dovrei avere
+
+226
+00:27:05,344 --> 00:27:13,536
+Tutti i valori esattamente da 1 fino alla mia chiamata quindi il fatto che in questo caso il passo tra le chiamate sia molto più ampio
+
+227
+00:27:13,792 --> 00:27:21,984
+Re del metodo bottom-up meno vantaggioso infatti in questo caso il metodo top down calcolare il sole sotto problemi effettivamente creati
+
+228
+00:27:22,496 --> 00:27:30,176
+Se ti chiamassi fd68 e le disegnassi l'albero di ricorsione sarebbe molto semplice sarebbe praticamente identico a prima
+
+229
+00:27:30,688 --> 00:27:35,808
+68 meno meno 7 meno 60 fa fd8
+
+230
+00:27:36,576 --> 00:27:42,464
+Poi abbastanza dai 68 e poi avrai la ricorsione per il caso 38 l'albero avrebbe
+
+231
+00:27:42,720 --> 00:27:48,352
+Lo stesso numero di livelli rispetto al caso precedente quando c'era e nemmeno 2 n meno 1
+
+232
+00:27:48,608 --> 00:27:54,752
+E quindi pur chiamando uno dei valori molto più grandi e usando dei valori molto più grandi avrai un altro della sua complessità
+
+233
+00:27:55,008 --> 00:28:00,128
+Come te dopodomani invece devo fare un qualche cosa di questo genere
+
+234
+00:28:00,896 --> 00:28:07,040
+Caratterizzare fd0 che non stampa nulla poi caratterizzare fd1 quindi calcolarne la puoi calcolarne la
+
+235
+00:28:07,296 --> 00:28:12,672
+FD 2fd fino a 30 da 31 in poi
+
+236
+00:28:12,928 --> 00:28:22,144
+Cominciano a essere delle stelle degli output diversi tutti questi valori non devono essere calcolati nel metodo Bortolato
+
+237
+00:28:22,400 --> 00:28:27,776
+Che calcolerà esattamente solo quello che vi serve che vi vedete che già a parità di esempio
+
+238
+00:28:28,288 --> 00:28:33,920
+Per minime differenze un metodo può essere molto più vantaggioso dell'altro
+
+239
+00:28:34,176 --> 00:28:40,320
+Cambiando soltanto qualche piccolo particolare quello che ci importa è che abbiamo due strumenti quindi
+
+240
+00:28:40,576 --> 00:28:45,952
+Data una funzione ricorsiva dovremmo essere in grado sempre di valutare che cosa succede
+
+241
+00:28:46,208 --> 00:28:51,328
+Tenete conto che il metodo top down e tipicamente più intuitivo perché
+
+242
+00:28:51,840 --> 00:28:56,960
+Rappresenta emula quello che succede effettivamente con la sequenza di chiamate
+
+243
+00:28:59,776 --> 00:29:05,152
+Vorrei adesso spendere il resto della nostra lezione parlando di aspetti
+
+244
+00:29:05,408 --> 00:29:14,624
+Un po' più tecnici per capire esattamente cosa succede nel contesto del mio programma quando uso la ricorsione è come questa
+
+245
+00:29:15,136 --> 00:29:23,072
+E poi impattare l'efficienza del mio programma non dimentichiamoci che noi usiamo la ricorsione per modellare dei problemi che sono naturalmente ricorsivi
+
+246
+00:29:23,328 --> 00:29:28,960
+O perché è più elegante ma dobbiamo avere un beneficio in questo
+
+247
+00:29:29,728 --> 00:29:34,848
+Se il beneficio non c'è in particolare se è appunto questo ha un impatto sulle sulla
+
+248
+00:29:35,104 --> 00:29:40,992
+Prestazione del mio programma potrei quindi voler valutare bene l'applicazione della ricorsione
+
+249
+00:29:41,248 --> 00:29:47,136
+All approccio ricorsivo alla soluzione di un problema come hai visto nella lezione precedente
+
+250
+00:29:48,160 --> 00:29:53,536
+Un programma eseguibile è costituito da di più sezioni come le abbiamo chiamate
+
+251
+00:29:53,792 --> 00:29:58,912
+C'è una sezione che contiene i dati statici e in particolare ma soprattutto il codice
+
+252
+00:29:59,168 --> 00:30:06,592
+C'è una sezione per i dati allocate dinamicamente lo keep e poi ce lo step sul quale stanno tutte le informazioni
+
+253
+00:30:06,848 --> 00:30:14,528
+Per così dire temporanea le più intuitive informazioni temporanee sono le variabili che dichiarate all'interno di una coppia di parentesi graffe
+
+254
+00:30:14,784 --> 00:30:21,184
+Quelli che si amano variabili automatiche queste nascono e muoiono alla alla chiusura di quella grassa
+
+255
+00:30:22,208 --> 00:30:27,584
+Anche le variabili globali dichiarate al di fuori tutte le funzioni appartengono a questa categoria
+
+256
+00:30:27,840 --> 00:30:33,472
+Ma quello che di più importante e cioè nello stack cioè sono importanti anche le variabili ovviamente ma
+
+257
+00:30:33,728 --> 00:30:40,896
+Quello di più caratteristico che lo step ospita e anche la lo Stato dinamico del vostro programma
+
+258
+00:30:41,664 --> 00:30:48,064
+Prestato intendo qual è la situazione la sequenza delle chiamate a funzione che voi avete fatto
+
+259
+00:30:49,344 --> 00:30:54,976
+In particolare ad ogni chiamata funzione che non locato sullo stack quello che si chiama un frame
+
+260
+00:30:56,256 --> 00:31:01,376
+Tetto a che viene anche detto record di attivazione che cos'è questo I record di attivazione
+
+261
+00:31:01,888 --> 00:31:08,800
+È un insieme è un insieme di celle di memoria è uno spazio è un insieme di informazioni di dati
+
+262
+00:31:09,056 --> 00:31:18,272
+Ti riguardano la chiamata a funzione corrispondente ricordiamoci che anche se nostro programma non uso delle funzioni main è una funzione
+
+263
+00:31:18,528 --> 00:31:23,648
+E quindi come minimo ci sarà sempre presente nel programma
+
+264
+00:31:24,416 --> 00:31:33,632
+Almeno il frame della funzione main che cosa contiene in particolare che tipo di informazioni contiene legate alla
+
+265
+00:31:33,888 --> 00:31:41,312
+La chiamata bene stiamo che una chiamata funzione avrà degli argomenti quindi ci saranno i valori dei parametri che vuoi
+
+266
+00:31:41,568 --> 00:31:48,224
+Passata questa funzione valore di parametri significa sia dove vengono memorizzati sia i rispettivi valori
+
+267
+00:31:48,992 --> 00:31:54,880
+Ci sono le variabili locali per queste variabili locali a. Sono variate automatiche e come tali
+
+268
+00:31:55,392 --> 00:32:01,024
+Vengono memorizzate nello stack ma fanno parte di quello che è il frame di quella funzione
+
+269
+00:32:01,792 --> 00:32:07,168
+E poi non dimentichiamoci cosa succede quando invochiamo una funzione quando ne invochiamo una funzione
+
+270
+00:32:07,424 --> 00:32:15,616
+La funzione avrà sarà un pezzo di codice scritto da un'altra parte quindi fisicamente il vostro programma salterà ha quella funzione
+
+271
+00:32:15,872 --> 00:32:22,272
+Quindi voi dovete sapere dove inizia la funzione indirizzo del codice della funzione più in particolare
+
+272
+00:32:22,784 --> 00:32:28,160
+Il puntatore in memoria alla prima istruzione da eseguire la prima istruzione utile della vostra funzione
+
+273
+00:32:28,928 --> 00:32:38,144
+E poi dovete anche segnarvi da qualche parte quello siamo indirizzo di ritorno cioè dove in quale punto della funzione chiamante avete chiamato questa funzione
+
+274
+00:32:38,400 --> 00:32:43,520
+Il punto quindi questo è anche il punto in cui ritornerete quando avrete finito quella funzione
+
+275
+00:32:44,800 --> 00:32:51,200
+Ci sono altri parametri altri oggetti nello del premio lostech meno rilevanti ma fondamentalmente
+
+276
+00:32:51,456 --> 00:32:57,088
+Qualunque sia linguaggio di programmazione che supporta le funzioni questo è ciò che voi avete sul frame
+
+277
+00:32:57,600 --> 00:33:05,536
+Dentro un frame dello stack pensiamo adesso a impatto a questo sulla ricorsione vediamo intanto
+
+278
+00:33:05,792 --> 00:33:14,752
+Una visualizzazione grafica tanto per capirci il tipico prende lo step serve a farci capire che in genere è un oggetto di dimensioni non proprio trascurabile
+
+279
+00:33:15,520 --> 00:33:21,152
+Ci sarà come minimo l'indirizzo dove parte il codice della funzione
+
+280
+00:33:21,408 --> 00:33:30,624
+L'indirizzo di ritorno poi per ogni parametro avrete un certo spazio quindi se il parametro supponente è un vettore ve lo dovete portare dietro tutto se è una
+
+281
+00:33:30,880 --> 00:33:38,048
+Maastricht avrà una certa dimensione poi ci sono tutte le variabili locali possiamo immaginare che questo non occupi
+
+282
+00:33:38,304 --> 00:33:44,192
+12 byte ma ne occupi un certo numero possiamo dire un centinaio di bite per una tipica funzione
+
+283
+00:33:45,216 --> 00:33:51,872
+Anche di più per funzioni più complesso con più parametri quindi è un oggetto che ha una dimensione significativa
+
+284
+00:33:53,920 --> 00:33:59,040
+Guarda ancora succede ho isolato qui in questo in questo rettangolo bianco il contenuto del mio stack
+
+285
+00:33:59,552 --> 00:34:06,208
+E sopra l'età di avere questa semplice schematizzata sequenza di chiamata funzione vedete in che chiama F
+
+286
+00:34:06,720 --> 00:34:13,376
+La funzione f chiama G sia almeno che è veramente faranno altre cose oltre a questa
+
+287
+00:34:13,888 --> 00:34:20,032
+Ma nello stack dinamicamente quello che succede è la seguente cosa quando il programma parte
+
+288
+00:34:20,288 --> 00:34:26,688
+Immediatamente subito il frame del mi viene messo vedete questi colori sono i colori della slide precedente
+
+289
+00:34:26,944 --> 00:34:32,064
+Indirizzo di inizio del codice l'indirizzo di ritorno i vari parametri chi sono i parametri del Main
+
+290
+00:34:32,320 --> 00:34:41,536
+Tramite del mail sono arabi CRI di argomenti sulla linea di comando e le variabili locali ce ne sono tante pensate quante variabili dichiarate in un e-mail
+
+291
+00:34:41,792 --> 00:34:47,680
+Quando scrivete un programma di dimensioni già significative dopodiché dopo un po' al mail
+
+292
+00:34:48,448 --> 00:34:54,080
+Eseguendo chiama la funzione f ed ecco che allora voi posizionate nel momento in cui la chiamata
+
+293
+00:34:54,336 --> 00:34:59,456
+La funzione f vedete che esattamente le stesse informazioni non sono tutti uguali frame ovviamente no
+
+294
+00:34:59,712 --> 00:35:06,624
+Perché FO potrebbe avere meno argomenti o addirittura nessuna variabile locale
+
+295
+00:35:06,880 --> 00:35:13,280
+Quindi io quale indicate genericamente come un blocco ma non sono tutti identici dopodiché f camera G
+
+296
+00:35:14,048 --> 00:35:20,704
+E così via ovviamente quando si termina ritorna in F questo no qua non è mostrato il frame viene tolto dallo stack
+
+297
+00:35:20,960 --> 00:35:26,080
+Rimarrà solo FG quando terminerà f sparirà anche le friend IF
+
+298
+00:35:26,336 --> 00:35:32,480
+Eccetera quando programma termina lo stack si svuota ovviamente ma il programma non è più in esecuzione quindi non ha più significato
+
+299
+00:35:32,736 --> 00:35:39,392
+Lo stesso stack stiamo dicendo che quindi lo stack è un oggetto vivo è un oggetto che dinamicamente
+
+300
+00:35:39,648 --> 00:35:45,536
+Cresce e diminuisce l'occupazione dello stack con l'esecuzione del vostro programma
+
+301
+00:35:46,304 --> 00:35:55,520
+Capito che nel momento in cui parliamo di ricorsione in cui noi possiamo generare in modo molto compatto un numero potenzialmente enorme di chiamate a funzioni
+
+302
+00:35:56,288 --> 00:36:01,664
+Devo stare molto attenti a come usiamo questa potenzialità può succedere infatti
+
+303
+00:36:01,920 --> 00:36:09,344
+Che per ricorsione molto profonde lo spazio riservato lo stecco può esaurirsi se ricordate la precedente lezione dove vedevamo lo stack
+
+304
+00:36:09,600 --> 00:36:14,720
+Enaip quello dove la sezione dove viene memorizzata
+
+305
+00:36:15,232 --> 00:36:21,632
+La memoria dinamica ce le variabili allocate dinamicamente e se crescono e in opposizione in direzioni diverse
+
+306
+00:36:21,888 --> 00:36:29,824
+Quindi se per esempio anche molta memoria dinamica un certo numero di chiamate ricorsive o comunque tante chiamata funzione possono
+
+307
+00:36:30,080 --> 00:36:35,712
+Andare a sovrapporsi quindi possiamo finire lo spazio utile allocato il mio programma
+
+308
+00:36:36,224 --> 00:36:41,344
+Quando questo succede a causa di chiamata funzione si parla di stack overflow
+
+309
+00:36:42,368 --> 00:36:48,768
+Lo stack overflow sia quando vuoi esaurite lo spazio dello stack quindi evidentemente ha detto a scrivere
+
+310
+00:36:49,280 --> 00:36:56,704
+Sulla porzione di keep e il programma terminerà questo spesso succede e vedo spesso dovuto a funzioni impropriamente ricorsive
+
+311
+00:36:58,240 --> 00:37:04,384
+È facile provarlo basterebbe con una funzione che andrò a mostrarvi adesso anche un esempio molto classico e didattico
+
+312
+00:37:04,896 --> 00:37:10,016
+Esagerare con il termine della chiamata funzione
+
+313
+00:37:10,272 --> 00:37:19,488
+Super parliamo di fattoriale fattoriale sappiamo come definito no superiamo di usare la definizione ricorsiva fattoriale è definito in modo naturale iterativamente come n per n
+
+314
+00:37:19,744 --> 00:37:27,936
+Nemmeno uno per n meno 2 fino a 1 quindi una produttoria però possiamo anche vedere questo come n moltiplicato n meno 1 fattoriale
+
+315
+00:37:28,448 --> 00:37:33,568
+Se noi implementiamo direttamente questa formulazione ricorsiva del fattoriale
+
+316
+00:37:34,080 --> 00:37:42,016
+Ci viene un codice evidentemente molto compatto molto elegante ma stiamo ovviamente impropriamente usando la ricorsione vedete qua
+
+317
+00:37:42,528 --> 00:37:47,904
+E nel vostro parametro se n minore uguale 1 o ritorniamo il caso terminale sempre fatto
+
+318
+00:37:48,160 --> 00:37:53,280
+Prima possibile per non dimenticare cena e poi ritorniamo n per il fattoriale di n meno 1
+
+319
+00:37:54,304 --> 00:38:00,960
+Questo più che un albero avendo una chiamata sola genere una sequenza lineare di chiamate ma potete immaginare
+
+320
+00:38:01,984 --> 00:38:08,384
+Cosa succede per valori grandi già solo guardando quello che succede nel caso in chiaro il fattoriale di 4
+
+321
+00:38:08,896 --> 00:38:18,112
+Questi blocchetti sulla destra sarebbero frame sullo stack vedete apriamo il programma ci mettiamo lo Slenderman e poi ci sono le varie
+
+322
+00:38:18,368 --> 00:38:26,304
+Fare chiamate no è uguale a 4 m = 32 m = 1 evidente che se io adesso mi facessi calcolare il fattoriale di 100
+
+323
+00:38:26,560 --> 00:38:32,192
+Piazza Remo per l'ultima chiamata c'era un momento in cui lo stack utilizza 100 frame
+
+324
+00:38:32,704 --> 00:38:41,408
+Per fare questo calcolo chiara con implementazioni iterativa userebbe un singolo frame eventualmente un secondo frame per calcolare la funzione fattoriale
+
+325
+00:38:42,688 --> 00:38:47,808
+Ma non ci sarebbe nessuno spreco di risorse dello stack questo chiaramente rallenterà anche vostro programma e limiterà
+
+326
+00:38:48,064 --> 00:38:53,440
+Il potenziale uso della della memoria dinamica
+
+327
+00:38:53,696 --> 00:38:59,328
+Quindi importante è capire che la ricorsione va usata bene
+
+328
+00:38:59,584 --> 00:39:08,288
+Va usata quando serve in generale bisogna quindi poter sapere come fare ad eliminare la ricorsione quando vi verrebbe da scrivere ricorsivo ma non è necessario
+
+329
+00:39:09,056 --> 00:39:14,688
+La ricorsione si può sempre eliminare dal punto di vista teorico ogni soluzione ricorsiva ha un equivalente interrati
+
+330
+00:39:16,992 --> 00:39:24,160
+Ma alcune funzioni sono più rimpiazzabile delle altre diciamo che possiamo pensare a delle linee guida
+
+331
+00:39:24,928 --> 00:39:31,840
+Gener generali che ci dicono quando usa la ricorsione quando non usarla una funzione andrebbe implementata in modo ricorsivo quando
+
+332
+00:39:32,864 --> 00:39:38,240
+In bocca a se stessa più di una volta quindi una ricorsione che chiama se stesso una volta sola non è molto intuitiva
+
+333
+00:39:38,752 --> 00:39:47,200
+Ed opera su una struttura dati che intrinsecamente ricorsiva per esempio noi vedremo proprio questi alberi che abbiamo a cena da cui abbiamo accennato oggi usato come strumento
+
+334
+00:39:47,456 --> 00:39:54,112
+Li gestiremo in modo più costruttivo come strutture dati e vedremo che qui
+
+335
+00:39:54,368 --> 00:40:00,256
+Effettivamente abbiamo necessità di ci viene naturale implementare
+
+336
+00:40:00,768 --> 00:40:06,912
+La nostra chiamata ricorsiva delle nostre funzioni che gestiscono questo insieme come una funzione ricorsiva
+
+337
+00:40:08,192 --> 00:40:13,568
+Questo conclude la nostra lezione per gli approfondimenti vi rimando come al solito al nostro sito web

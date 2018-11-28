@@ -1,0 +1,1331 @@
+1
+00:00:05,120 --> 00:00:12,288
+Benvenuti a questa lezione del corso di algoritmi e programmazione avanzata nella lezione di oggi parleremo di allocazione dinamica della memoria
+
+2
+00:00:12,800 --> 00:00:18,176
+Ossia di come possibile controllare da programma la locazione e di conseguenza anche
+
+3
+00:00:18,432 --> 00:00:23,552
+La liberamento dei dati e precedentemente allocati
+
+4
+00:00:25,088 --> 00:00:30,208
+I contenuti della lezione prevedono quindi illustrazione del concetto di allocazione dinamica della memoria e
+
+5
+00:00:30,976 --> 00:00:36,096
+Dimostrazione della sua maggiore flessibilità rispetto alla locazione tradizionale
+
+6
+00:00:36,864 --> 00:00:42,240
+Poi il supporto offerto dal linguaggio C per allocazione dinamica della memoria e
+
+7
+00:00:42,496 --> 00:00:50,688
+Un aspetto tecnico abbastanza importante successivamente che il modello di memoria o sia come il vostro programma eseguibile viene effettivamente memorizzato
+
+8
+00:00:51,200 --> 00:01:00,160
+Quando viene caricato in memoria e soprattutto dove vanno alcune porzioni del vostro programma nelle varie sezioni così le chiameremo di un programma
+
+9
+00:01:00,928 --> 00:01:10,144
+Del file eseguibile corrispondente al vostro programma infine il lato se vogliamo l'altra faccia della medaglia della programmazione e della locazione
+
+10
+00:01:10,400 --> 00:01:16,032
+La dinamica della memoria ossia il fatto che un uso incauto può creare dei problemi
+
+11
+00:01:16,288 --> 00:01:21,664
+E quindi è sicuramente più flessibile ma ci sono dei possibili problemi se noi non lo usiamo con attenzione
+
+12
+00:01:23,968 --> 00:01:33,184
+Quindi stiamo parlando di allocazione dinamica e cercando di focalizzare meglio qual è la differenza rispetto a come abbiamo giocato fino ad oggi la memoria nei programmi
+
+13
+00:01:33,440 --> 00:01:42,656
+In programma in particolare la differenza tra allocazione statica e dinamica è riferita in un certo senso all'aspetto interattivo
+
+14
+00:01:43,168 --> 00:01:49,312
+O meglio nel momento in cui noi allo chiama la memoria l'allocazione tradizionale quella che
+
+15
+00:01:49,568 --> 00:01:58,784
+Usiamo nei programmi che abbiamo visto fino ad oggi si chiama allocazione statica della Memoria allocazione statica significa essenzialmente a che la memoria resta
+
+16
+00:01:59,040 --> 00:02:05,184
+Occupata dal momento dell'attivazione e ho quindi quando ho definito una variabile all'attivazione del programma sino al suo termine
+
+17
+00:02:05,696 --> 00:02:11,840
+E non è possibile dimensionare direi io ridimensionare tale memoria secondo le esigenze
+
+18
+00:02:12,864 --> 00:02:19,264
+Classica situazione in cui questo si verifica quando dovete allocare più di una variabile
+
+19
+00:02:19,776 --> 00:02:25,152
+Quindi non avrebbe scalare ma tipicamente un vettore quando avete una dimensione di problema a chi non è nota
+
+20
+00:02:25,664 --> 00:02:31,552
+L'unica soluzione che avete a disposizione definendo un'opportuna costante in modo che sia facilmente modificabile
+
+21
+00:02:31,808 --> 00:02:36,928
+È quello per esempio supponiamo che il vettore si chiama ivi un vettore di Double e di allo Carlo
+
+22
+00:02:37,440 --> 00:02:42,816
+In base a questa costante il nostro problema potrebbe avere dimensioni diverse e nel tempo
+
+23
+00:02:43,072 --> 00:02:49,472
+E in successiva istanza del programma quindi quello che succede tipicamente e che finiamo per dimensionarlo per eccesso
+
+24
+00:02:50,240 --> 00:02:55,360
+Quindi 1000 potrebbe essere un valore ragionevole che va bene come caso peggiore
+
+25
+00:02:55,872 --> 00:03:01,504
+Possiamo immaginare degli scenari applicativi se noi dobbiamo memorizzare per esempio un insieme di studenti
+
+26
+00:03:02,528 --> 00:03:07,648
+Questo potrei mente potrebbe anche funzionare in quattro insieme degli studenti
+
+27
+00:03:08,672 --> 00:03:16,864
+È un insieme che cresce ma vuole dire poi studenti si laureano quindi ci potrebbe essere un numero più o meno fisso e ben definito di quelli che sono gli iscritti
+
+28
+00:03:17,376 --> 00:03:23,264
+Ma se invece moderiamo un insieme che ha un tasso di variazione molto diverso molto irregolare noi dovremmo prevedere qual è
+
+29
+00:03:23,520 --> 00:03:29,152
+La massima occupazione di questo sistema se vogliamo per allocare il nostro vettore quindi questo sicuramente
+
+30
+00:03:29,408 --> 00:03:38,624
+Comporta uno spreco la locazione quindi qua ovviamente vi occupa 8000 byte perché un double in questo caso occupa 8 ball
+
+31
+00:03:38,880 --> 00:03:44,000
+E quindi ce ne sono esattamente mille il salto che possiamo fare in questo caso
+
+32
+00:03:44,768 --> 00:03:51,680
+È quello di passare a una gestione dinamica cosiddetta allocazione dinamica della memoria in cui
+
+33
+00:03:52,192 --> 00:03:58,848
+Non è più il compilatore che la gestisce in base a dei dati fissati al tempo di scrittura del programma
+
+34
+00:03:59,104 --> 00:04:05,760
+Ma passare una gestione esplicita da parte del programmatore vuol dire che il programmatore sarà in grado di controllare
+
+35
+00:04:06,272 --> 00:04:12,928
+E quindi di scegliere anche la quantità della locazione di un'area di memoria e il relativo rilascio di
+
+36
+00:04:13,184 --> 00:04:19,839
+Di quest'aria di memoria questo come l'hai già accennato nell'introduzione aumenta il grado di flessibilità
+
+37
+00:04:21,119 --> 00:04:26,239
+E soprattutto il grado di efficienza in termini di occupazione di memoria del nostro programma ma chiaramente
+
+38
+00:04:26,495 --> 00:04:32,383
+Non non è sempre agevole e può portare dei problemi se non viene usato
+
+39
+00:04:32,639 --> 00:04:38,783
+Comprendendo bene esattamente quello che stiamo facendo ci sono evidentemente dei vantaggi
+
+40
+00:04:39,295 --> 00:04:47,743
+Il vantaggio principale è quello di poter in un certo senso far corrispondere
+
+41
+00:04:47,999 --> 00:04:53,631
+L'esatta necessità di memoria dal locale non programma rispetto a quelle che sono le richieste
+
+42
+00:04:54,655 --> 00:05:03,359
+E questo può essere fatto sia in diverse istanze di esecuzione del programma o addirittura all'interno della stessa esecuzione di programma in punti diversi
+
+43
+00:05:04,127 --> 00:05:09,759
+Quindi la memoria dinamica l'allocazione dinamica della memoria ci offre le seguenti possibilità
+
+44
+00:05:10,015 --> 00:05:16,159
+La possibilità di allocare la quantità strettamente necessaria di memoria e per quantità definite al tempo di esecuzione
+
+45
+00:05:17,439 --> 00:05:24,095
+In queste sono le parole chiave la quantità strettamente necessaria al tempo di esecuzione c'è quando il vostro programma esegue
+
+46
+00:05:24,351 --> 00:05:29,471
+Non siete obbligati come nel caso del vettore di 1000 elementi a scriverlo dentro il codice
+
+47
+00:05:31,775 --> 00:05:37,919
+Questo come già accennavo può essere utile in due scenari diversi quello in cui
+
+48
+00:05:38,431 --> 00:05:43,551
+In diverse esecuzioni il programma può determinare la corretta richiesta di memoria
+
+49
+00:05:43,807 --> 00:05:49,183
+Dato che la richiesta di memoria definita tempo di esecuzione diverse istanze di esecuzione dello stesso programma
+
+50
+00:05:49,951 --> 00:05:57,887
+Allora hanno diverse quantità di memoria ecco una visualizzazione di questo concetto sopra di questo rettangolo più chiaro sia la vostra memoria principale
+
+51
+00:05:58,143 --> 00:06:04,031
+E supponiamo che il vostro programma richieda di allocare un vettore in base a una variabile
+
+52
+00:06:04,287 --> 00:06:10,431
+Introdotta da tastiera dall'utente quindi l'utente scrive 100 e voi allocare 300 elementi
+
+53
+00:06:10,943 --> 00:06:16,575
+Io sto dell'utente scrive come lo scenario di destro €1000 che rete 1000 elementi
+
+54
+00:06:16,831 --> 00:06:23,743
+Quindi questo sono due istanze diverse di programma eseguite in tempi diversi e che hanno diverse esigenze di memoria
+
+55
+00:06:26,047 --> 00:06:31,679
+Ovviamente questo può anche essere applicato in uno scenario in cui questa variazione di richieste di memoria
+
+56
+00:06:31,935 --> 00:06:40,895
+Può essere anche temporalmente più vicina cioè uno scenario in cui il programma necessità di una quantità di memoria che varia nel tempo ma all'interno della stessa esecuzione
+
+57
+00:06:41,407 --> 00:06:47,551
+E chiaramente in questo caso ne possiamo adattare alla memoria le richieste e quindi la locazione corretta
+
+58
+00:06:47,807 --> 00:06:52,927
+Permette un miglior uso della risorsa la risorsa in questo caso alla memoria disponibile
+
+59
+00:06:53,951 --> 00:06:59,327
+Possiamo organizzare visualizzare anche qui lo scenario con un semplice disegno
+
+60
+00:06:59,839 --> 00:07:05,983
+Questo è l'asse del tempo vedete che questi tratteggi indicano diventi pou diversi punti di esecuzione del vostro programma
+
+61
+00:07:06,495 --> 00:07:14,175
+E vedete che il vostro superiamo Vittorio comunque la vostra quantità di memoria che necessita te indicata da questo blocco v
+
+62
+00:07:15,199 --> 00:07:21,343
+Può partire con una dimensione del ragionevolmente piccola per esempio potrebbe strada facendo aumentare
+
+63
+00:07:23,647 --> 00:07:29,279
+Diminuire di nuovo e poi di nuovo aumentare quindi a seconda delle esigenze può essere possibile
+
+64
+00:07:29,535 --> 00:07:35,167
+Regolare la memoria di memoria richiesta di anticipo che questo tipo di scenario
+
+65
+00:07:35,423 --> 00:07:42,335
+È un pochino meno tipico o meglio e meno tipico
+
+66
+00:07:42,591 --> 00:07:48,479
+Se lo pensiamo come questo come fosse un vettore comunque una quantità di memoria monolitica
+
+67
+00:07:48,735 --> 00:07:57,951
+Vedremo che questo tipo di scenario prendo una forma leggermente diversa in cui noi allo chiamo dei blocchi di memoria relativamente piccole degli elementi che possono
+
+68
+00:07:58,463 --> 00:08:07,679
+Essere aggiunti o tolti se vogliamo al vostro programma questo verrà chiarito meglio quando parleremo di tipi di dato astratto
+
+69
+00:08:08,703 --> 00:08:16,383
+Questo lo scenario disegnato in questo modo è un pochino più atipico in una prima fase apprezzeremo meglio la memoria dinamica
+
+70
+00:08:16,639 --> 00:08:23,807
+Nel momento in cui la lo chiamo con diverse quantità quindi in modo ondemand diciamo
+
+71
+00:08:24,575 --> 00:08:29,695
+Per diversi esecuzione del nostro programma
+
+72
+00:08:29,951 --> 00:08:37,375
+Ovviamente per poter usare questo concetto ogni linguaggio di programmazione avrà a disposizione il suo strumento
+
+73
+00:08:37,631 --> 00:08:42,751
+Noi usiamo linguaggio C quindi dobbiamo capire quali sono gli strumenti che metto a disposizione il linguaggio C
+
+74
+00:08:43,519 --> 00:08:49,407
+Vi anticipo che le funzioni sono relativamente semplici ovviamente nel momento in cui lo chiamo un area di memoria
+
+75
+00:08:49,663 --> 00:08:55,551
+Dobbiamo poter manipolare indirizzi e di conseguenza ci serve avere una certa dimestichezza con i puntatori
+
+76
+00:08:57,599 --> 00:09:03,999
+Lo strumento principale per allocazione dinamica della memoria in C è la funzione malloc
+
+77
+00:09:04,511 --> 00:09:13,727
+Maalox è un abbreviazione una contrazione di memory allocation questa funzione un'interfaccia estremamente semplice che però va usata con cura quello perché
+
+78
+00:09:13,983 --> 00:09:20,895
+Che manipoliamo indirizzi questo è il prototipo della funzione che vedete ha già una stranezza in un certo senso
+
+79
+00:09:21,407 --> 00:09:27,039
+Il suo prototipo ha come valore di ritorno void * commenteremo meglio
+
+80
+00:09:27,551 --> 00:09:32,671
+Questo aspetto però è come dire che stiamo ritornando un puntatore generico
+
+81
+00:09:32,927 --> 00:09:38,303
+Però quello che al momento ci preme più di tutti e capire che questa se riesco ci dice che la malloc ritorna un puntatore
+
+82
+00:09:38,815 --> 00:09:44,191
+Quindi un qualche cosa che può essere assegnato a una variabile di tipo puntatore
+
+83
+00:09:44,447 --> 00:09:49,567
+Atta a memorizzare un indirizzo poi Malo che viene invocata e da un unico parametro
+
+84
+00:09:49,823 --> 00:09:57,759
+Che la dimensione o sia un numero intero ovviamente positivo di byte che vengono locati quindi non è lo chiamo bite
+
+85
+00:09:58,783 --> 00:10:03,903
+Se ne volessi scrivessimo 10 stiamo giocando 10 byte
+
+86
+00:10:04,927 --> 00:10:10,303
+Elaboriamo un attimo questo discorso del valore di ritorno della Mallow void *
+
+87
+00:10:10,559 --> 00:10:19,775
+Significa un puntatore a un tipo generico quindi il puntatore a cui viene assegnato la memoria allocata viene usato immaginiamo un uso del tipo
+
+88
+00:10:20,543 --> 00:10:29,759
+P = Malloch ok dovevi è un puntatore il valore di ritorno della malloc e quindi un puntatore a cui viene assegnata la memoria che viene allocata
+
+89
+00:10:30,527 --> 00:10:37,183
+Piccola nota la memoria potrebbe non essere allocata o sia il compilatore potrebbe non riuscire
+
+90
+00:10:37,695 --> 00:10:42,815
+Per motivi vari principalmente il fatto che la memoria disponibile esaurita
+
+91
+00:10:43,327 --> 00:10:48,703
+In tal caso verrà ritornato l'unico valore costante e noto che noi possiamo usare
+
+92
+00:10:48,959 --> 00:10:54,847
+Riguardo i puntatori cioè il valore Null questo significherà che bisognerà opportunamente intercettare
+
+93
+00:10:55,103 --> 00:11:00,735
+Questi valori di ritorno vediamo un esempio semplice poi
+
+94
+00:11:02,783 --> 00:11:09,951
+E progressivamente vedremo degli esempi sempre più complessi completiamo il discorso sul valore di ritorno però
+
+95
+00:11:10,207 --> 00:11:15,583
+Parlando di questo discorso del tipo void * void * significa un puntatore generico
+
+96
+00:11:15,839 --> 00:11:23,263
+Essendo quindi risultato di tipo void * è obbligatorio indispensabile se no il risultato sarà impredicibile
+
+97
+00:11:23,519 --> 00:11:28,639
+Forzare il risultato della chiamata malloc
+
+98
+00:11:29,919 --> 00:11:35,039
+Portarlo al tipo del puntatore desiderato stiamo dicendo che se io al loco
+
+99
+00:11:36,063 --> 00:11:42,719
+Vorrei allocare un certo numero di valori interi dovrò ridirezionare il tipo
+
+100
+00:11:42,975 --> 00:11:48,095
+Void * al tipo int * e così via per qualunque altro tipo
+
+101
+00:11:48,351 --> 00:11:57,567
+Vediamo come dicevo tipi di complessità crescente questa versione siamo più semplice possibile della mano che vedete allo chiamo una variabile
+
+102
+00:11:57,823 --> 00:12:04,479
+Puntatore a carattere e poi al lo chiamo la malloc diciamo la malloc di 10
+
+103
+00:12:04,735 --> 00:12:13,951
+Questo automaticamente essendo un carattere uguale a un byte 10 vuol dire 10 bit ma anche 10 caratteri questi sono 10 caratteri memorizzati a partire dall'indirizzo IP
+
+104
+00:12:14,975 --> 00:12:21,631
+Sono obbligato vedete questo l'uso tipico della maloca forzarle il risultato tramite l'operatore di cast
+
+105
+00:12:21,887 --> 00:12:29,567
+Al tipo desiderato qual è il tipo desiderato char * o sia un qualche cosa che può contenere un indirizzo di un carattere
+
+106
+00:12:30,591 --> 00:12:36,735
+Questa è la versione più semplice c'è un'altra piccola complicazione supponiamo per esempio
+
+107
+00:12:37,503 --> 00:12:43,135
+Di voler allocare un certo numero di valori interi non basta riassegnare tramite le carte
+
+108
+00:12:43,391 --> 00:12:48,767
+Il tipo void * e forzarlo al tipo desiderato ma bisogna anche calcolare esattamente
+
+109
+00:12:49,279 --> 00:12:55,935
+Quante variabili sulla te quanti byte effettivamente corrisponde a quanti byte corrisponde il numero di variabili
+
+110
+00:12:56,191 --> 00:13:01,567
+Che vorrei allegare io alla memoria che desidererei io quindi per allocare la memoria
+
+111
+00:13:01,823 --> 00:13:07,455
+In termini di numero di oggetti oggetti vuol dire interi double qualunque qualunque cosa
+
+112
+00:13:09,503 --> 00:13:15,135
+La funzione sizeof della libreria standard ci permette di non preoccuparci di non sapere a memoria
+
+113
+00:13:15,903 --> 00:13:23,327
+Quanti byte occupa ogni tipo ma ce lo calcola automaticamente e questo ci porta la forma più generale che impareremo a scrivere in modo
+
+114
+00:13:23,583 --> 00:13:28,703
+Abbastanza automatico della funzione malloc in rete questo un intero
+
+115
+00:13:28,959 --> 00:13:34,079
+E questo è un puntatore intero quindi px può memorizzare un indirizzo intero
+
+116
+00:13:34,591 --> 00:13:39,711
+Allocare 10 interi si fa come vedete indicato qua
+
+117
+00:13:40,735 --> 00:13:47,135
+La mallo che viene invocata con argomento quanti byte 10 per la dimensione di un intero
+
+118
+00:13:48,159 --> 00:13:56,095
+Quindi qualunque essa sia questa di questo tipo di assegnazione come si dice tecnicamente portabile perché se usassimo un altro software
+
+119
+00:13:56,351 --> 00:14:03,775
+E ho un'altra architettura in cui l'intero è più piccolo più grande per qualche motivo questo automaticamente dimensione rebbe in modo corretto
+
+120
+00:14:04,543 --> 00:14:13,759
+Ovviamente ritornando l'indirizzo in cui questi 10 interi sono memorizzati devo forzare il ritorno della malloc che se
+
+121
+00:14:14,015 --> 00:14:23,231
+Sempre da forzare a int * quindi apparentemente l'interfaccia era semplice un solo parametro e l'indirizzo di ritorno dove non memorizziamo
+
+122
+00:14:23,487 --> 00:14:32,703
+Ci sono queste piccole particolarità ovviamente la stessa cosa sia applica se noi allo chiamo dei tipi più articolati più complessi tipo per esempio un tipo che
+
+123
+00:14:32,959 --> 00:14:39,359
+Delegato vediamo qua una strut- che rappresenta un generico Veneto chiamata oggi ha come oggetto
+
+124
+00:14:39,871 --> 00:14:45,759
+Che contiene due campi un valore intero è un nome una stringa potrebbe essere di 20 caratteri
+
+125
+00:14:46,015 --> 00:14:51,647
+Anche qui potrei fare un rapido calcolo questi sono 20 caratteri un intero
+
+126
+00:14:51,903 --> 00:14:57,023
+Quindi 20 byte un intero occupa 4 byte quindi questi presumibilmente saranno 24
+
+127
+00:14:57,279 --> 00:15:05,727
+Bite se volessi allocare 10 elementi di questo tipo di questo tipo oggi memorizzato è a partire da un certo indirizzo
+
+128
+00:15:05,983 --> 00:15:11,103
+Dovrei allocare 10 volte la dimensione di questo tipo ed è esattamente quello che faccio
+
+129
+00:15:12,383 --> 00:15:18,527
+10 volte per la dimensione di oggi oggi è il tipo vedete che ho usato una typedef
+
+130
+00:15:18,783 --> 00:15:25,951
+È un nuovo è un nuovo termine per indicare un tipo che esattamente questo tipo aggregato l'aggregazione di un intero e di 20 caratteri
+
+131
+00:15:27,231 --> 00:15:33,375
+All'interno di questo Taider sulla stessa riga mi sono anche definito un nuovo tipo quindi questa è la leggiamo cometa.it
+
+132
+00:15:33,631 --> 00:15:39,007
+Strukton * piogge cioè piogge è un puntatore
+
+133
+00:15:39,263 --> 00:15:47,455
+Ha un oggetto stock di questo tipo quindi posso usare pioggia come un tipo e per esempio dichiarando una variabile pioggia
+
+134
+00:15:47,967 --> 00:15:53,087
+Questa può essere usata vedete senza
+
+135
+00:15:53,855 --> 00:15:59,743
+Facendone il il cast questo è un tipo che già un puntatore perché lo vedo scritto qui
+
+136
+00:15:59,999 --> 00:16:05,631
+Quindi PE risultato della locazione di 10 oggi
+
+137
+00:16:06,911 --> 00:16:15,359
+Il risultato viene riconvertito nel opportuno puntatore questo va fatto qualunque sia il tipo dal char alla più complessa delle Stroop
+
+138
+00:16:16,639 --> 00:16:22,783
+Nel char l'unica cosa che avete visto sebbene ci costi poco usare poi alla fine lo stesso schema per qualunque tipo
+
+139
+00:16:23,039 --> 00:16:29,439
+Potremmo saltare l'uso della sizeof perché i ciao sono tutti un byte quindi 10 caratteri equivalgono a 10 byte
+
+140
+00:16:34,559 --> 00:16:39,679
+Abbiamo già detto che può succedere che il puntatore ritornato dalla malloc
+
+141
+00:16:39,935 --> 00:16:47,103
+Non è sotto il costo tornato controllo il risultato della malloc potrebbe non avere successo tipicamente perché la memoria è esaurita
+
+142
+00:16:47,359 --> 00:16:53,503
+Quindi è buona pratica controllare il risultato della locazione quindi la malloc viene sempre effettuata
+
+143
+00:16:53,759 --> 00:17:00,415
+Seguita da un test quindi voi vedete qua ho scelto il caso più semplice della malloc di 10 caratteri per semplicità
+
+144
+00:17:02,719 --> 00:17:09,887
+Quindi in questo caso vedete che vogliamo verificare che il risultato della ma lo abbia effettivamente avuto successo
+
+145
+00:17:10,143 --> 00:17:18,335
+Nel senso che per qualche motivo potrebbe non riuscire ad allocare questi 10 caratteri per cui noi stiamo appena successivamente alla chiamata
+
+146
+00:17:18,591 --> 00:17:24,735
+Che il valore di P sia o non sia nullo quindi se il caso P = null stamperemo
+
+147
+00:17:24,991 --> 00:17:31,391
+Una certa un certo messaggio di errore del tipo non sono riuscito ad allocare e presumibilmente non continuerei ma nel programma
+
+148
+00:17:31,647 --> 00:17:38,559
+Hells quindi diverso da null possiamo lavorare tranquillamente sciupi perché abbiamo la garanzia che la maloca abbia avuto
+
+149
+00:17:38,815 --> 00:17:48,031
+Successo la mano che è solo una delle funzioni la più importante ma ovviamente visto che noi gestiamo la memoria la memoria una risorsa
+
+150
+00:17:48,287 --> 00:17:55,455
+È bene che la memoria allocata che non serve più venga liberata per fare questo esiste un'altra funzione simmetrica la malloc
+
+151
+00:17:55,967 --> 00:18:01,087
+Come interfaccia ancora più semplice che si chiama Free è molto intuitiva free come liberare
+
+152
+00:18:01,599 --> 00:18:06,719
+Questo è il suo prototipo vedete che non ha valore di ritorno
+
+153
+00:18:07,487 --> 00:18:12,863
+E ha come unico argomento un puntatore che deve essere questa è l'unica accortezza
+
+154
+00:18:13,119 --> 00:18:22,335
+Non qualunque puntatore ma un puntatore che è stato precedentemente allocato con una Maalox dovete pensare alle malloc e alle free come delle parentesi che si aprono e si chiù
+
+155
+00:18:22,591 --> 00:18:29,503
+Chiudono il risultato di una free su un puntatore che non è stato bloccato con la malloc o che ha
+
+156
+00:18:30,015 --> 00:18:36,415
+Una qualche strana provenienza non è in genere definito quindi anche questa se bene semplice
+
+157
+00:18:36,671 --> 00:18:45,887
+Va usata con attenzione ci sono altre due funzioni che però non sono molto utilizzate forse la prima un po' più della seconda che sono varianti
+
+158
+00:18:46,143 --> 00:18:51,263
+Della Malloch la prima è quella che si chiama Culloch dov'è la ci sta per il clear
+
+159
+00:18:52,031 --> 00:18:58,431
+E funziona identicamente alla Malloch con l'unica differenza che la memoria allocata vieni stilizzata 0
+
+160
+00:18:58,687 --> 00:19:06,367
+Attenzione cosa significa 00 significa 0 binario vuol dire che tutta l'area di memoria collocate supponente di allocare
+
+161
+00:19:06,623 --> 00:19:13,279
+10 caratteri come nell'esempio precedente vorrà dire questi caratteri saranno 10 bytes tutti a 0
+
+162
+00:19:13,535 --> 00:19:18,655
+Quindi se pensate di utilizzarli come codice ASCII questi saranno codice ASCII 0
+
+163
+00:19:19,167 --> 00:19:28,383
+Se sono interi questi sono valori 0 se sono dei double saranno un altro valore ok quello che conta è questo 0 sia 10 hardware sono 0
+
+164
+00:19:28,639 --> 00:19:37,855
+Binario quindi esattamente identica la malloc ma vi fornisce automaticamente il l'area di memoria che avete allocato in modo
+
+165
+00:19:38,623 --> 00:19:44,767
+Pulito se vogliamo in modo inizializzato un'altra variante la funzione realloc
+
+166
+00:19:45,535 --> 00:19:54,751
+Questa si usa un po' meno spesso sarebbe la funzione che noi useremo in quello secondo scenario in cui la dimensione
+
+167
+00:19:55,007 --> 00:20:00,383
+Di memoria allocata al in momenti diversi del programma potrebbe aumentare
+
+168
+00:20:00,639 --> 00:20:09,855
+L'interfaccia è simile nel senso che ritorna sempre un puntatore quindi è una Maalox ma appunto all'oca la memoria vedete oltre al solito param
+
+169
+00:20:10,111 --> 00:20:19,327
+M dimensione avete un parametro che è un puntatore un indirizzo e ha come funzione la leggiamo così cambia la dimensione del blocco a Lucca
+
+170
+00:20:19,583 --> 00:20:25,215
+Dato l'indirizzo. E la porta a questo valore dimensione
+
+171
+00:20:28,543 --> 00:20:33,919
+Importante anche qui come usiamo questa funzione. Deve essere un puntatore a void
+
+172
+00:20:34,175 --> 00:20:42,111
+E quindi va opportunamente convertito il tipo desiderato e ovviamente dovrà essere un puntatore che io in generale
+
+173
+00:20:42,879 --> 00:20:50,559
+Ho precedentemente al locatore al praticamente può essere ricondotta
+
+174
+00:20:50,815 --> 00:20:58,751
+Alla Maalox non specifichiamo nulla come primo argomento quindi se come scriviamo nulla la funzione realloc funziona esattamente come la malloc
+
+175
+00:21:01,311 --> 00:21:06,431
+Come ti ho detto non è una funzione che usiamo spessissimo
+
+176
+00:21:06,943 --> 00:21:13,855
+Però è importante sapere che esiste questa possibilità di ridimensionare della Memoria precedentemente allocata
+
+177
+00:21:14,111 --> 00:21:19,232
+Tipicamente stende alla ma perché no anche diminuirla
+
+178
+00:21:20,768 --> 00:21:27,936
+Facciamo un esempio in cui possiamo mettere in atto vedere magari dal vivo come questo può funzionare
+
+179
+00:21:29,472 --> 00:21:36,640
+E cercando di capire qual è la portata di questa prima fase della nostra nuova funzionalità del nostro
+
+180
+00:21:37,152 --> 00:21:43,808
+Nuova potenzialità che abbiamo nei programmi cioè quella di controllare noi programmatori la locazione e rilascio della memoria
+
+181
+00:21:44,576 --> 00:21:52,000
+Per esempio il classico applicazione è quella di allocare un vettore di interi di dimensione specificato dall'utente al tempo di esecuzione
+
+182
+00:21:52,512 --> 00:21:58,912
+Noi sappiamo credo non sia necessario ricordarlo ma lo facciamo lo stesso proprio perché una cosa
+
+183
+00:21:59,168 --> 00:22:06,848
+Molto da non fare che inci non è permesso dimensionare staticamente un vettore al tempo di esecuzione
+
+184
+00:22:07,104 --> 00:22:15,296
+Anche perché questo è uno stimolo cioè staticamente al tempo di esecuzione non è possibile nel momento in cui scrivo una cosa di questo genere
+
+185
+00:22:16,576 --> 00:22:23,744
+Inter n quindi n una generica variabile intera non posso scrivere Inter vdn non posso usare una variabile
+
+186
+00:22:25,024 --> 00:22:30,912
+Come definizione della dimensione di un vettore la regola del vettore dice
+
+187
+00:22:31,168 --> 00:22:36,544
+Quella deve essere una costante una costante definita come costante
+
+188
+00:22:37,056 --> 00:22:46,272
+E quindi non può uno potrebbe anche dire ma io n non lo cambierò mai nel mio programma ci scrivo n = 5 e poi scrivo questo non si può fare perché
+
+189
+00:22:46,528 --> 00:22:55,488
+E nel momento in cui è dichiarato come una variabile non è una costante quindi questo lo sappiamo bene non si può fare sarebbe molto comodo e risolverebbe il nostro problema
+
+190
+00:22:56,000 --> 00:23:05,216
+Vinci questa cosa si fa e si aggira diciamo così usando la memoria dinamica scrivendo un qualcosa di questo genere vedi io sto ripetendo
+
+191
+00:23:05,472 --> 00:23:12,128
+Scendo in un certo senso lo scenario magari lo facciamo sul nostro compilatore
+
+192
+00:23:12,640 --> 00:23:17,760
+Così da poter vedere effettivamente in azione questa malloc
+
+193
+00:23:18,784 --> 00:23:26,208
+Allora il nostro obiettivo sarebbe quello di dichiarare e usiamo per fare questo la stessa notazione che abbiamo nel nostro programma
+
+194
+00:23:31,072 --> 00:23:37,984
+Una variabile n con la quale dimensionare l'equivalente di un vettore adesso non sarà più un vettore ma sarà un vettore allocato tramite
+
+195
+00:23:38,240 --> 00:23:45,664
+È un indirizzo allora quello che noi facciamo è leggere chiediamo quindi all'utente la dimensione del
+
+196
+00:23:46,432 --> 00:23:51,808
+Nella variabile c'è la dimensione il valore della variabile normalissima scan F
+
+197
+00:23:54,368 --> 00:24:01,792
+Quindi chiediamo nel nel nella light c'è anche l'interfaccia per assolutamente me possiamo anche aggiungerla noi chiedendo all'utente dammi
+
+198
+00:24:02,560 --> 00:24:07,680
+Un valore non invitiamo ad un input corretto
+
+199
+00:24:09,216 --> 00:24:14,336
+Dammi un valore intero
+
+200
+00:24:16,384 --> 00:24:21,504
+Dopodiché ci fermiamo in attesa che l'utente lo inserisca è qui come abbiamo già visto
+
+201
+00:24:22,016 --> 00:24:27,648
+I vari esempi al lo chiamo il vettore o meglio a lo chiamo la memoria
+
+202
+00:24:28,928 --> 00:24:36,352
+Non è non è non è più un vettore lo sarà se noi lo usiamo come un'aggregazione di di di interi ma non sarà un vettore
+
+203
+00:24:37,888 --> 00:24:47,104
+Cosa dobbiamo fare dobbiamo fare la malloc dimostro come nasce la malloc dinamicamente no c'è anche altri programmatore prima scriviamo
+
+204
+00:24:47,616 --> 00:24:52,736
+La funzione come viene naturale scrive alla poi dico che cosa stiamo allocando vai qua scegliamo
+
+205
+00:24:54,016 --> 00:24:59,648
+Scegliamo che siano n e questo n è definito solo quando l'utente lo inserisce
+
+206
+00:24:59,904 --> 00:25:05,024
+Che cosa lo chiamo o lo chiamo interi
+
+207
+00:25:09,888 --> 00:25:15,520
+Questo ritornerebbe un puntatore void quindi è indispensabile dire al compilatore
+
+208
+00:25:15,776 --> 00:25:24,736
+Che deve assegnarlo a una variabile che è di tipo intero o meglio di tipo puntatore intero quindi adatta a memorizzare un intero
+
+209
+00:25:26,272 --> 00:25:31,648
+Indirizzo di un intero dopodiché se vogliamo verificare che effettivamente
+
+210
+00:25:32,416 --> 00:25:41,632
+Le cose siano andate bene potremmo per esempio provare a vedere abbiamo detto che il vettore abbiamo due modi a questo punto tramite un indirizzo di accedere a un elemento di una
+
+211
+00:25:41,888 --> 00:25:47,520
+Una serie di interi per esempio usando l'indicizzazione vediamo se questo è possibile
+
+212
+00:25:49,312 --> 00:25:54,944
+Potrei per esempio assegnare alcuni elementi di questo vettore l'elemento zero ci sarà sicuramente
+
+213
+00:25:55,200 --> 00:26:04,416
+C'è il primo elemento supponiamo che n sia un valore positivo e poi cercheremo di vedere se questo effettivamente è un assegnazione che viene accetta
+
+214
+00:26:04,672 --> 00:26:10,048
+Tate funziona costruiamo il nostro programma 0 errori
+
+215
+00:26:10,304 --> 00:26:15,936
+Zero come vedete qui il programma compilato regolarmente
+
+216
+00:26:18,496 --> 00:26:24,640
+Prima di eseguirlo aggiungiamo una stampa per vedere quali risultati sono stati prodotti
+
+217
+00:26:24,896 --> 00:26:32,832
+Per esempio potremmo stampare il valore del contatore così ottenuto
+
+218
+00:26:37,440 --> 00:26:45,376
+Vedete stampiamo P = come avevo imparato percento PE la notazione più adatta per rappresentare un indirizzo
+
+219
+00:26:46,144 --> 00:26:52,032
+Quindi scopriremo e magari in questo caso non non intercettiamo
+
+220
+00:26:52,288 --> 00:27:00,736
+Valore di = null lo stampiamo comunque e poi questa segnalazione che abbiamo fatto quindi per rispettare quello che abbiamo appena detto
+
+221
+00:27:02,784 --> 00:27:09,440
+Magari la facciamo precedere da un test che vi sia diverso da null
+
+222
+00:27:09,952 --> 00:27:16,352
+Altrimenti non procediamo ovviamente con nessuna operazione perché questa non sarebbe lei ci
+
+223
+00:27:16,608 --> 00:27:21,728
+Così questo già uno scenario ragionevole poi l'unica cosa che facciamo è quella di modificare
+
+224
+00:27:21,984 --> 00:27:27,360
+L'elemento zero di vivamente per vedere che qualcosa sia effettivamente
+
+225
+00:27:28,384 --> 00:27:34,272
+Arrivato a modificare il nostro vettore il nostro vettore nello stare di memoria allocata vi
+
+226
+00:27:34,784 --> 00:27:40,416
+Ci stampiamo magari il valore DVD 0
+
+227
+00:27:40,672 --> 00:27:46,048
+Leggenda di Diderot deve essere un intero quando lo sappiamo comprare 100D e vediamo che effettivamente
+
+228
+00:27:48,608 --> 00:27:55,776
+L'operazione abbia avuto buon fine adesso non è esattamente quello che facciamo di questo vettore che ci interessa importante capire che
+
+229
+00:27:56,544 --> 00:28:03,968
+In queste due righe tre se vogliamo stiamo facendo una cosa che non abbiamo mai fatto prima che
+
+230
+00:28:04,480 --> 00:28:10,368
+Nell'istruzione io con la locazione statica non siamo in grado di fare prendiamo un valore NE al lo chiamo
+
+231
+00:28:11,136 --> 00:28:17,792
+Automaticamente un vettore un area di memoria di dimensione n con n variabili del tipo che desidero io
+
+232
+00:28:19,584 --> 00:28:24,704
+Restringiamo l'area e compiliamo
+
+233
+00:28:26,240 --> 00:28:31,360
+Di nuovo non ci sono errori proviamo adesso eseguire
+
+234
+00:28:33,408 --> 00:28:39,808
+Prete che ci chiede un valore intero quindi questo momento finché non inseriremo rimarrà in attesa
+
+235
+00:28:40,320 --> 00:28:45,440
+Supponiamo anche di eseguire qua possiamo eseguirlo con 100
+
+236
+00:28:46,208 --> 00:28:53,888
+Vedete questo l'indirizzo a cui viene allocato lo vostro vettore vidi 0 quale A1 ingrandiamo questa parte
+
+237
+00:28:54,400 --> 00:29:03,104
+Che si veda meglio vedi 0 qualcuno è il risultato della mia assegnazione quindi vedete che io posso effettivamente accedere
+
+238
+00:29:04,640 --> 00:29:09,760
+Come un Alessio Vettorello ha segnato uno e poi ho stampato che il risultato fosse effettivamente quello
+
+239
+00:29:10,784 --> 00:29:15,904
+Quando dicevo parlando dello scenario 1 la possibilità di allocare
+
+240
+00:29:16,160 --> 00:29:21,280
+In diverse esecuzioni diverse stanze dell'esecuzione del programma
+
+241
+00:29:21,792 --> 00:29:29,216
+Con dimensioni diverse significa esattamente questo quella precedente aveva 100 adesso nessuno mi impedisce di scrivere per esempio di allocare un area di memoria molto
+
+242
+00:29:29,472 --> 00:29:38,688
+Significativa tipo centomila interi vedete che per lui non è un problema ha fisicamente allocato €100000 e poi nel mio semplice programma sto usando soltanto
+
+243
+00:29:38,944 --> 00:29:45,088
+L'elemento zero ma qua potrei vedente mente fare tutto ciò che desidero come se fosse un normalissimo
+
+244
+00:29:45,344 --> 00:29:52,256
+Vettore sebbene non è allocato. Dina staticamente ma allocato dinamicamente io ho disposizione un puntatore
+
+245
+00:29:52,512 --> 00:29:57,632
+E questo mi permette di fare qualunque modifica su quell'aria di memoria che ho locato
+
+246
+00:29:58,656 --> 00:30:03,776
+Avete questo si presta e torniamo con questo alle nostre slide
+
+247
+00:30:04,800 --> 00:30:10,688
+A delle operazioni anche un pochino più articolato e come quella descritta per esempio
+
+248
+00:30:11,200 --> 00:30:17,344
+E in questo esempio qui vediamo il codice questa volta all'interno di una slide per
+
+249
+00:30:17,856 --> 00:30:27,072
+Speriamo di avere un file quindi questo è un altro tipo di allocazione dinamica dove la condizione arriva da un utente ma la condizione
+
+250
+00:30:27,328 --> 00:30:33,216
+Ossia la dimensione di memoria da locare non viene fornito da un utente ma per esempio contenuto in un file
+
+251
+00:30:34,240 --> 00:30:41,664
+Per esempio un file che contiene una serie di dati interi uno per riga potrebbe essere appunto un tabulato di riporta dei valori qualunque tipo
+
+252
+00:30:42,176 --> 00:30:47,808
+Non vogliamo memorizzare il file in un vettore di dimensione pari al numero di righe di nuovo questa è un'operazione che
+
+253
+00:30:48,064 --> 00:30:53,440
+Noi non possiamo fare perché non sapendo quante righe ci sono nel file neppure contando lo
+
+254
+00:30:53,696 --> 00:31:02,912
+Una volta che le contiamo siamo già al tempo di esecuzione quindi in questo tipico scenario se volessimo effettivamente memorizzare questo fa in un vettore con la locazione statica dovremmo forzata
+
+255
+00:31:03,168 --> 00:31:08,288
+Come fare una stima di quanti valori ci siano in questo file
+
+256
+00:31:08,544 --> 00:31:15,200
+In generale il file è un dato è una sorgente di dati esterna su cui non ho controllo e quindi allo Carlo in eccesso per essere sicuro che
+
+257
+00:31:15,456 --> 00:31:21,856
+Funzioni sempre oppure usare la memoria dinamica e utilizzare quindi una strategia
+
+258
+00:31:23,136 --> 00:31:28,256
+Che va a vedere quanti dati ci sono e all'oca un vettore con il meccanismo della Grimaldi navi
+
+259
+00:31:28,512 --> 00:31:34,656
+Amica di dimensione opportuna quindi questo è quello che noi vorremmo fare se questo è un esempio del nostro file
+
+260
+00:31:34,912 --> 00:31:40,032
+Vorremmo locare un vettore dove il primo elemento va nella posizione 0 il secondo
+
+261
+00:31:40,288 --> 00:31:47,968
+Posizione 1 e così via e se il file non contiene n qualunque sia n vorremmo avere un vettore esattamente di n elementi non uno di più non uno di meno
+
+262
+00:31:49,760 --> 00:31:55,392
+Questa mente lo possiamo fare se ve ne sia uno scenario un po' particolare no ovviamente
+
+263
+00:31:57,440 --> 00:32:02,560
+Potremmo avere anche altri modi per fare questa cosa come vedremo quando parleremo di strutture dati dinamiche
+
+264
+00:32:03,072 --> 00:32:11,520
+Se vogliamo comunque a tutti i costi inserirlo in un vettore quello che possiamo fare la seguente cosa in una prima iterazione contiamo le righe del file
+
+265
+00:32:12,288 --> 00:32:20,480
+Quindi lo leggiamo come sappiamo fare a quel punto il numero digli che ci dà una quantità una variabile a quel punto rientriamo nel caso che abbiamo visto nell'esempio precedente
+
+266
+00:32:20,992 --> 00:32:26,112
+Ci abbiamo una variabile che mi contiene un numero intero valido positivo
+
+267
+00:32:26,368 --> 00:32:35,584
+Dimensione emodinamicamente il vettore sapendo qual è il tipo di dati contenuti nel file e poi riempiremo il vettore quindi li leggeremo il file leggendoli esima riga
+
+268
+00:32:35,840 --> 00:32:41,984
+Via del file XV elemento mettendoli in posizione VDI qua vediamo una
+
+269
+00:32:42,240 --> 00:32:47,360
+Come dicevo questo non lo vediamo e lo discutiamo semplicemente come
+
+270
+00:32:47,616 --> 00:32:56,832
+Possibile generalizzazione dello scenario di prima e andiamo invece adesso discutere gli aspetti un po' più tecnici che sono importanti per i pro
+
+271
+00:32:57,088 --> 00:33:05,280
+Programmatori per capire esattamente quali sono gli aspetti delicati della locazione dinamica della memoria e che sconfinano come vediamo anche un po'
+
+272
+00:33:05,792 --> 00:33:12,704
+Come sono organizzati e come sono affettivamente bloccati in memoria i nostri programmi non soltanto i dati
+
+273
+00:33:13,472 --> 00:33:20,128
+Parliamo quindi del modello di memoria di un programma eseguibile questo è importante per capire anche perché certe cose
+
+274
+00:33:20,640 --> 00:33:26,528
+Per capirci si possono fare con i vettori e c'è altre cose con i vettori non si possono fare
+
+275
+00:33:30,624 --> 00:33:39,584
+Allora i dati allocati staticamente e i dati allocate dinamicamente hanno diversa natura essenzialmente perché risiedono in porzioni distinte della Memoria associato ad un programma mese
+
+276
+00:33:40,608 --> 00:33:47,520
+Ossia quando vuoi mettere insieme vuoto programma eseguibile che hai fatto di dati è fatto d'istruzioni è fatto di diverse cose
+
+277
+00:33:47,776 --> 00:33:52,896
+L'ho compilato in un file eseguibile che quindi può essere caricato in memoria di seguito non è
+
+278
+00:33:53,664 --> 00:33:58,784
+Un insieme di indirizzi tutti con la stessa
+
+279
+00:33:59,040 --> 00:34:04,672
+Direi e caratteristica non direi di non dico di niente ma con lo stesso livello di importanza
+
+280
+00:34:04,928 --> 00:34:11,072
+Ma è organizzato in aree che chiamiamo tecnicamente sezioni in generale semplificando molto
+
+281
+00:34:11,328 --> 00:34:18,240
+E rimanendo ai concetti fondamentali il programma eseguibile può essere visto come consistente di tre sezioni principali
+
+282
+00:34:19,776 --> 00:34:25,920
+La sezione che in gergo si chiama text che rappresenta il codice o se le istruzioni
+
+283
+00:34:26,688 --> 00:34:31,808
+Cicli for le assegnazioni quindi le operazioni quello che gli scriviamo con un diagramma di flusso tanto per capirci
+
+284
+00:34:33,088 --> 00:34:42,048
+Più i dati statici e dati statici non abbiamo fatto un grande uso e non si usano spessissimo nella programmazione C
+
+285
+00:34:42,304 --> 00:34:48,704
+Ma voi sapete che è possibile fare mettere alla dichiarazione di una variabile un intero un double
+
+286
+00:34:49,216 --> 00:34:57,408
+Il modificatore static questo fa sì che questo dato venga locato. Insieme al codice quindi farebbe parte del
+
+287
+00:34:57,664 --> 00:35:03,808
+Del come facesse parte delle istruzioni questi sono i dati statici non vengono spesso usati
+
+288
+00:35:04,064 --> 00:35:09,184
+Perché questi dati sta dicendo un tipo di persistenza diverso dai tag dei dati classici che sono quelli
+
+289
+00:35:09,440 --> 00:35:14,560
+Che si chiamano dati automatici anche qui quando voi scrivete IX
+
+290
+00:35:14,816 --> 00:35:20,704
+Implicitamente si assume che questo sia un dato automatico come scrivereste auto in auto e implicite
+
+291
+00:35:21,984 --> 00:35:28,384
+Questi dati quindi quelli delle variabili che noi dichiariamo normalmente più quelli che dichiarate come variabili globali
+
+292
+00:35:28,640 --> 00:35:34,272
+Fuori da ogni funzione all'inizio del vostro file più la sequenza delle chiamate a funzione
+
+293
+00:35:34,528 --> 00:35:39,648
+La traccia della chiamata funzione è memorizzato nella seconda sezione che si chiama step
+
+294
+00:35:39,904 --> 00:35:48,352
+Adesso vediamo come nome più avanti vedremo proprio che lo speck è un nome tecnico per indicare un principio con cui organizzare un insieme di dati
+
+295
+00:35:48,864 --> 00:35:53,984
+Lo speck contiene queste informazioni e che dovrebbero rappresentare le informazioni che sono
+
+296
+00:35:54,240 --> 00:36:01,152
+Dinamiche nel nostro nel nostro sistema nel nostro programma e poi c'è una terza parte che si chiama keep
+
+297
+00:36:01,408 --> 00:36:06,528
+Anche lo chi può essere visto come modo di organizzare i dati che rappresenta
+
+298
+00:36:07,040 --> 00:36:12,160
+E contiene i dati che sono allocati dinamicamente stiamo dicendo
+
+299
+00:36:12,416 --> 00:36:17,792
+Che nostro programma è fatto questo tutto vostro eseguibile file. Exe per capirci
+
+300
+00:36:18,048 --> 00:36:24,192
+Concettualmente queste tre sezioni i dati statici che sono importanti ma soprattutto le istruzioni
+
+301
+00:36:24,960 --> 00:36:31,872
+Poi gli altri dati che sono quelli allocati staticamente come abbiamo fatto fino adesso si chiamano dati automatici
+
+302
+00:36:32,128 --> 00:36:40,064
+E quella allocate dinamicamente e vedete che essendo entrambi informazioni che variano nel tempo con l'esecuzione del programma
+
+303
+00:36:40,576 --> 00:36:47,232
+Sono messi sono all'intradosso eseguibile sono disposti in modo che non si sovrappongono almeno
+
+304
+00:36:47,744 --> 00:36:54,656
+Fino a che non esagerate con la locazione quindi lo stack tipicamente cresce in una direzione Elite verso
+
+305
+00:36:54,912 --> 00:37:01,312
+L'altra direzione in questo caso abbiamo supposto verso il basso verso l'alto questo dipende un po' dei sistemi e dei modelli anche
+
+306
+00:37:01,568 --> 00:37:06,688
+Di file eseguibile tanto per esemplificare
+
+307
+00:37:07,200 --> 00:37:14,880
+Stiamo dicendo che se vuoi scrivere qualcosa del genere per esempio questi dati stanno nello stack perché perché questi dati qui
+
+308
+00:37:15,136 --> 00:37:22,304
+Vivono soltanto per fino a quando questa parentesi graffa vive immaginate quindi nelle altre funzioni tutte le variabili locali
+
+309
+00:37:22,560 --> 00:37:30,496
+Stanotte sullo stack nascono e muoiono ma lo speck contiene anche qui di queste parti e invece le vedete questo ballo che finirebbe qui
+
+310
+00:37:31,008 --> 00:37:37,152
+Nello FIP tutto il resto finirebbe nel codice testo delle funzioni
+
+311
+00:37:37,408 --> 00:37:44,576
+Le chiamate a funzione le istruzioni vera e propria quindi ogni parte devo superare a un settore diverso
+
+312
+00:37:45,856 --> 00:37:50,976
+Quali sono i rischi possibili problemi che voi avete nell'uso della memoria dinamica
+
+313
+00:37:51,488 --> 00:37:59,680
+Beh intanto ci sono problemi specifici della memoria dinamica e anche dei premi specifici rispetto all'organizzazione che abbiamo visto prima capito che
+
+314
+00:37:59,936 --> 00:38:08,896
+Se la memoria dinamica va nella direzione opposta in cui cresce lo speck lo vedremo bene quando parleremo di funzioni ricorsive c'è il rischio
+
+315
+00:38:09,152 --> 00:38:18,368
+Di eccedere è che non ci sia più spazio o per la memoria dinamica o per lo stack il discorso dello speck e lavoreremo un pochino più avanti
+
+316
+00:38:18,624 --> 00:38:24,512
+Focalizziamoci adesso sui problemi specifici della memoria dinamica ci sono essenzialmente due problemi
+
+317
+00:38:25,280 --> 00:38:31,424
+Quello che si chiama la perdita di riferimenti questo che avviene quando la memoria allocata risulta inaccessibile
+
+318
+00:38:31,680 --> 00:38:38,592
+Perché non esiste più alcun riferimento ad essa questo è quello che si chiama la produzione di spazzatura garbage
+
+319
+00:38:39,104 --> 00:38:46,016
+Stiamo dicendo che succede un qualcosa di questo genere ecco due puntatori p&q
+
+320
+00:38:46,272 --> 00:38:53,952
+Viviana locato e poi premente si voleva fare l'operazione inversa q = P invece abbiamo scritto più quella che cosa è successo
+
+321
+00:38:54,208 --> 00:38:59,840
+Che ho perso il riferimento ai dati allocati c'è non c'è più nessun aggancio ai dati agli n interi
+
+322
+00:39:00,096 --> 00:39:08,544
+Che ho allocato e succede successo questo che vedete qui dopo la Marrocu puntava chissà dov'è a qualche area di memoria
+
+323
+00:39:09,056 --> 00:39:18,272
+Dopo la mallo che mi era allocato questi anni interi a partire dall'indirizzo IP e poi ho fatto tecnicamente questo errore ho fatto P = Q quindi l'ho fatto ridirigere
+
+324
+00:39:18,528 --> 00:39:23,648
+Da questa parte. Era dove punta QE questi anni interi non ho più nessun accesso
+
+325
+00:39:24,160 --> 00:39:30,304
+Questa è la produzione di Garbage questa memoria che ho locato e non potrà mai essere liberata perché non avrete più l'aggancio
+
+326
+00:39:31,584 --> 00:39:36,704
+Esiste un secondo tipo di problema più insidioso del precedente
+
+327
+00:39:36,960 --> 00:39:45,408
+Quello di cosidetti riferimenti fluttuanti floating references in inglese sono riferimenti errati a zone di memoria logicamente inesistenti
+
+328
+00:39:46,176 --> 00:39:51,296
+E se vogliamo la il caso simmetrico del precedente del mostro di nuovo
+
+329
+00:39:52,064 --> 00:39:58,720
+Con un esempio su un programma che abbiamo proviamo un frammento vedete due puntatori voi segnate P = q
+
+330
+00:39:59,232 --> 00:40:08,448
+Supponiamo entrambi se non locati e poi liberate che cosa è successo che da dopo questa istruzione free essendo più uguale a cui avendo liberato la memoria relativa
+
+331
+00:40:08,704 --> 00:40:14,336
+Voi non sapete che cosa succede quando vi riferire tempi avete cioè
+
+332
+00:40:15,104 --> 00:40:21,760
+Liberato un riferimento che non potrete quindi più usare questo concluderà nostra lezione
+
+333
+00:40:22,016 --> 00:40:27,136
+Per ulteriori profondi menti come al solito vi rimando al sito del corso

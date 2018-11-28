@@ -1,0 +1,167 @@
+1
+00:00:00,768 --> 00:00:09,984
+Bienvenue à tous et à toutes je suis très heureux de vous accueillir aujourd'hui dans le cadre de secours le cours de physique
+
+2
+00:00:10,240 --> 00:00:15,360
+Permettez-moi tout d'abord de me présenter
+
+3
+00:00:15,616 --> 00:00:22,272
+Je suis Maïté Dini professeur à l'Institut National Polytechnique de Grenoble
+
+4
+00:00:23,040 --> 00:00:29,184
+J'enseigne l'électromagnétisme appliquer les applications en radiofréquence
+
+5
+00:00:29,952 --> 00:00:37,120
+Et on optoelectronic le cours que nous allons commencer aujourd'hui s'intitule
+
+6
+00:00:38,400 --> 00:00:45,312
+Physique 2 mais avant de commencer le cours nous allons indemnités
+
+7
+00:00:45,568 --> 00:00:52,736
+Le contenu de ce cours est le thème que nous allons aborder
+
+8
+00:00:53,504 --> 00:00:58,624
+Vous savez certainement que la physique est constitué de plusieurs domaines
+
+9
+00:00:59,392 --> 00:01:05,536
+Vous avez probablement déjà vu des domaines tels que la mécanique ou la thermodynamique
+
+10
+00:01:06,304 --> 00:01:11,424
+Ou d'optique mais il y en a d'autres par exemple la sanitaire
+
+11
+00:01:11,680 --> 00:01:20,128
+Ce qui va nous intéresser dans le cadre de secours là c'est l'électromagnétisme l'électromagnétisme est un des domaines les plus vastes de la physique
+
+12
+00:01:21,664 --> 00:01:27,296
+C'est le domaine qui permet d'étudier les phénomènes électriques
+
+13
+00:01:27,552 --> 00:01:33,696
+Et magnétiques soit de manière séparée soit de regarder les interactions
+
+14
+00:01:33,952 --> 00:01:39,072
+Entre les phénomènes électriques et le Magnifique puisque c'est phénomène le sanglier entre
+
+15
+00:01:40,352 --> 00:01:47,008
+C'est un domaine qui se développe de manière importante depuis le 17e siècle en terme de
+
+16
+00:01:47,520 --> 00:01:52,640
+De loi et d'application
+
+17
+00:01:52,896 --> 00:01:58,528
+Aujourd'hui le développement devient de plus en plus important
+
+18
+00:01:58,784 --> 00:02:06,720
+En particulier liés aux télécommunications au développement de transmission rapide
+
+19
+00:02:06,976 --> 00:02:12,096
+Utilisation de l'électronique au sens large
+
+20
+00:02:14,656 --> 00:02:20,544
+Donc ce qui nous intéressera dans la suite sera l'étude des phénomènes électriques et magnétiques
+
+21
+00:02:21,568 --> 00:02:26,944
+Nous allons également diviser secours là en 4 parties
+
+22
+00:02:27,200 --> 00:02:33,088
+La première partie que je ferai moi-même tourne autour électrostatique
+
+23
+00:02:33,600 --> 00:02:40,000
+Cela veut dire l'étude des phénomènes électriques statique dans le temps donc nous considérerons
+
+24
+00:02:40,256 --> 00:02:46,144
+Que les sources qui vont créer ses phénomènes électriques sans fil mobile
+
+25
+00:02:47,680 --> 00:02:53,056
+La deuxième partie s'intitule magnétostatique elle sera faite par mon collègue
+
+26
+00:02:53,568 --> 00:03:00,736
+Le professeur Claude Gobert qui est également à l'Institut national polytechnique de grenoble elle concernera allez c'est le même magnifique status
+
+27
+00:03:00,992 --> 00:03:06,880
+Pick-up la troisième partie concernera l'électrocinétique
+
+28
+00:03:07,136 --> 00:03:16,352
+Là il s'agit d'étudier et des phénomènes électriques et magnétiques simplement variable dans le temps en développement en particulier les principales lois qui sont au jour
+
+29
+00:03:16,608 --> 00:03:21,984
+Aujourd'hui la base de l'électronique qu'on appelle électronique audio fréquence ou basse fréquence
+
+30
+00:03:23,520 --> 00:03:29,152
+Elle sera présenté l'électrocinétique par mon collègue le professeur Eduardo Mendès
+
+31
+00:03:29,664 --> 00:03:36,064
+Et enfin la dernière partie concerne les phénomènes rapide il s'agit des problèmes de propagation
+
+32
+00:03:36,576 --> 00:03:45,792
+Et en particulier des applications optique puisque le petit même si ça constitue danse de la physique elle fait partie de l'électromagnétisme puisque
+
+33
+00:03:46,048 --> 00:03:51,168
+Elle est régi par les mêmes lois que les autres domaines de l'électromagnétisme
+
+34
+00:03:51,424 --> 00:03:56,544
+C'est parti sera présenté également par mon collègue Jean-Emmanuel Broquin
+
+35
+00:03:58,336 --> 00:04:04,224
+Alors si vous voulez bien on va attaquer la première partie qui concerne l'électrostatique
+
+36
+00:04:04,736 --> 00:04:11,136
+Donc nous allons avoir un certain nombre de leçons sur cette partie là
+
+37
+00:04:11,904 --> 00:04:17,791
+D'abord regarde dans les objectifs du cours donc nous allons évidemment
+
+38
+00:04:18,047 --> 00:04:27,263
+Comment sépare-t-on introduire les lois fondamentales de l'électrostatique nous verrons que toutes ces lois peut-être des vitres à partir
+
+39
+00:04:27,519 --> 00:04:35,455
+Je dois quitter d'ailleurs proposer suite à des expérimentations qui est la loi de Coulomb
+
+40
+00:04:35,711 --> 00:04:41,087
+Loi fondamentale de l'electrostatique nous étudierons
+
+41
+00:04:41,855 --> 00:04:47,487
+Les effets électriques c'est-à-dire créé par des charges de repos les interactions
+
+42
+00:04:47,999 --> 00:04:57,215
+Les énergies et nous essayerons d'analyser un certain nombre de 200 concrètes avec qui sont présentes en électricité
